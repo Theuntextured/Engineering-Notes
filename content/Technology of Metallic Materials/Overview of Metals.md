@@ -40,4 +40,67 @@
 # Recycling Rate of Elements
 ![[Pasted image 20260126224617.png]]
 
+# Materials Substitution Table
 
+| Material | Consumption | Value | Import content | Energy | Resource life | Security of supply | Ease of use | Recycle potential |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Steel** | 1 | 0 | 4 | 2 | 4 | 4 | 4 | 3 |
+| **Aluminium** | 2 | 3 | 3 | 0 | 3 | 3 | 4 | 4 |
+| **Copper** | 2 | 2 | 3 | 2 | 3 | 2 | 5 | 4 |
+| **Lead** | 3 | 3 | 3 | 3 | 2 | 3 | 5 | 5 |
+| **Zinc** | 3 | 3 | 2 | 1 | 2 | 3 | 4 | 3 |
+| **Tin** | 4 | 4 | 2 | 3 | 1 | 1 | - | 2 |
+| **Nickel** | 4 | 4 | 1 | 3 | 4 | 4 | - | 1 |
+| **Magnesium** | 4 | 4 | 2 | 0 | 5 | 5 | 3 | 3 |
+| **Mercury** | 5 | 5 | 0 | 2 | 1 | 0 | - | 4 |
+| **Glass** | 2 | 2 | 5 | 3 | 5 | 5 | 2 | 3 |
+| **Brick** | 0 | 2 | 5 | 5 | 5 | 5 | 2 | 0 |
+| **Concrete** | 0 | 1 | 4 | 4 | 5 | 5 | 3 | 0 |
+| **Timber** | 1 | 1 | 2 | 5 | 4 | 3 | 4 | 2 |
+| **Plastic** | 2 | 1 | 2 | 1 | 3 | 4 | 4 | 1 |
+> [!info] 
+> The above table shows ratings for several categories for certain materials. The ratings are in the range of 0 (meaning very bad) to 5 (meaning excellent).
+
+# Properties Involved In Selection of Materials
+- Chemical composition
+- Contamination of contents by corrosion products
+- Corrosion characteristics in:
+	- Atmosphere
+	- Water
+	- Soil
+	- Chemicals
+	- Gases
+	- Molten metals
+- Creep characteristics @ temperature range
+- Crystal structure
+- Damping Coefficient
+- Density
+- Effect of cold working
+- Effect of high temperature on corrosion resistance
+- Effect on strength after exposure to hydrogen and high temperatures
+- Electrical conductivity
+- Electrical resistivity
+- Fire resistance
+- Hardenability
+- Maximum temperature not affecting strength
+- Melting point
+- Corrosion factor
+- Susceptibility to corrosion:
+	- General
+	- Hydrogen damage
+	- Pitting
+	- Galvanic
+	- Corrosion fatigue
+	- Fretting
+	- Stress corrosion cracking
+	- Corrosion/erosion
+	- Cavitation damage
+	- Intergranular
+	- Selective attack
+	- High temperature
+- Thermal coefficient of expansion
+- Thermal conductivity
+- Wearing quality:
+	- Inherent
+	- Via heat treatment
+	- Via plating

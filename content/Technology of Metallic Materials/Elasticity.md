@@ -14,3 +14,10 @@ Some values for $E$ for metals at different lattice orientations (Values in $GPa
 | $Cu$  | 66.7      | 130.3     | 191.1     |
 | $Fe$  | 125.0     | 210.5     | 272.7     |
 | $W$   | 384.6     | 384.6     | 384.6     |
+
+# Relation to Condon-Morse Model
+
+The [Condon-Morse Model](Alloy%20Formation#Condon-Morse%20Model) provides us with en explanation as to why certain alloys have a value for $E$.
+$$
+E=\frac{1}{r_{m}}\left( \frac{d^2U}{dr^2} \right)
+$$
