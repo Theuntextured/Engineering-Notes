@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Self-assessment Questions 1
 1. Performance vs. properties: which manufacturing factors affect the mechanical
 response of a tensile sample vs. a true structural part
