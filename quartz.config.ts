@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "Theuntextured.github.io/Engineering-Notes",
     ignorePatterns: ["private", "Templates", ".obsidian", ".git", "node_modules"],
     defaultDateType: "modified",
     theme: {
