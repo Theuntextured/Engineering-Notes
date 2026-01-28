@@ -19,5 +19,6 @@ Some values for $E$ for metals at different lattice orientations (Values in $GPa
 
 The [Condon-Morse Model](Alloy%20Formation#Condon-Morse%20Model) provides us with en explanation as to why certain alloys have a value for $E$.
 $$
-E=\frac{1}{r_{m}}\left( \frac{d^2U}{dr^2} \right)
+E=\frac{1}{r_{m}}U''(r_{m})=\frac{1}{r_{m}}F'(r_{m})
 $$
+Since repulsive forces increase as $T$ increases, the average stable atomic distance $r_{m}$ also increases, therefore decreasing $E$. (Note that $U''(r_{m})=\frac{d^2U}{dr^2}$ at point $r=r_{m}$).
