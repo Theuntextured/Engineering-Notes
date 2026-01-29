@@ -32,10 +32,13 @@ There are two types:
 
 This has applications in metallurgy, such as sin the production of [steel](Overview%20of%20Steels). $Fe-\alpha$ (ferrite) is tightly packed with more interstitial sites, but the slots are smaller, meaning that very little carbon can fit ($0.02-0.05\%$). However, above $910°C$, the iron structure changes into the FCC $Fe-\gamma$ (austenite), which has fewer larger sites. This actually allows for way more carbon to fit in (up to $2\%$). By then [quenching](Treatment#Quenching) the material, we can get the structure to readjust to its room temperature BCC formation, while retaining the carbon within it.
 # Crystal Anisotropy
-Because packing is not the same in all directions (in some planes particles are more tightly packed than others), mechanical properties will also be different depending on the direction.
-Because of the large amount of grains, the anisotropic properties eventually disappear since the orientation of each grain is random.
-However, in some polycrystalline materials, grains show a similar orientation towards a working direction (texture or banding). The mechanical properties are therefore affected by the texture orientation and show anisotropic behaviour.
-The possible set of all slip planes in a crystal structure is called a slip system. Each BCC, FCC, EXC (etc.) has its own characteristic slip systems, and each structure has a different number of slip planes. The greater the number of slip planes, the greater the ductility. 
+Because atomic packing is not the same in all directions (atoms are more tightly packed on specific crystallographic planes), mechanical properties differ depending on the direction of the load. In a single crystal, this is **anisotropy**.
+
+In **polycrystalline materials**, because of the large number of randomly oriented grains, these anisotropic properties usually average out, making the material macroscopically **isotropic**. However, mechanical processing (like rolling) can force grains to align in a preferred orientation. This creates **texture** (or banding), re-introducing macroscopic **anisotropy** where properties differ relative to the rolling direction.
+
+Plastic deformation occurs on **Slip Systems**. A single Slip System is defined as the combination of a specific **Slip Plane** and a **Slip Direction**.
+
+Each structure (FCC, BCC, HCP) has characteristic slip systems. The ductility of the material depends on the number of **independent** slip systems available. According to the **Von Mises Criterion**, a polycrystal requires at least **5 independent slip systems** to deform arbitrarily without cracking. FCC metals (12 systems) satisfy this and are ductile; HCP metals (often <5 systems) do not, and are often brittle unless they deform by Twinning.
 
 ![[Pasted image 20260128193645.png]]
 

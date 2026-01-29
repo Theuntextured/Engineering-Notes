@@ -26,6 +26,7 @@ $$
 \end{align}
 $$
 Note that $m_{max}$ is 0.5 (When $\lambda=\varphi=45°$) and the minimum is 0 (When $\lambda=0°,\varphi=90°$ or $\varphi=0,\lambda=90°$).
+
 When $\tau_{RSS}$ is minimized we prevent slip from occurring. The material will therefore snap before it manages to slip.
 
 Using the Schmid Factor, we can get:

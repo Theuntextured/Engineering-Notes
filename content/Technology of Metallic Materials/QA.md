@@ -13,6 +13,7 @@ There are two types of etching:
 - Chemical etching
 - Thermal etching
 Both methods are used to inspect grain boundaries, making them more evident under a microscope's light.
+
 **Chemical etching** works by attacking the weakest parts of a material: grain boundaries. By attacking GBs first, they become more evident since they get deeper and wider.
 
 **Thermal etching** works by causing thermal expansion, however, to achieve a lower energy state, grain boundaries get dug deeper into the surface, leading to a similar result as with chemical etching. This method has an issue: it is destructive. By heating it (often close to melting point), the internal structure can change, and the mechanical properties of the material tend to worsen.
