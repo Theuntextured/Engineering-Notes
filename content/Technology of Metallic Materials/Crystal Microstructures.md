@@ -37,3 +37,5 @@ Because of the large amount of grains, the anisotropic properties eventually dis
 However, in some polycrystalline materials, grains show a similar orientation towards a working direction (texture or banding). The mechanical properties are therefore affected by the texture orientation and show anisotropic behaviour.
 The possible set of all slip planes in a crystal structure is called a slip system. Each BCC, FCC, EXC (etc.) has its own characteristic slip systems, and each structure has a different number of slip planes. The greater the number of slip planes, the greater the ductility. 
 
+![[Pasted image 20260128193645.png]]
+
