@@ -11,37 +11,20 @@ D2 --> E2[Engineering Products]
 # Sand Casting
 ```mermaid
 graph TD
-    %% Inputs
-    Pattern[Pattern Making]
-    Core[Core Making]
-    Sand[Sand Prep]
-    Furnace[Melting Furnace]
-
-    %% The Molding Process
-    Mold[Mold Assembly]
-    Pouring[Pouring]
+    Pattern[Pattern Making] --> Mold[Mold Assembly]
+    Core[Core Making] --> Mold
+    Sand[Sand Prep] --> Mold
     
-    %% Post-Pouring
-    Shakeout[Shakeout]
-    HeatTreat[Heat Treatment]
-    Cleaning[Cleaning & Finishing]
-    Inspection[Final Inspection]
-
-    %% Flows
-    Pattern --> Mold
-    Core --> Mold
-    Sand --> Mold
-    
-    Furnace -- Molten Metal --> Pouring
+    Furnace[Melting Furnace] -- Molten Metal --> Pouring
     Mold --> Pouring
     
-    Pouring -- Solidification --> Shakeout
+    Pouring -- Solidification --> Shakeout[Shakeout]
     
     Shakeout -- Removal of Gates & Risers --> Cleaning
     Shakeout -- Optional --> HeatTreat
     
-    HeatTreat --> Cleaning
-    Cleaning --> Inspection
+    HeatTreat[Heat Treatment] --> Cleaning
+    Cleaning[Cleaning & Finishing] --> Inspection[Final Inspection]
 ```
 # Relevant Shaping Methods
 ![[Pasted image 20260127131410.png]]

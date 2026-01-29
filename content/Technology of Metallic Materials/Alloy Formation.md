@@ -9,7 +9,7 @@
 
 # Condon-Morse Model
 
-> [! Important]
+> [!important]
 > The Condon-Morse model describes the relationship between intermolecular distance and their forces and potential energy.
 
 ![[Pasted image 20260128000743.png]]
