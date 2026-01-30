@@ -44,7 +44,7 @@ If we consider HCP structures (`Hexagonal Close-Packed`, such as $Ti, Mg$), the 
 
 # Taylor Factor
 
-For polycrystalline materials, since the Schmid Factor is different for all grains, we cannot use a single value for it. If two neighbour grains tried to shapeshift in different ways, a crack would form between them.
+For polycrystalline materials, since the Schmid Factor is different for all grains, we cannot use a single value for it. If two neighbour grains tried to shapeshift in different ways, a crack would form between them. This means that plastic deformation in polycrystalline materials is **inhomogeneous**.
 
 For real polycrystalline materials we therefore use the Taylor Factor $M$. Polycrystalline materials are harder to deform since grains “fight each other” while deforming. This is given by:
 $$
@@ -71,6 +71,8 @@ In a polycrystal, every grain is surrounded by neighbours, therefore if one chan
 In order for this to happen, the **Von Mises Criterion** states that there must be at least 5 degrees of freedom in order for the shape of the sample to change shape arbitrarily in 3D space (stretch, compress, shear etc.).
 
 Mathematically, there are 6 components to shape change in the strain tensor. Since volume is constant, $\varepsilon_{xx}+\varepsilon_{yy}+\varepsilon_{zz}=0$ so we have 5 independent components, meaning that at least 5 slip planes MUST exist for all components of the strain tensor to be independently manipulated.
+
+At higher temperatures, more slip planes can be created, meaning that a material that is brittle at room temperature can become ductile at higher temperatures (such as high-carbon steel).
 
 > [!example] Why do we care?
 > The Von Mises Criterion tells us if a crystal structure is brittle or ductile. If it cannot be freely manipulated, then it will fracture if we try, meaning that the material is brittle.

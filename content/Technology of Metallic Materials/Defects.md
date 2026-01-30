@@ -1,3 +1,47 @@
+# Summary of Lattice Defects
+![[Pasted image 20260129171630.png]]
+
+<table>
+  <thead>
+    <tr>
+      <th>Defect</th>
+      <th>Type</th>
+      <th>Improved Materials Properties</th>
+      <th>Adversely affected Materials Properties</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3" style="vertical-align: middle; text-align: center;"><b>Point Defect</b></td>
+      <td>Vacancy f(T)</td>
+      <td>- Diffusivity<br>- Color Centers<br>- Ionic Conductivity</td>
+      <td>- Electron mobility<br>- Carrier Lifetime</td>
+    </tr>
+    <tr>
+      <td>Substitutional</td>
+      <td>- Conductivity (dopant)<br>- Strength (hardness)<br>- Characteristic T (like T<sub>M</sub>)</td>
+      <td>- Conductivity (impurities)<br>- Ductility<br>- Characteristic T</td>
+    </tr>
+    <tr>
+      <td>Interstitial</td>
+      <td>- Strength<br>- Characteristic T<br>- Electrical Properties</td>
+      <td>- Ductility<br>- Characteristic T<br>- Electrical Properties</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle; text-align: center;"><b>Line Defect</b></td>
+      <td>Dislocation</td>
+      <td>- Ductility (Malleability)<br>- Strength (at high density)</td>
+      <td>- Strength<br>- Yield Stress<br>- Optical Properties<br>- Lasing Action</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle; text-align: center;"><b>Planar Defect</b></td>
+      <td>Grain Boundaries</td>
+      <td>- Strength<br>- Electrical Properties<br>- Magnetic Properties</td>
+      <td>- Creep<br>- Electrical Properties<br>- Magnetic Properties</td>
+    </tr>
+  </tbody>
+</table>
+
 # Surface Corrosion
 Inside a material, metal atoms are surrounded by other atoms. This makes them low-energy since they are bound everywhere. However, on the surface of the material, atoms are not bound everywhere and are therefore in a thermodynamically unstable state, making them more reactive.
 
@@ -8,10 +52,26 @@ E_{\text{Free Energy Surface}}>E_{\text{Internal}}
 $$
 
 # Stacking Faults
+
 ![[Pasted image 20260127135301.png]]
 > In FCC crystals, we can have stacking faults: a layer is missing and therefore resembles an HCP structure for a small segment. This makes the materials with more of these faults to be more resistant to plastic deformation.
 
 We define “Stacking Fault Energy” as the energy per unit area required to create a stacking fault. When this is high (such as in aluminium), it is common to see slipping occur as the material gets deformed.
+
+| **Metal**                | **$\gamma_{\text{SFE}}$​ ($mJm^{-2}$)** |
+| ------------------------ | --------------------------------------- |
+| Aluminium                | 166                                     |
+| Zinc                     | 140                                     |
+| Copper                   | 78                                      |
+| Magnesium                | 125                                     |
+| Silver                   | 22                                      |
+| 91Cu:9Si (Silicon Brass) | 5                                       |
+| Gold                     | 45                                      |
+| Zirconium                | 240                                     |
+| Nickel                   | 128                                     |
+| 304 Stainless steel      | 21                                      |
+| Cobalt (FCC)             | 15                                      |
+| 70Cu:30Zn (Brass)        | 20                                      |
 
 # Twinning
 
@@ -69,10 +129,16 @@ When stacking fault energy is low, such as in brass, stainless steel (also commo
 **Consequences of grain boundaries:**
 - They are sources and sinks for dislocations
 - They contribute to mechanical strengthening and change the sliding system
-- They act as synks for impurities dissolved in the alloy
-- Tey contribute to the formation of second phases
+- They act as sinks for impurities dissolved in the alloy
+- They contribute to the formation of second phases
 	- Primary nucleation sites for the growth of second phases
 - They are material portions with no crystallinity (amorphous)
+
+## Micro-Yielding
+
+When a polycrystalline material is stretched, local tensile stresses will be stronger around grain boundaries. This means GBs will yield before the overall material has started yielding. This phenomenon is called micro-yielding. 
+
+The dislocation forests created via this micro-yielding are responsible for strengthening the overall structure by applying a stress which counters the external one, leading to an overall lower stress. 
 
 # Grains
 
@@ -84,6 +150,3 @@ $$
 Where:
 - $N$ is the number of grains per square inch
 - $n$ is the **grain size number**
-
-> [!error] NEXT IS PAGE 10!!!!!!!!!
-
