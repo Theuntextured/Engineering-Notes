@@ -1,5 +1,5 @@
 # Summary of Lattice Defects
-![[Pasted image 20260129171630.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260129171630.png]]
 
 <table>
   <thead>
@@ -44,7 +44,7 @@
 
 ## Energetics of 2D Superficial Defects
 
-![[Pasted image 20260130193806.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130193806.png]]
 
 # Surface Corrosion
 Inside a material, metal atoms are surrounded by other atoms. This makes them low-energy since they are bound everywhere. However, on the surface of the material, atoms are not bound everywhere and are therefore in a thermodynamically unstable state, making them more reactive.
@@ -57,7 +57,7 @@ $$
 
 # Stacking Faults
 
-![[Pasted image 20260127135301.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260127135301.png]]
 > In FCC crystals, we can have stacking faults: a layer is missing and therefore resembles an HCP structure for a small segment. This makes the materials with more of these faults to be more resistant to plastic deformation.
 
 We define “Stacking Fault Energy” as the energy per unit area required to create a stacking fault. When this is high (such as in aluminium), it is common to see slipping occur as the material gets deformed.
@@ -100,12 +100,12 @@ When stacking fault energy is low, such as in brass, stainless steel (also commo
 > [!faq]- A use for this
 > The presence of “twins” in a material which has failed can hint at the reason for its failure. For example, in a plane crash in the 90s, an investigation showed that parts of the steel of the plane's frame had signs of twinning, which told them that the plane was likely hit by an explosive rocket. (Explosion = high $\frac{d\varepsilon}{dt}$)
 
-![[Pasted image 20260128231102.png]]
-![[Pasted image 20260128231120.png]]
-![[Pasted image 20260128231137.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128231102.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128231120.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128231137.png]]
 > [!info]- Deformation Mechanism Map
 > The following diagram shows how different stress rates and temperatures affect the way the material plastically deforms.
-> ![[Pasted image 20260128231545.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260128231545.png]]
 
 | Feature | Slip | Twinning |
 | :--- | :--- | :--- |
@@ -136,7 +136,7 @@ When stacking fault energy is low, such as in brass, stainless steel (also commo
 		- Here, energy is constant and at its maximum
 
 > [!example]- An example for Copper
-> ![[Pasted image 20260129024452.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260129024452.png]]
 
 **Consequences of grain boundaries:**
 - They are sources and sinks for dislocations
@@ -156,9 +156,9 @@ The dislocation forests created via this micro-yielding are responsible for stre
 
 When dislocations hit grain boundaries, they tend to get stuck and can't proceed further. This way, the GB acts as a **ledge** or a sink for dislocations.
 
-However, after many dislocations pile up, or if stress is high enough, the energy will be too high and the GB will act as a powerful dislocation source, emitting dislocations. This is somewhat similar to [[#Frank-Read Dislocation Sources]], but in this case, the obstacle is a GB.
+However, after many dislocations pile up, or if stress is high enough, the energy will be too high and the GB will act as a powerful dislocation source, emitting dislocations. This is somewhat similar to [[Technology of Metallic Materials/Defects#Frank-Read Dislocation Sources]], but in this case, the obstacle is a GB.
 
-![[Pasted image 20260130165917.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130165917.png]]
 
 # Grains
 
@@ -173,7 +173,7 @@ Where:
 
 # Frank-Read Dislocation Sources
 
-![[Pasted image 20260130164925.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130164925.png]]
 
 $$
 \tau=\frac{Gb}{L}
@@ -187,6 +187,6 @@ $$
 
 Normally, silicon is very brittle, while aluminium is quite soft. A pure $AlSi$ alloy therefore has quite poor mechanical properties. We can therefore add a small amount of $Sr$ or $Na$ into the alloy before casting to create very fine structures, strengthening the material.
 
-![[Pasted image 20260130231507.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130231507.png]]
 > As shown, the addition of a tiny amount of $Sr$ can completely change the structure of the material, turning it from a weak material with large and sharp precipitates, to very fine eutectic colonies.
 

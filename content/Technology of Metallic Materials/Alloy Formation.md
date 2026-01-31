@@ -12,7 +12,7 @@
 > [!important]
 > The Condon-Morse model describes the relationship between intermolecular distance and their forces and potential energy.
 
-![[Pasted image 20260128000743.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128000743.png]]
 
 When $x=x_{0} : F(x_{0})=0$ we have an equilibrium, where there is no net force between the particles and we therefore have stability. As we increase distance above this point, intermolecular forces begin to pull the particles together (such as Van der Waals, ionic bonds, covalent bonds, external stress etc.), but if the particles get too close, we get overlapping electron clouds which cause repulsive forces.
 

@@ -1,8 +1,8 @@
-![[Pasted image 20260131162355.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260131162355.png]]
 
-![[Pasted image 20260131162644.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260131162644.png]]
 
-![[Pasted image 20260131162933.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260131162933.png]]
 
 
 
@@ -24,18 +24,18 @@
 Cast iron is a high-carbon form of steel and graphite formed by casting of carbon-rich iron.
 Graphite is the most stable form of $C$ in ferrous alloys, but is only present in cast iron with high $C$ and $Si$ content. The shape of this graphite can be controlled to produce different formations from flakes to lamellae to noodles.
 
-![[Pasted image 20260128172306.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128172306.png]]
 > Above is the result of chemical [etching](QA#Etching) on a sample of cast iron.
 
 # Cottrell Atmospheres
 
-A Cottrell atmosphere is a type of [[Defects|defect]] that tends to occur most often in steels. It involves an edge dislocation creating space for carbon atoms in the section of the material in tension (Circled in red below).
+A Cottrell atmosphere is a type of [[Technology of Metallic Materials/Defects\|defect]] that tends to occur most often in steels. It involves an edge dislocation creating space for carbon atoms in the section of the material in tension (Circled in red below).
 
-![[Pasted image 20260130170356.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130170356.png]]
 
 The setup allows for carbon atoms to block dislocation movement. This is why in steel we have an upper and lower yield strength: as long as the carbon in Cottrell Atmospheres is intact and can prevent dislocation movement, the yield strength will be higher, but once these are broken, dislocations can move more easily and therefore $\sigma_{y}$ decreases to the lower value.
 
-![[Pasted image 20260130170504.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130170504.png]]
 
 
 > [!note]- Why “Atmosphere?”
@@ -45,5 +45,5 @@ The setup allows for carbon atoms to block dislocation movement. This is why in 
 
 # High Strength Low Alloy Steels (HSLA)
 
-![[Pasted image 20260130194100.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130194100.png]]
 

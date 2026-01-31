@@ -27,12 +27,12 @@ graph TD
     Cleaning[Cleaning & Finishing] --> Inspection[Final Inspection]
 ```
 # Relevant Shaping Methods
-![[Pasted image 20260127131410.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260127131410.png]]
 # Embodied Energy
 > [!Definition]
 > Embodied Energy is the energy required to get the required material in $MJ Kg^{-1}$ to produce the material in a raw shape.
 
-![[Pasted image 20260127132203.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260127132203.png]]
 > The above graph shows the cost of acquiring different materials, both in $€/Kg$ and in embodied energy.
 
 # Microstructure Control
@@ -47,7 +47,7 @@ We can therefore say that a decreased grain size $d$ will increase yield strengt
 Smaller grains create a stronger AND tougher material.
 
 ## Severe Multi-Directional plastic Deformation
-![[Pasted image 20260127133434.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260127133434.png]]
 > The process of severe multi-directional plastic deformation involves inducing plastic deformation over and over onto a material sample, crushing the existing grains into smaller and smaller sizes.
 > The equipment in the photo is usually found in a lab to produce samples for testing. However, the method is also used for production.
 
@@ -65,17 +65,17 @@ In order to give strength to a material in a certain direction, texturing can be
 - Forging: by forging a shape, you allow the texture to follow the shape of the object following how the metal is poured (bottom-up)
 - Pressing: By pressing a rod on its sides, it is forced to elongate, aligning the crystals in the direction of the rod.
 
-![[Pasted image 20260130225545.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130225545.png]]
 
 # Production of High Strength 7XXX Series Aluminium ($Al,Zn,Mg$)
 7XXX Series $Al$ is a very strong material often used in structural components in aircrafts (Such as wings on b777)
 
 The process is as follows:
 
-![[Pasted image 20260131160427.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260131160427.png]]
 
 1. We cast, forming a disorganized structure with second phases on grain boundaries
 2. We heat it up, allowing second phases to dissolve into the grains, homogenizing the material
-3. We roll it to strengthen it in the desired direction (direction of rolling), therefore providing it with a [[#Strengthening by Texture|texture]].
+3. We roll it to strengthen it in the desired direction (direction of rolling), therefore providing it with a [[Technology of Metallic Materials/Fabrication of Metals#Strengthening by Texture\|texture]].
 4. We heat up the material again to remove second phases on grain boundaries
-5. We [[Treatment#Quenching|quench]] and  [[Treatment#Ageing|age]] the material to create controlled second phases that strengthen the material.
+5. We [[Technology of Metallic Materials/Treatment#Quenching\|quench]] and  [[Technology of Metallic Materials/Treatment#Ageing\|age]] the material to create controlled second phases that strengthen the material.

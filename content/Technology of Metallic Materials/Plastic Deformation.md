@@ -11,11 +11,11 @@ $\tau_{\text{CRSS}}$ is a material property which is closely related to yield st
 
 When planes start to slip, slip lines start forming and eventually, numerous aggregate dislocations form slip bands. The bands and lines follow the primary slip system, which is the direction with the lowest $\tau_{\text{CRSS}}$, as shown below.
 
-![[Pasted image 20260128195120.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128195120.png]]
 
 We define the following angles $\lambda, \varphi$ and stress $\sigma$: 
 
-![[Pasted image 20260128195633.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260128195633.png]]
 
 $$
 \begin{align}
@@ -83,13 +83,13 @@ At higher temperatures, more slip planes can be created, meaning that a material
 
 Yielding does not happen everywhere in the metal at the same time: it happens in Lüders Bands (bands where there is higher local stress concentration), and the yielding then propagates across the material.
 
-![[Pasted image 20260130171226.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130171226.png]]
 Since these bands all happen at different stresses, the stress-strain graph for materials which show such behaviour will have a long **yield elongation** at $\sigma=\sigma_{y,\,\text{lower}}$ in the form of a jagged line (stress is not perfectly constant).
 
-![[Pasted image 20260130171655.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130171655.png]]
 
 > [!example]- The ugly marks
-> To get rid of Lüders Bands, since they can be ugly to look at, we can polish the surface using a [[Treatment|treatment method]] called **skin passing**.
+> To get rid of Lüders Bands, since they can be ugly to look at, we can polish the surface using a [[Technology of Metallic Materials/Treatment\|treatment method]] called **skin passing**.
 
-The reason Lüders Bands happen in steel is because of [[Overview of Steels#Cottrell Atmospheres|Cottrell Atmospheres]]. Each atmosphere “snaps” with a different moment, leading to the yield elongation and the **phenomenon of plastic instability**.
+The reason Lüders Bands happen in steel is because of [[Technology of Metallic Materials/Overview of Steels#Cottrell Atmospheres\|Cottrell Atmospheres]]. Each atmosphere “snaps” with a different moment, leading to the yield elongation and the **phenomenon of plastic instability**.
 

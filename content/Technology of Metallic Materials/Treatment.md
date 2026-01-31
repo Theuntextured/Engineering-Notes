@@ -3,7 +3,7 @@
 The process of rapidly cooling a material, disallowing the crystal structure to realign as a result of the change in temperature.
 
 > [!info]- Optional Diagram!
-> ![[Pasted image 20260129021623.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260129021623.png]]
 
 # Work Hardening
 
@@ -11,9 +11,9 @@ Work hardening (cold working is the process and work hardening is the result), o
 
 Work hardening will create “dislocation forests” which slow down further dislocations, therefore increasing strength of the material, but a drop in toughness and resilience.
 
-![[Pasted image 20260130172401.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130172401.png]]
 
-![[Pasted image 20260130172634.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130172634.png]]
 
 **For stretching:**
 $$
@@ -31,15 +31,15 @@ $$
 - $D_{0}$: Initial thickness
 - $D_{f}$: Final thickness
 
-By deforming, we create more dislocations via [[Defects#Frank-Read Dislocation Sources|Frank-Read Dislocation Sources]]. The process is reversible via [[#Annealing]].
+By deforming, we create more dislocations via [[Technology of Metallic Materials/Defects#Frank-Read Dislocation Sources\|Frank-Read Dislocation Sources]]. The process is reversible via [[Technology of Metallic Materials/Treatment#Annealing]].
 
-![[Pasted image 20260130192523.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130192523.png]]
 
 When the dislocation density gets high enough, we can observe that they cannot exist randomly any more, since they repel each other via their stress fields. Therefore, we get the following 'cell' structure:
 
-![[Pasted image 20260130193125.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130193125.png]]
 
-Dislocations will end up clumping in cell walls, where certain ones will act as [[Defects#Frank-Read Dislocation Sources|Frank-Read Dislocation Sources]]. Inside the cell interiors, the material is relatively free of defects.
+Dislocations will end up clumping in cell walls, where certain ones will act as [[Technology of Metallic Materials/Defects#Frank-Read Dislocation Sources\|Frank-Read Dislocation Sources]]. Inside the cell interiors, the material is relatively free of defects.
 ## Ludwik-Hollomon Law
 
 $$
@@ -96,9 +96,9 @@ When second phases are present in a metal in the form of hard precipitate partic
 >- $d$: Precipitate particle diameter
 >- $f$: volume fraction of precipitate
 
-![[Pasted image 20260130195531.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130195531.png]]
 
-Via [[#Quenching]] the material, and warming it to a lower temperature than originally, we can then wait and the particles in the material will re-arrange (We therefore want the temperature just high enough to allow movement of particles).
+Via [[Technology of Metallic Materials/Treatment#Quenching]] the material, and warming it to a lower temperature than originally, we can then wait and the particles in the material will re-arrange (We therefore want the temperature just high enough to allow movement of particles).
 
 There are three main types of ageing results:
 - Under-ageing: Impurities are very small, meaning that $L$ (Orowan loop equation) is small, leading to a very strong but brittle material.
@@ -113,7 +113,7 @@ There are three main types of ageing results:
 5. Phase $\theta \implies$ Equilibrium (incoherent, weak, over-aged, BCT structure in $CuAl_{2}$, while $Al$ is FCC) 
 	- The material composed of aluminium matrix and $CuAl_{2}$ precipitate is called duralumin.
 
-![[Pasted image 20260130222119.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130222119.png]]
 
 
 ## Precipitation Hardening
@@ -150,7 +150,7 @@ $$
 - $\varepsilon_{\text{misfit}}$: Lattice misfit strain (How much this second phase strains the matrix)
 - $E$: Young's Modulus
 
-![[Pasted image 20260130195016.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260130195016.png]]
 
 
 # Annealing

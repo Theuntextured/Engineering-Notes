@@ -5,16 +5,16 @@ $$
 $$
 
 - $\sigma_{\text{PN}}$: the "starting point" for the material (Peierls-Nabarro Stress)
-- $k\sqrt{ c }$: [[Treatment#Solid Solutions|Solid Solution]]
-- $\frac{k_{y}}{\sqrt{ d }}$: [[Defects#Grain Boundaries|Grain Boundaries]]
-- $\alpha Gb\sqrt{ \rho }$: [[Treatment#Work Hardening|Strain Hardening]]
+- $k\sqrt{ c }$: [[Technology of Metallic Materials/Treatment#Solid Solutions\|Solid Solution]]
+- $\frac{k_{y}}{\sqrt{ d }}$: [[Technology of Metallic Materials/Defects#Grain Boundaries\|Grain Boundaries]]
+- $\alpha Gb\sqrt{ \rho }$: [[Technology of Metallic Materials/Treatment#Work Hardening\|Strain Hardening]]
 
-An application in the production of [[Fabrication of Metals#Production of High Strength 7XXX Series Aluminium ($Al,Zn,Mg$)|7XXX Al-alloy]]:
+An application in the production of [[Technology of Metallic Materials/Fabrication of Metals#Production of High Strength 7XXX Series Aluminium ($Al,Zn,Mg$)\|7XXX Al-alloy]]:
 
-![[Pasted image 20260131161745.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260131161745.png]]
 
 > [!check]- Main strengthening methods of alloys
-> ![[Pasted image 20260131161842.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260131161842.png]]
 
 
 # Unique Properties of Metals
@@ -57,7 +57,7 @@ An application in the production of [[Fabrication of Metals#Production of High S
 | **Stability**               | **Excellent** (High Temp & Corrosion) | **Excellent** (Passivates instantly)     | **Poor** (Galvanic corrosion / Flammable) |
 | **Hazardous?**              | **Yes** (Allergen / Carcinogen dust)  | **No** (Biocompatible)                   | **Yes** (Dust/Chips are explosive)        |
 # Recycling Rate of Elements
-![[Pasted image 20260126224617.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260126224617.png]]
 
 # Materials Substitution Table
 
