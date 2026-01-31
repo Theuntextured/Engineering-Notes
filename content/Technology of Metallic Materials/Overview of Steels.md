@@ -1,3 +1,11 @@
+![[Pasted image 20260131162355.png]]
+
+![[Pasted image 20260131162644.png]]
+
+![[Pasted image 20260131162933.png]]
+
+
+
 # Raw Costs for Stainless Steels
 
 | Material                                 | Price in $/tonne |

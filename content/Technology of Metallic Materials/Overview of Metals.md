@@ -1,3 +1,22 @@
+# Combined Yield Strength
+
+$$
+\sigma_{y}=\sigma_{\text{PN}}+k\sqrt{ c }+\frac{k_{y}}{\sqrt{ d }}+\alpha Gb\sqrt{ \rho }
+$$
+
+- $\sigma_{\text{PN}}$: the "starting point" for the material (Peierls-Nabarro Stress)
+- $k\sqrt{ c }$: [[Treatment#Solid Solutions|Solid Solution]]
+- $\frac{k_{y}}{\sqrt{ d }}$: [[Defects#Grain Boundaries|Grain Boundaries]]
+- $\alpha Gb\sqrt{ \rho }$: [[Treatment#Work Hardening|Strain Hardening]]
+
+An application in the production of [[Fabrication of Metals#Production of High Strength 7XXX Series Aluminium ($Al,Zn,Mg$)|7XXX Al-alloy]]:
+
+![[Pasted image 20260131161745.png]]
+
+> [!check]- Main strengthening methods of alloys
+> ![[Pasted image 20260131161842.png]]
+
+
 # Unique Properties of Metals
 - many methods of part shaping (wrought, casting, PM, joining, etc.)
 - Many methods of strengthening (as well as a large variety of mechanical properties)
@@ -10,7 +29,7 @@
 - Affected by environmental and on-service degradation and embrittlement
 - Very sensitive to strain rate
 - Sensitive to transition temperature
-# Properties of "The Big 6" Metals
+# Properties of “The Big 6” Metals
 
 | **Property**                | **Iron (Fe)**                         | **Aluminium (Al)**                   | **Copper (Cu)**                 |
 | --------------------------- | ------------------------------------- | ------------------------------------ | ------------------------------- |

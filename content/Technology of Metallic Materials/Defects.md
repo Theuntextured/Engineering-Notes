@@ -190,5 +190,3 @@ Normally, silicon is very brittle, while aluminium is quite soft. A pure $AlSi$ 
 ![[Pasted image 20260130231507.png]]
 > As shown, the addition of a tiny amount of $Sr$ can completely change the structure of the material, turning it from a weak material with large and sharp precipitates, to very fine eutectic colonies.
 
->[!error] Next is page 20!!!
-

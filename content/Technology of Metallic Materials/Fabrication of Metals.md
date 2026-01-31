@@ -67,4 +67,15 @@ In order to give strength to a material in a certain direction, texturing can be
 
 ![[Pasted image 20260130225545.png]]
 
-$%Next is page 20!!!$
+# Production of High Strength 7XXX Series Aluminium ($Al,Zn,Mg$)
+7XXX Series $Al$ is a very strong material often used in structural components in aircrafts (Such as wings on b777)
+
+The process is as follows:
+
+![[Pasted image 20260131160427.png]]
+
+1. We cast, forming a disorganized structure with second phases on grain boundaries
+2. We heat it up, allowing second phases to dissolve into the grains, homogenizing the material
+3. We roll it to strengthen it in the desired direction (direction of rolling), therefore providing it with a [[[#Strengthening by Texture|texture]].
+4. We heat up the material again to remove second phases on grain boundaries
+5. We [[Treatment#Quenching|quench]] and  [[Treatment#Ageing|age]] the material to create controlled second phases that strengthen the material.
