@@ -42,7 +42,7 @@
   </tbody>
 </table>
 
-##Energetics of 2D Superficial Defects
+## Energetics of 2D Superficial Defects
 
 ![[Pasted image 20260130193806.png]]
 
