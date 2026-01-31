@@ -76,6 +76,6 @@ The process is as follows:
 
 1. We cast, forming a disorganized structure with second phases on grain boundaries
 2. We heat it up, allowing second phases to dissolve into the grains, homogenizing the material
-3. We roll it to strengthen it in the desired direction (direction of rolling), therefore providing it with a [[[#Strengthening by Texture|texture]].
+3. We roll it to strengthen it in the desired direction (direction of rolling), therefore providing it with a [[#Strengthening by Texture|texture]].
 4. We heat up the material again to remove second phases on grain boundaries
 5. We [[Treatment#Quenching|quench]] and  [[Treatment#Ageing|age]] the material to create controlled second phases that strengthen the material.
