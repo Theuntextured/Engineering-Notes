@@ -42,6 +42,10 @@
   </tbody>
 </table>
 
+##Energetics of 2D Superficial Defects
+
+![[Pasted image 20260130193806.png]]
+
 # Surface Corrosion
 Inside a material, metal atoms are surrounded by other atoms. This makes them low-energy since they are bound everywhere. However, on the surface of the material, atoms are not bound everywhere and are therefore in a thermodynamically unstable state, making them more reactive.
 
@@ -73,6 +77,7 @@ We define “Stacking Fault Energy” as the energy per unit area required to cr
 | Cobalt (FCC)             | 15                                      |
 | 70Cu:30Zn (Brass)        | 20                                      |
 
+$E_{\text{SF}}$ decreases as we add impurities (solute atoms) to an alloy.
 # Twinning
 
 When stacking fault energy is low, such as in brass, stainless steel (also common in HCP metals such as titanium and magnesium), we tend to get **Mechanical Twinning**: a planar defect where small fractions of the crystal volume which rotate to form a mirror image (a twin) of the original lattice.
@@ -98,9 +103,16 @@ When stacking fault energy is low, such as in brass, stainless steel (also commo
 ![[Pasted image 20260128231102.png]]
 ![[Pasted image 20260128231120.png]]
 ![[Pasted image 20260128231137.png]]
-> [!info] Deformation Mechanism Map
+> [!info]- Deformation Mechanism Map
 > The following diagram shows how different stress rates and temperatures affect the way the material plastically deforms.
 > ![[Pasted image 20260128231545.png]]
+
+| Feature | Slip | Twinning |
+| :--- | :--- | :--- |
+| **Volume Involved** | Involves all volume of the crystal | Takes part into a small fraction of the crystal volume, the amount of deformation is small |
+| **Surface Effect** | Slip leaves a series of steps (lines) at the free surface after deformation | Twinning leaves a small but defined twin after deformation |
+| **Lattice Orientation** | The lattice direction does not change | The lattice direction changes |
+| **Atomic Movement** | All atoms on one side of the slip plane move equal distances | Atoms move distances proportional to their distance from the twinning plane corresponding to a fraction of the interatomic distance |
 
 # Grain Boundaries
 
@@ -140,6 +152,14 @@ When a polycrystalline material is stretched, local tensile stresses will be str
 
 The dislocation forests created via this micro-yielding are responsible for strengthening the overall structure by applying a stress which counters the external one, leading to an overall lower stress. 
 
+## GB Ledges and Gb's Dislocation Source
+
+When dislocations hit grain boundaries, they tend to get stuck and can't proceed further. This way, the GB acts as a **ledge** or a sink for dislocations.
+
+However, after many dislocations pile up, or if stress is high enough, the energy will be too high and the GB will act as a powerful dislocation source, emitting dislocations. This is somewhat similar to [[#Frank-Read Dislocation Sources]], but in this case, the obstacle is a GB.
+
+![[Pasted image 20260130165917.png]]
+
 # Grains
 
 ASTM defines a value that describes grain density.
@@ -150,3 +170,25 @@ $$
 Where:
 - $N$ is the number of grains per square inch
 - $n$ is the **grain size number**
+
+# Frank-Read Dislocation Sources
+
+![[Pasted image 20260130164925.png]]
+
+$$
+\tau=\frac{Gb}{L}
+$$
+- $\tau$: Critical shear stress, or the stress required such that dislocations "replicate" as shown above
+- $G$: Shear Modulus (How stiff is it to shear?)
+- $b$: Burgers Vector (magnitude of the lattice distortion)
+- $L$: The length of the source (distance between the two pinning points shown as $A,B$ above)
+
+# $Sr$-Modified $AlSi$ Casting
+
+Normally, silicon is very brittle, while aluminium is quite soft. A pure $AlSi$ alloy therefore has quite poor mechanical properties. We can therefore add a small amount of $Sr$ or $Na$ into the alloy before casting to create very fine structures, strengthening the material.
+
+![[Pasted image 20260130231507.png]]
+> As shown, the addition of a tiny amount of $Sr$ can completely change the structure of the material, turning it from a weak material with large and sharp precipitates, to very fine eutectic colonies.
+
+>[!error] Next is page 20!!!
+

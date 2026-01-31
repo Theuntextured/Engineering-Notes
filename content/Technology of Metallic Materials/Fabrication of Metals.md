@@ -44,6 +44,8 @@ $$
 
 We can therefore say that a decreased grain size $d$ will increase yield strength $\sigma_{y}$. We should therefore produce the material with grains as small as possible if we need to maximize $\sigma_{y}$.
 
+Smaller grains create a stronger AND tougher material.
+
 ## Severe Multi-Directional plastic Deformation
 ![[Pasted image 20260127133434.png]]
 > The process of severe multi-directional plastic deformation involves inducing plastic deformation over and over onto a material sample, crushing the existing grains into smaller and smaller sizes.
@@ -54,4 +56,15 @@ To ensure that a material has extremely small grains from the start, electrodepo
 
 This process involves adding a seed to a solution of the metal ion and using electricity to cause deposition of the ion on the seed (and after the reaction started on the sample) which is then neutralized by the current.
 
-Electrodeposition leads to metals with extremely fine grains, which can have superplastic behavior. For example, $Cu$ usually snaps at $\varepsilon \approx 50\%$, but with this process (the form is called $nCu$), it can reach up to $\varepsilon \approx 5100\%$.
+Electrodeposition leads to metals with extremely fine grains, which can have super-plastic behaviour. For example, $Cu$ typically snaps at $\varepsilon \approx 50\%$, but with this process (the form is called $nCu$), it can reach up to $\varepsilon \approx 5100\%$.
+
+# Strengthening by Texture
+
+In order to give strength to a material in a certain direction, texturing can be used. There are several methods to achieve this:
+- Rolling: by rolling the metal in a certain direction, grains, and their crystals align with the rolling direction
+- Forging: by forging a shape, you allow the texture to follow the shape of the object following how the metal is poured (bottom-up)
+- Pressing: By pressing a rod on its sides, it is forced to elongate, aligning the crystals in the direction of the rod.
+
+![[Pasted image 20260130225545.png]]
+
+$%Next is page 20!!!$
