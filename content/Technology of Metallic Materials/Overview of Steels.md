@@ -129,6 +129,9 @@ To control at what temperatures steel is stable in a certain form ($\alpha,\gamm
 ![[Technology of Metallic Materials/attachments/Pasted image 20260201214620.png]]
 
 # Classification of Steels
+
+![[Technology of Metallic Materials/attachments/Pasted image 20260201232708.png]]
+
 ## UNI EN 10020
 The [UNI EN 10020](https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf) standard is used to categorize steels into:
 - Alloyed: If one of the elements in the table below is over the limit (Plain carbon)
@@ -160,14 +163,12 @@ The [UNI EN 10020](https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSI
 The standard describes how steels can be named according to their use and properties.
 
 In this standard, steels are named via the following naming convention:
-```
-<Prefix>[Application Symbol]<Sub-category>[Mechanical/Physical Characteristic]<Additional Symbols>
-```
+`<Prefix>[Application Symbol]<Sub-category>[Mechanical/Physical Characteristic]<Additional Symbols>`
 For example:
 ```
 S235JR
 
-S:  Structural Use
+S: Structural Use
 235: 235 MPa Yield strength (Min.), from S category
 JR: Can take a 27J impact (J) without breaking in a Charpy V-notch test at room temperature (R). Defined by UNI EN 10025 standard.
 ```
