@@ -151,7 +151,7 @@ To control at what temperatures steel is stable in a certain form ($\alpha,\gamm
 		- Adding enough of these prevents phase transformation as a whole (especially chromium)
 
 ![[Technology of Metallic Materials/attachments/Pasted image 20260201153032.png]]
-> The effect of austenitizers and fertilizers on eutectoid temperature and composition ($wt\%\ C$)
+> The effect of austenitizers and ferritizers on eutectoid temperature and composition ($wt\%\ C$)
 
 # Forms of Steel
 
@@ -178,9 +178,9 @@ To control at what temperatures steel is stable in a certain form ($\alpha,\gamm
 > - Can be found in lamellar (small filaments) which provides strong heat dissipation and dampening of vibrations and impacts. It can also take a bulls-eye (spherulitic) form when a strong spheroidizing agent is present (e.g. $Mg,Ce$), providing great mechanical resistance and ductility.
 
 > [!important]+ Ferrite
-> BCC structure of almost pure iron
-> Very low solubility for carbon ($C\leq_{0}.0025\%$)
-> Iron atoms can be replaced in the crystal lattice by other alloying elements such as $Cr,Mo,Si$.
+> - BCC structure of almost pure iron
+> - Very low solubility for carbon ($C\leq_{0}.0025\%$)
+> - Iron atoms can be replaced in the crystal lattice by other alloying elements such as $Cr,Mo,Si$.
 > ![[Technology of Metallic Materials/attachments/Pasted image 20260201154859.png]]
 
 > [!important]+ Austenite
