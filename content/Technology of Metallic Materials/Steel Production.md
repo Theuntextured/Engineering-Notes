@@ -42,12 +42,7 @@ graph TD
 
     Scraps -->|Electric Arc Furnace| Alloy
 
-    classDef raw fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef inter fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
-    classDef final fill:#e8f5e9,stroke:#2e7d32,stroke-width:4px;
-    classDef waste fill:#e0e0e0,stroke:#616161,stroke-width:2px,stroke-dasharray: 5 5;
-    classDef node fill:#ffe0b2,stroke:#ef6c00,stroke-width:2px,shape:circle;
-    
+
     class Coal,Ore,Scraps,Flux raw;
     class Coke,Pig inter;
     class Cast,Steel,Alloy,Cement final;
