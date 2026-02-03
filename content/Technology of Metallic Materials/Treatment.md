@@ -164,3 +164,11 @@ When a material cools down at eutectoid temperature ($723-727°C, 0.76\, wt\%$ c
 If steel is quenched, it will produce martensite instead, which is harder but more brittle than pearlite since it is in a meta-stable state.
 
 
+# Hot Rolling
+
+Hot rolling is the process of rolling a metal under high temperatures (above re-crystallization temperatures) to allow for internal deformation forces to dissolve and to introduce dynamic recrystallization (constant formation of strain-free grains.).
+
+![[Technology of Metallic Materials/attachments/Pasted image 20260202204648.png]]
+
+![[Technology of Metallic Materials/attachments/Pasted image 20260202204657.png]]
+
