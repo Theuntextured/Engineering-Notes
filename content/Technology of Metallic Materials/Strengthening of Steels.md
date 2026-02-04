@@ -116,20 +116,23 @@ It offers a unique balance. You get hardness similar to tempered martensite but 
 ---
 # Quenching
 
-> [!bug]+ Quench Severity Coefficient aka. H-Value
+## Quench Severity Coefficient aka. H-Value
+> [!important]+ Definition
 > Describes how aggressively a medium (the liquid the metal is quenched in) cools down the material, with 1 being the baseline and the value for still water.
->
-> $Q=HA\Delta T$
->
->| Quench Medium | Agitation? | H Coefficient | Cooling Rate (°C/s)* |
-| :--- | :--- | :---: | :---: |
-| **Oil** | No | 0.25 | 18 |
-| **Oil** | Yes | 1.0 | 45 |
-| **Water ($H_2O$)** | No | 1.0 | 45 |
-| **Water ($H_2O$)** | Yes | 4.0 | 190 |
-| **Brine** | No | 2.0 | 90 |
-| **Brine** | Yes | 5.0 | 230 |
->*\*Cooling rate measured at the centre of a 1-inch bar.*
+
+$$$Q=HA\Delta T$$
+
+| Quench Medium      | Agitation? | H Coefficient | Cooling Rate (°C/s)* |
+| :----------------- | :--------- | :-----------: | :------------------: |
+| **Oil**            | No         |     0.25      |          18          |
+| **Oil**            | Yes        |      1.0      |          45          |
+| **Water ($H_2O$)** | No         |      1.0      |          45          |
+| **Water ($H_2O$)** | Yes        |      4.0      |         190          |
+| **Brine**          | No         |      2.0      |          90          |
+| **Brine**          | Yes        |      5.0      |         230          |
+*\*Cooling rate measured at the centre of a 1-inch bar.*
+
+---
 
 ![[Technology of Metallic Materials/attachments/Pasted image 20260204162043.png]]
 >In a thick part, the surface cools much faster than the core. The surface transforms to Martensite (and expands) first, creating a hard shell. When the core later tries to expand, it is trapped, leading to high residual stresses and **quench cracking**.
