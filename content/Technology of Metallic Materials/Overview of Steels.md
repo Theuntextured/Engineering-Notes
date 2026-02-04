@@ -344,3 +344,26 @@ Code numbers are based on the following table:
 |**43XX**|Ni-Cr-Mo|High strength alloy.|
 |**51XX**|Cr|Strong ferrite strengthener; increases wear resistance.|
 |**86XX+**|Ni, Cr, Mo, V, Si|Complex alloys for high specific strength.|
+
+---
+# Hardenability
+
+> [!important]+ Definition
+> How deep hardness goes into the core.
+> * *High Hardenability:* The center of a thick bar gets just as hard as the surface.
+> * *Low Hardenability:* The surface is hard, but the core remains soft.
+> 
+> The unit technically is $m$ or $cm$, but it is not often used in its pure form.
+
+Hardenability shifts the TTT curve to the right.
+
+**The Standard Test (Jominy End Quench):**
+1.  Heat a steel bar to Austenite.
+2.  Spray water on **one end only**.
+3.  Measure hardness along the bar.
+    * The "hardened depth" is where the structure drops to **50% Martensite**.
+
+Adding **$Mo, Mn, Cr$** increases hardenability, allowing larger parts to be hardened all the way through.
+
+![[Technology of Metallic Materials/attachments/Pasted image 20260204155253.png]]
+
