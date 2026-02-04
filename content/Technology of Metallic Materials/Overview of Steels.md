@@ -19,14 +19,7 @@
 | Titanium (As ferro-titanium)             | 3465             |
 | Niobium (As ferro-niobium)               | 15000            |
 
-# Cast Iron
-
-Cast iron is a high-carbon form of steel and graphite formed by casting of carbon-rich iron.
-Graphite is the most stable form of $C$ in ferrous alloys, but is only present in cast iron with high $C$ and $Si$ content. The shape of this graphite can be controlled to produce different formations from flakes to lamellae to noodles.
-
-![[Technology of Metallic Materials/attachments/Pasted image 20260128172306.png]]
-> Above is the result of chemical [etching](QA#Etching) on a sample of cast iron.
-
+---
 # Cottrell Atmospheres
 
 A Cottrell atmosphere is a type of [[Technology of Metallic Materials/Defects\|defect]] that tends to occur most often in steels. It involves an edge dislocation creating space for carbon atoms in the section of the material in tension (Circled in red below).
@@ -153,10 +146,12 @@ The [UNI EN 10020](https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSI
 > [!example]-
 > Stainless steels have over 10.5% $Cr$ and less than 1.2% $C$
 
+> [!note]- UNI EN 10020 Official Document
 ![[Technology of Metallic Materials/attachments/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf]]
 > Source: https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf
 ## UNI EN 10027-1
 
+>[!note]- UNI EN 10027-1 Official Document
 ![[Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf]]
 > Source: http://www.emmeengineering.com/didattica/Acciaio/Acciaio_5/Classificazione_acciai_10027.pdf
 
@@ -361,9 +356,97 @@ Hardenability shifts the TTT curve to the right.
 1.  Heat a steel bar to Austenite.
 2.  Spray water on **one end only**.
 3.  Measure hardness along the bar.
-    * The "hardened depth" is where the structure drops to **50% Martensite**.
+    * The “hardened depth” is where the structure drops to **50% Martensite**.
 
 Adding **$Mo, Mn, Cr$** increases hardenability, allowing larger parts to be hardened all the way through.
 
 ![[Technology of Metallic Materials/attachments/Pasted image 20260204155253.png]]
 
+---
+# Stainless Steels
+
+>[!important]+ What Makes Steel "Stainless"?
+For a steel to be considered "stainless," it must contain **at least 11.5% Chromium**.
+>
+Why? Because at this concentration, Chromium reacts with Oxygen to form a continuous, invisible, and self-healing [[Technology of Metallic Materials/Corrosion#Coatings & Active Protection\|passive film]] ($Cr_2O_3$) on the surface. If you scratch it, it reforms immediately (provided there is oxygen).
+
+* **The Enemy:** Reducing environments (lack of oxygen) or chlorides ($Cl^-$) which break the film.
+* **The Fix:** Alloying elements like Nickel (Ni) and Molybdenum (Mo).
+
+---
+## The Schaeffler Diagram
+
+This is the map we use to predict the structure of a stainless steel (especially after welding). It plots **Chromium Equivalent** against **Nickel Equivalent**.
+
+* **X-Axis ($Cr_{eq}$):** $\%Cr + \%Mo + 1.5\%Si + 0.5\%Nb$
+* **Y-Axis ($Ni_{eq}$):** $\%Ni + 30\%C + 0.5\%Mn$
+
+By calculating these two values, you can see if your steel will be Martensitic, Ferritic, Austenitic, or a mix (Duplex).
+
+![[Technology of Metallic Materials/attachments/Pasted image 20260204180240.png]]
+
+---
+
+## The Families of Stainless Steel
+
+### Ferritic SS
+* **Composition:** High Cr (12-30%), Low C, No Ni.
+* **Properties:** Magnetic. Good corrosion resistance (better than [[Technology of Metallic Materials/Overview of Steels#Martensitic SS]]).
+* **Weakness:** Brittle at low temps (DBTT). Grain growth during welding reduces toughness.
+* **Use:** Exhaust systems, cheaper chemical equipment.
+* Series 400
+	* E.g. AISI 430
+
+### Martensitic SS
+* **Composition:** Medium Cr (12-17%), High C (>0.1%).
+* **Properties:** Can be quenched and tempered! High hardness and strength. Magnetic.
+* **Weakness:** Lowest corrosion resistance of the bunch. Hard to weld (cracking risk).
+* **Use:** Knife blades, surgical tools, shafts.
+* Series 400
+	* E.g. AISI 410, 420
+
+### 3. Austenitic SS
+* **Composition:** Cr (16-26%) + Ni (6-22%).
+* **Properties:** Non-magnetic. Excellent corrosion resistance. High toughness (no DBTT — good for cryogenics). Highly ductile.
+* **Series 300.**  Examples:
+    * **AISI 304:** The standard “18/8” stainless. Kitchen sinks, food industry.
+    * **AISI 316:** Adds **Molybdenum (2-3%)**. This drastically improves resistance to chlorides (saltwater) and pitting.
+* **Weakness:** Expensive (Ni price). Susceptible to SCC (Stress Corrosion Cracking).
+
+### 4. Duplex SS (e.g., 2205)
+* **Structure:** A roughly 50/50 mix of Ferrite and Austenite.
+* **Properties:** Best of both worlds. Higher strength than Austenitic, better SCC resistance.
+* **Use:** Heat exchangers, desalination plants.
+* E.g. AISI 2205
+
+---
+
+## Pitting Resistance (PREN)
+
+How do we know if a steel will survive in seawater? We calculate the **Pitting Resistance Equivalent Number**.
+
+$$PREN = \%Cr + 3.3 \cdot (\%Mo + 0.5\%W) + 16 \cdot \%N$$
+
+* **Rule of Thumb:**
+    * **PREN > 40:** "Superduplex" or "Superaustenitic" (Safe for severe seawater use).
+    * Nitrogen (N) is extremely potent here (multiplier of 16!).
+
+---
+
+## Sensitization
+
+This is the most common failure mode for Austenitic steels (like 304) after welding.
+
+**The Mechanism:**
+1.  Heat the steel to **500-800°C** (e.g., in the Heat Affected Zone of a weld).
+2.  Carbon loves Chromium. They react to form **Chromium Carbides** ($Cr_{23}C_6$) at the grain boundaries.
+3.  These carbides suck the Chromium out of the surrounding metal.
+4.  The local Chromium level drops below 11.5% (the “Depleted Zone”).
+5.  **Result:** The grain boundaries are no longer stainless. They corrode rapidly (Intergranular Corrosion).
+
+**The Solutions:**
+1.  **Low Carbon Grades:** Use "L" grades (e.g., **304L**, **316L**) where $C < 0.03\%$. Less carbon = less carbides.
+2.  **Stabilization:** Add elements that love Carbon even more than Chromium does, like **Titanium (Ti)** or **Niobium (Nb)**.
+    * *Example:* AISI 321 (Ti stabilized) or AISI 347 (Nb stabilized).
+
+![[Technology of Metallic Materials/attachments/Pasted image 20260204181624.png]]
