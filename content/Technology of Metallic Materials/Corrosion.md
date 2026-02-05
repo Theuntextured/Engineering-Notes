@@ -16,7 +16,7 @@
     4.  **Electrical Connection:** Conducts electrons ($e^-$).
 * **Outcome:** Loss of material (crater formation) at the anode; often electroplating or byproduct formation at the cathode.
 
-![[Pasted image 20260204172708.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204172708.png]]
 
 ---
 
@@ -47,7 +47,7 @@ This occurs at the surface that *does not* corrode. The specific reaction depend
 
 ## Classification of Corrosion Phenomena
 
-![[Pasted image 20260204173555.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204173555.png]]
 
 
 ### 1. Uniform Corrosion
@@ -79,14 +79,14 @@ These are dangerous because the overall mass loss is low, but the structural dam
     3.  The area outside remains Cathodic (plenty of $O_2$).
     4.  Positive metal ions accumulate in the crevice, attracting negative ions ($Cl^-$) and lowering pH (creating acid), which accelerates the attack.
 
-![[Pasted image 20260204173724.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204173724.png]]
 
 #### Pitting Corrosion
 * **Appearance:** Small, deep holes.
 * **Mechanism:** Similar to crevice corrosion but autocatalytic. Often initiated by **Chloride ions ($Cl^-$)** breaking the passive film.
 * **Danger:** Occurs in materials that are otherwise passive (like Stainless Steel). It is insidious and hard to detect.
 
-![[Pasted image 20260204173744.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204173744.png]]
 
 
 ---
@@ -108,7 +108,7 @@ These are dangerous because the overall mass loss is low, but the structural dam
 * **Fretting Corrosion:** Corrosion assisted by small-scale vibration/sliding.
 * **Erosion Corrosion:** Flowing fluid strips protective films.
 
-![[Pasted image 20260204174205.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204174205.png]]
 
 ---
 
@@ -142,4 +142,4 @@ These are dangerous because the overall mass loss is low, but the structural dam
 	* *Warning:* If the film is damaged and cannot reform (no Oxygen), pitting occurs.
 * **Coatings:** Paints, polymers, or metal plating (Cladding, Hot-dipping).
 
-![[Pasted image 20260204174821.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204174821.png]]
