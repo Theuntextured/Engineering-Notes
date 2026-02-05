@@ -1,0 +1,19 @@
+{
+  "templater-obsidian:Templates/Insert Block Math.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "0"
+    }
+  ],
+  "templater-obsidian:templates/Insert Inline Math.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "0"
+    }
+  ]
+}
