@@ -62,7 +62,7 @@ cssclasses: ""
 
 |                                   Subject                                    |                    Progress                    |
 | :--------------------------------------------------------------------------: | :--------------------------------------------: |
-| [[Technology of Metallic Materials/index\|Technology of Metallic Materials]] | <progress value="70" max="100"></progress> 70% |
+| [[Technology of Metallic Materials/index\|Technology of Metallic Materials]] | <progress value="95" max="100"></progress> 95% |
 
 
 # Next Up
