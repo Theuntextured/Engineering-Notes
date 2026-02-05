@@ -2,7 +2,7 @@
 > Think of Cast Iron as steel that ate too much Carbon.
 > * **Composition:** Iron + **2-4.5% Carbon** + **1-3% Silicon**.
 > * **The Matrix:** Usually Ferrite or Pearlite (like steel).
-> * **The Difference:** The excess Carbon cannot remain dissolved, so it precipitates out as a second phase: **[[Technology of Metallic Materials/Overview of Steels#Forms of Steel\|Graphite]]** or **Iron Carbide ([[Technology of Metallic Materials/Overview of Steels#Forms of Steel\|Cementite]]) ($Fe_3C$)**.
+> * **The Difference:** The excess Carbon cannot remain dissolved, so it precipitates out as a second phase: **[[Overview of Steels#Forms of Steel|Graphite]]** or **Iron Carbide ([[Overview of Steels#Forms of Steel|Cementite]]) ($Fe_3C$)**.
 
 * **Pros:** 
 	* Low melting point (easy to cast)
@@ -34,7 +34,7 @@ This is the “primitive” form. It forms when cooling is rapid or Silicon is l
     * **Extremely brittle.** You cannot machine this; you must grind it.
 * **Use:** Rock crushers, slurry pumps, grinding balls.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204182743.png]]
+![[Pasted image 20260204182743.png]]
 
 ---
 
@@ -51,7 +51,7 @@ This is the most common type. It forms when cooling is slow and Silicon is high 
     * **Vibration Damping:** The internal graphite flakes absorb energy. This is why heavy lathe beds and engine blocks are made of Gray Iron.
     * Excellent machinability (graphite acts as a lubricant).
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204182810.png]]
+![[Pasted image 20260204182810.png]]
 
 
 ![[Technology of Metallic Materials/attachments/Pasted image 20260128172306.png]]
@@ -72,7 +72,7 @@ The “We want the graphite, but we hate the flakes” cast iron.
     * It behaves much more like steel but retains the castability of iron.
 * **Use:** Crankshafts, gears, heavy-duty suspension parts.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204183045.png]] ![[Technology of Metallic Materials/attachments/Pasted image 20260204183407.png]]
+![[Pasted image 20260204183045.png]] ![[Pasted image 20260204183407.png]]
 
 ---
 
@@ -80,11 +80,11 @@ The “We want the graphite, but we hate the flakes” cast iron.
 
 * **Process:**
     1.  Cast the part as **White Iron** (hard, brittle).
-    2.  Heat treat it ([[Technology of Metallic Materials/Treatment#Annealing\|Annealing]]/Malleablizing) for a long time.
+    2.  Heat treat it ([[Treatment#Annealing|Annealing]]/Malleablizing) for a long time.
     3.  The Iron Carbide decomposes into **Irregular Graphite Clusters** (Rosettes).
 * **Composition:** C (2-2.6%) and Si (1.1-1.6%).
 * **Properties:** Good toughness and ductility (hence “Malleable”).
 * **Use:** Pipe fittings, tools, railway parts.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204183633.png]]
-![[Technology of Metallic Materials/attachments/Pasted image 20260204183644.png]]
+![[Pasted image 20260204183633.png]]
+![[Pasted image 20260204183644.png]]

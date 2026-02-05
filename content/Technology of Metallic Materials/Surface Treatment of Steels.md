@@ -1,10 +1,6 @@
 ---
-publish: true
-created: 2026-02-04T16:31:24.765+01:00
-modified: 2026-02-04T17:18:40.264+01:00
-cssclasses: ""
----
 
+---
 ## Hardening by Carburizing
 The primary goal here is to achieve a surface that is hard and wear-resistant while maintaining a tough, ductile core to absorb shock.
 
@@ -52,12 +48,12 @@ Unlike carburizing, this process aims for an *extremely* hard surface while reta
 * **Depth:** A thin layer, typically $0.2-0.3$ mm.
 * **Hardness:** Very high superficial hardness ($\sim 1100$ HV).
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204165230.png]]
+![[Pasted image 20260204165230.png]]
 
 
 ### The Fe-N Metastable Phase Diagram
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204165410.png]]
+![[Pasted image 20260204165410.png]]
 
 **Nitriding Steel Compositions**
 Specific alloys are required for optimal nitriding results.
@@ -76,7 +72,7 @@ Specific alloys are required for optimal nitriding results.
 * **Nitrided Steel:** Achieves higher surface hardness (up to 1000-1200 HV) but the depth of penetration is shallow ($<0.6$ mm).
 * **Carburized Steel:** Lower peak surface hardness ($\sim 800$ HV) but maintains hardness to a greater depth ($>1.0$ mm).
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204165929.png]]
+![[Pasted image 20260204165929.png]]
 
 **Harris' Formula for Penetration Depth**
 To calculate the depth of the treatment:
@@ -106,7 +102,7 @@ The depth of heating is controlled by the frequency:
 $$\delta \cong \sqrt{\frac{\rho}{\pi \mu f}}$$
 
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204170710.png]]
+![[Pasted image 20260204170710.png]]
 
 **Inductor Types**
 Various shapes exists for different geometries:
@@ -115,12 +111,12 @@ Various shapes exists for different geometries:
 
 
 > [!example]- Slideways vs Coils
-> ![[Technology of Metallic Materials/attachments/Pasted image 20260204170826.png]]
+> ![[Pasted image 20260204170826.png]]
 
 **Hardness Profiles**
 Induction hardening creates a sharp transition in hardness. For example, in Tempered 4140 steel, hardness holds steady around 700 HV before dropping sharply to the core hardness ($\sim 330$ HV) at a specific depth determined by the induction frequency and speed.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204170935.png]]
+![[Pasted image 20260204170935.png]]
 
 ---
 
@@ -144,7 +140,7 @@ All surface heat treatments generally confer a **compressive stress state** on t
 * **Induction:** Creates deep compressive stress, but lower magnitude at the surface compared to nitriding.
 * **Laser:** High surface hardness but shallower stress profile.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204171152.png]]
+![[Pasted image 20260204171152.png]]
 
 ---
 
@@ -160,10 +156,10 @@ When welding steels, the thermal cycle alters the microstructure adjacent to the
 5.  **Tempered Zone:** Below $A_1$ temperature.
 6.  **Unaffected Base Material:** Original microstructure.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204171519.png]]
+![[Pasted image 20260204171519.png]]
 
 **Microstructural Evolution**
-The final structure depends heavily on the [[Technology of Metallic Materials/Overview of Steels#Hardenability\|hardenability]] of the steel.
+The final structure depends heavily on the [[Overview of Steels#Hardenability|hardenability]] of the steel.
 * **At $T_{max}$:** The structure becomes Austenite ($\gamma$) near the melt line.
 * **Cooling (Low Hardenable Steel):** Reverts to Pearlite and Ferrite ($\alpha$).
 * **Cooling (High Hardenable Steel):** Forms **Martensite**, which is brittle and prone to cracking.
@@ -173,7 +169,7 @@ The final structure depends heavily on the [[Technology of Metallic Materials/Ov
 * Steels up to $0.4\% C$ are weldable, but caution is needed for higher carbon contents.
 * **Risk:** Cracks can form underneath the welding bead in the HAZ.
 
-![[Technology of Metallic Materials/attachments/Pasted image 20260204171838.png]]
+![[Pasted image 20260204171838.png]]
 
 ---
 
