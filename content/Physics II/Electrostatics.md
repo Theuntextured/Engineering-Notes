@@ -19,7 +19,7 @@ $$
 > [!check]+ Electrostatic Field Properties
 > - Central Force
 > - Conservative Force
-> - [[Gauss Law]] holds
+> - [[Physics II/Electrostatics#Gauss' Law\|Gauss Law]] holds
 > - NOT an acceleration field, since charge does not depend on mass
 > - Has a [[Physics II/Electrostatics#Electrostatic Potential\|scalar potential]] associated
 > - Force can be attractive or repulsive

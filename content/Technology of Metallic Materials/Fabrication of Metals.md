@@ -36,7 +36,7 @@ graph TD
 > The above graph shows the cost of acquiring different materials, both in $€/Kg$ and in embodied energy.
 
 # Microstructure Control
-We recall the Hall-Pitch relationship that describes yield strength's relationship with grain size:
+We recall the [[Science and Technology of Materials/index\|Hall-Petch]] relationship that describes yield strength's relationship with grain size:
 
 $$
 \sigma_{y}=\sigma_{0}+\frac{k}{\sqrt{ d }}
