@@ -42,7 +42,8 @@ The behaviour of a ferromagnetic material is determined by:
 > - Increasing the size of domains increases energy of dipole-dipole interactions to increase, while $E$ from exchange interactions remains about the same. This leads to a limit in the size of domains without the help of an external $\vec{B}$.
 >   
 >   The limit for domain size is given by:
->   $$
+> 
+> $$
 > L^3_{Dom}=\mid\frac{e_{\text{exc}}}{e_{\text{dom}}}\mid L^3_{\text{exc}} 
 > $$
 
