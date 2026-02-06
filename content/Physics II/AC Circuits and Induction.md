@@ -123,14 +123,14 @@ HOWEVER, current has a $\frac{\pi}{2}$ phase delay with respect to voltage.
 ![[Physics II/attachments/Pasted image 20260206020633.png]]
 
 We can deduct that inductors block high-frequency signals.
-## Capacitor and AC circuit
+## Capacitor and AC Circuit
 
 This time, current is $\frac{\pi}{2}$ ahead of voltage.
 
 > [!important]+ Capacitive Reactance
 > $$
 > X_{C}=\frac{1}{\omega C}
-$$
+> $$
 
 ![[Physics II/attachments/Pasted image 20260206020639.png]]
 
@@ -150,8 +150,9 @@ When there is no external power source, the energy just sloshes back and forth b
 
 > [!abstract]+ Governing Equation
 > The differential equation for the current $I(t)$ is a damped harmonic oscillator:
-> $$\frac{d^2I}{dt^2} + \frac{R}{L}\frac{dI}{dt} + \frac{1}{LC}I(t) = 0$$
->
+> $$
+> \frac{d^2I}{dt^2} + \frac{R}{L}\frac{dI}{dt} + \frac{1}{LC}I(t) = 0
+> $$
 
 #### The Three Destinies (Damping)
 Depending on the resistance $R$, the circuit behaves in one of three ways:
@@ -187,7 +188,7 @@ Resonance happens when the Inductor and Capacitor perfectly cancel each other ou
 
 ---
 
-### Frequency Behavior
+### Frequency Behaviour
 If you are not at resonance, one component dominates the other:
 
 | Frequency | Dominant | Type | Phase |
