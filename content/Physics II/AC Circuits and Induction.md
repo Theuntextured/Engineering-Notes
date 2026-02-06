@@ -50,7 +50,8 @@ $$
 &\Phi=LI \\
 &\text{emf}=-L \frac{dI}{dt}
 \end{align}
-$$In an inductor:
+$$
+In an inductor:
 
 $$
 V_{L}=-\text{emf}=L \frac{dI}{dt}
@@ -76,6 +77,7 @@ Inductors resist a change in current.
 $$
 U=\frac{1}{2}LI_{0}^2=\frac{1}{2\mu_{0}}B^2\mathcal V
 $$
+
 Where $\mathcal V$ is the volume.
 
 # Transformers
