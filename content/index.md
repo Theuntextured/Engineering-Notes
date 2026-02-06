@@ -59,17 +59,15 @@ cssclasses: ""
 > 
 > 16) Modification of This License. This License is Copyright © 2005 Lawrence Rosen. Permission is granted to copy, distribute, or communicate this License without modification. Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works. However, You may modify the text of this License and copy, distribute or communicate your modified version (the "Modified License") and apply it to other original works of authorship subject to the following conditions: (i) You may not indicate in any way that your Modified License is the "Academic Free License" or "AFL" and you may not use those names in the name of your Modified License; (ii) You must replace the notice specified in the first paragraph above with the notice "Licensed under AFL-3.0" or with a notice of your own that is not confusingly similar to the notice in this License; and (iii) You may not claim that your original works are open source software unless your Modified License has been approved by Open Source Initiative (OSI) and You comply with its license review and certification process.
 
-
 # Progress
-
 
 |                                      Subject                                       |                     Progress                      |
 | :--------------------------------------------------------------------------------: | :-----------------------------------------------: |
 |    [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]    | <progress value="100" max="100"></progress> 100%  |
 |                          [[Physics II/index\|Physics II]]                          | <progress value="100" max="100"></progress> 100%  |
 | [[Science and Technology of Materials/index\|Science and Technology of Materials]] | <progress value="100" max="100"></progress> 100%* |
-_*PDF-Only Version_
+> _*PDF-Only Version_
 # Next Up
 
-- Analysis II
-- Fundamentals of Strength of Materials
+1. Fundamentals of Strength of Materials
+2. Analysis II
