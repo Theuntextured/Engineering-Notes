@@ -55,6 +55,29 @@ $$
 $$
 U=-\vec{\mu}\cdot \vec{B}
 $$
+We can define the **magnetizing field** as:
+
+$$
+\vec{H}=\frac{\vec{B}}{\mu_{0}}
+$$
+To apply it to the **magnetization vector**, defined as the total magnetic dipole moment per unit volume. For small fields:
+
+$$
+\vec{\mathcal{M}}\approx n\beta \vec{H}=\chi_{m}\vec{H}
+$$
+
+Where $\beta$ depends on the characteristics of dipoles, $n$ is the dipole density and $\chi_{m}$ is the **magnetic susceptibility** of the material.
+
+We can use this to get the TOTAL magnetic field in a material:
+
+$$
+\vec{B}=\mu_{0}\vec{\mathcal M}+\mu_{0}H
+$$
+Which for small fields can be approximated to:
+$$
+\vec{B}\approx \mu_{0}(1+\chi_{m})\vec{H}=\mu \vec{H}
+$$
+With $\mu$ being the magnetic permeability of the material.
 
 ---
 # Biot-Savart Laws
@@ -108,6 +131,23 @@ $$
 >
 >If currents are in equal direction, the force is attractive, otherwise it is repulsive.
 
+## Ampere-Maxwell Law
+
+When the field is time-dependant, we cannot use the standard form, we therefore correct it to:
+
+$$
+\begin{align}
+\oint_{\Gamma_{A}}\vec{B}(\vec{r})\cdot d\vec{s}=&\mu_{0}I+\mu_{0}I_{d} \\
+=&\mu_{0}I+\mu_{0}\varepsilon_{0} \frac{d\Phi(\vec{E})}{dt}
+\end{align}
+$$
+
+Where $I_{d}$ is called the displacement current (it does not have anything to do with displacement though).
+
+$$
+[\Phi_{\vec{B}}]=\text{Wb} \text{ (Weber)}
+$$
+
 ---
 
 # Gauss Law for Magnetic Fields
@@ -116,3 +156,4 @@ For a closed surface:
 $$
 \oint_{S}\vec{B}(\vec{r})\cdot \vec{u}_{r}dS=0
 $$
+
