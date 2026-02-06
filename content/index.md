@@ -62,14 +62,13 @@ cssclasses: ""
 # Progress
 
 
-|                                   Subject                                    |                    Progress                    |
-| :--------------------------------------------------------------------------: | :--------------------------------------------: |
-| [[Technology of Metallic Materials/index\|Technology of Metallic Materials]] | <progress value="95" max="100"></progress> 95% |
-
+|                                   Subject                                    |                     Progress                     |
+| :--------------------------------------------------------------------------: | :----------------------------------------------: |
+| [[Technology of Metallic Materials/index\|Technology of Metallic Materials]] |  <progress value="95" max="100"></progress> 95%  |
+|                       [[Physics II/index\|Physics II]]                       | <progress value="100" max="100"></progress> 100% |
 
 # Next Up
 
 - Analysis II
 - Fundamentals of Strength of Materials
 - (Science and Technology of Materials)
-- (Physics II)
