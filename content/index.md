@@ -1,8 +1,6 @@
 ---
 publish: true
 title: Home
-created: 2026-01-31T17:11:59.252+01:00
-modified: 2026-01-31T17:11:25.841+01:00
 cssclasses: ""
 ---
 
@@ -24,6 +22,7 @@ cssclasses: ""
 | [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]] |    <progress value="0" max="100"></progress> 0%    |
 |              [[Mathematical Analysis II/index\|Mathematical Analysis II]]              |    <progress value="0" max="100"></progress> 0%    |
 > _* PDF-Only Version_
+> 
 > _** Full PDF as well as a compressed PDF with key points._
 
 ---
