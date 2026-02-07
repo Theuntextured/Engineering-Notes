@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "theuntextured.github.io/Engineering-Notes",
-    ignorePatterns: ["private", "Templates", ".obsidian", ".git", "node_modules"],
+    ignorePatterns: ["private", "Templates", ".obsidian", ".git", "node_modules", "templates"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
