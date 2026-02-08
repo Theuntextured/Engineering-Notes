@@ -30,12 +30,19 @@
 
 **2. Find the Centre ($C$):**
 The circle lies on the $\sigma$ axis (horizontal).
-$$C = \frac{\sigma_x + \sigma_y}{2}$$
+
+$$
+C = \frac{\sigma_x + \sigma_y}{2}
+$$
 * This is the **Average Normal Stress** ($\sigma_{avg}$).
 
 **3. Calculate the Radius ($R$):**
+
 Distance from Centre $C$ to Point X.
-$$R = \sqrt{ \left( \frac{\sigma_x - \sigma_y}{2} \right)^2 + \tau_{xy}^2 }$$
+
+$$
+R = \sqrt{ \left( \frac{\sigma_x - \sigma_y}{2} \right)^2 + \tau_{xy}^2 }
+$$
 ---
 
 ### Critical Values
@@ -45,16 +52,25 @@ Once drawn, the circle reveals the failure points immediately:
 **1. Principal Stresses ($\sigma_1, \sigma_2$):**
 The points where the circle crosses the horizontal $\sigma$-axis. Shear is **Zero** here.
 * **Max Tension/Compression:**
-$$\sigma_{1,2} = C \pm R$$
+
+$$
+\sigma_{1,2} = C \pm R
+$$
 
 **2. Maximum Shear Stress ($\tau_{max}$):**
 The highest/lowest point of the circle (top/bottom).
-$$\tau_{max} = R$$
+
+$$
+\tau_{max} = R
+$$
 
 **3. Principal Orientation ($\theta_p$):**
 The angle on the circle ($2\theta$) is **double** the physical angle ($\theta$).
 * If you rotate $90^\circ$ on the circle (from Point X to $\sigma_1$), you rotate $45^\circ$ on the real element.
-$$\tan(2\theta_p) = \frac{2\tau_{xy}}{\sigma_x - \sigma_y}$$
+
+$$
+\tan(2\theta_p) = \frac{2\tau_{xy}}{\sigma_x - \sigma_y}
+$$
 
 ---
 

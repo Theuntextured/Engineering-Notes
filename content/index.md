@@ -19,7 +19,7 @@ cssclasses: ""
 |      [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]      |  <progress value="100" max="100"></progress> 100%  |
 |                            [[Physics II/index\|Physics II]]                            |  <progress value="100" max="100"></progress> 100%  |
 |   [[Science and Technology of Materials/index\|Science and Technology of Materials]]   | <progress value="100" max="100"></progress> 100%*  |
-| [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]] |    <progress value="0" max="100"></progress> 0%    |
+| [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]] |   <progress value="70" max="100"></progress> 70%   |
 |              [[Mathematical Analysis II/index\|Mathematical Analysis II]]              |    <progress value="0" max="100"></progress> 0%    |
 > _* PDF-Only Version_
 > 
