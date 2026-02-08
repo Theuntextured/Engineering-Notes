@@ -46,6 +46,24 @@ The specimen is slowly pulled, measuring the elongation $\Delta L=L-L_{0}$.
 > \end{align}
 > $$
 
+Note that in the test, we have stress in one direction, and ideally, this should be the maximum [[Fundamentals of Strength of Materials/4. Stress#Principal Stresses\|principal stress]] $\sigma_{0}$, therefore giving the stress tensor:
+
+$$
+[\sigma]=
+\begin{bmatrix}
+\sigma_{1} & 0 & 0 \\
+0 & 0 & 0 &  \\
+0 & 0 & 0
+\end{bmatrix}
+$$
+
+If we want to test out maximum tangential stress, we apply the tension at a $45^\circ$ angle with slip planes, leading to:
+
+$$
+\tau_{\text{max}}=\frac{{\sigma_{1}-\sigma_{3}}}{2}
+$$
+This is the maximum shear stress given by the fractured plane. This formula can be visualized using [[Fundamentals of Strength of Materials/Mohr's Circle]]: the highest point on the graph is the top of the circle spanning from the minimum stress to the maximum stress.
+
 ---
 # Results
 
