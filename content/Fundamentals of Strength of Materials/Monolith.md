@@ -4,7 +4,7 @@ draft: true
 cssclasses: ""
 ---
 
-# <% tp.file.folder() %>
+# Fundamentals of Strength of Materials
 
 ```dataviewjs
 const folder = dv.current().file.folder;
