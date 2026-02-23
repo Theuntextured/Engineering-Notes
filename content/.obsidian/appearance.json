@@ -1,3 +1,7 @@
 {
-  "cssTheme": "Prism"
+  "cssTheme": "Prism",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "pdf_fix"
+  ]
 }

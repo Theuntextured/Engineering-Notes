@@ -1,5 +1,8 @@
 {
-  "exclusionList": [],
+  "exclusionList": [
+    "GB",
+    "GBs"
+  ],
   "capitalizeListItem": true,
   "capitalizeSentences": true,
   "abbreviations": [

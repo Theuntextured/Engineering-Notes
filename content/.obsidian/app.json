@@ -51,7 +51,31 @@
     "PREN",
     "castability",
     "nodulizing",
-    "Malleablizing"
+    "Malleablizing",
+    "Maclaurin",
+    "coercivity",
+    "Overdamped",
+    "Underdamped",
+    "IASC",
+    "Determina",
+    "DOFs",
+    "inteterminated",
+    "indeterminated",
+    "determinated",
+    "Deviatoric",
+    "Tresca",
+    "Venant",
+    " |",
+    ") |",
+    "Hall-Petch",
+    "Ramberg-Osgood"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

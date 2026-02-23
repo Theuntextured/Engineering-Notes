@@ -1,38 +1,4 @@
-```mermaid
-graph TD
-    BOS[Basic Oxygen Steelmaking BOS] --> SecSteel[Secondary Steelmaking e.g. Vacuum Degassing]
-    
-    SecSteel --> Ingot[Ingot Casting]
-    SecSteel --> ContCast[Continuous Casting]
-    
-    ContCast -- "Al-killed steel (good formability)" --> SlabSoak[Slab Soaking]
-    
-    SlabSoak -- "At 1200-1250 °C" --> HotRoll[Hot Rolling]
-    
-    HotRoll -- "F.T. 870-910 °C" --> HotCoil[Hot Coiling]
-    
-    HotCoil -- "C.T. 560-710 °C" --> Pickling[Pickling]
-    
-    subgraph "AlN Precipitation Logic"
-    Note1["If C.T. 710°C (CA): Cool slowly, AlN precipitates"]
-    Note2["If C.T. 560°C (BA): Cool quickly, AlN stays in solution"]
-    end
-    
-    Pickling --> ColdRoll[Cold Rolling]
-    
-    ColdRoll -- "Reduction ~65%" --> BatchAnn[Batch Annealing]
-    ColdRoll --> ContAnn[Continuous Annealing]
-    ColdRoll --> TinPlate[Tin Plate Production]
-    ColdRoll --> ZincCoat[Zinc Coating]
-    
-    BatchAnn -- "C.T. 560°C" --> SkinPass[Temper Rolling / Skin-passing]
-    ContAnn -- "C.T. 710°C" --> SkinPass
-    
-    SkinPass -- "~2% Deformed: Control shape, texture, luder lines" --> FinalProduct[Final Strip]
-    
-    HotCoil -.-> Note1
-    HotCoil -.-> Note2
-```
+![[Pasted image 20260212211056.png]]
 
 # Heat Treatment of Steels
 *Conventional heat treatments for Hypo- and Hyper-eutectoid steels. The goal is to modify microstructure (Grain size, phase distribution) to alter mechanical properties.*

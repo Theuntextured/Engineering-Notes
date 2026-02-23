@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "03b8021dde44c622",
+    "id": "71d9562620b58d6c",
     "type": "split",
     "children": [
       {
-        "id": "cdf9970e30f8df1b",
+        "id": "164e1d7f776ae7de",
         "type": "tabs",
         "children": [
           {
-            "id": "d180871743ff0503",
+            "id": "7acb9f1ea0fa4d64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Physics II/AC Circuits and Induction.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AC Circuits and Induction"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d42bffdb31104938",
+    "id": "b5a24073bbb71020",
     "type": "split",
     "children": [
       {
-        "id": "a60c6388d841e66f",
+        "id": "10cc179ef180c2f0",
         "type": "tabs",
         "children": [
           {
-            "id": "54aff1d31246de4b",
+            "id": "56a1ab71cc9b6d75",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +48,12 @@
             }
           },
           {
-            "id": "9155cb2233f01231",
+            "id": "2acaad2ee30f2d22",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "von mises",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "d5a0f73df9184fda",
+            "id": "84e87ef61b19a2c7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "ca2ad5bf95487563",
+    "id": "4cced5faef17ac5c",
     "type": "split",
     "children": [
       {
-        "id": "da52de4893acebdb",
+        "id": "f1bb4e7af484a6e2",
         "type": "tabs",
         "children": [
           {
-            "id": "85a6ce5831e2c6b0",
+            "id": "3793bc2b66dfc015",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology of Metallic Materials/Overview of Metals.md",
+                "file": "Fundamentals of Strength of Materials/7. Beam Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview of Metals"
+              "title": "Backlinks for 7. Beam Theory"
             }
           },
           {
-            "id": "270f821b5e129c89",
+            "id": "5ad82e9469860adc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology of Metallic Materials/Overview of Metals.md",
+                "file": "Fundamentals of Strength of Materials/7. Beam Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Overview of Metals"
+              "title": "Outgoing links from 7. Beam Theory"
             }
           },
           {
-            "id": "c073499d1681cc9c",
+            "id": "8bc8c83a3f7536a3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +137,7 @@
             }
           },
           {
-            "id": "cf15317db93d6cda",
+            "id": "f3517f441c8ad0de",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,28 +151,28 @@
             }
           },
           {
-            "id": "97d23e4a8779a01d",
+            "id": "2265c288628d73b0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology of Metallic Materials/Strengthening of Steels.md",
+                "file": "Fundamentals of Strength of Materials/7. Beam Theory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Strengthening of Steels"
+              "title": "Outline of 7. Beam Theory"
             }
           },
           {
-            "id": "db2a99bb9b1b6a9d",
+            "id": "7cff8e2f1c4501ac",
             "type": "leaf",
             "state": {
-              "type": "mermaid-toolbar-view",
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -195,51 +199,52 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "d180871743ff0503",
+  "active": "7acb9f1ea0fa4d64",
   "lastOpenFiles": [
-    "index.md",
     "Technology of Metallic Materials/Overview of Steels.md",
-    "Technology of Metallic Materials/Strengthening of Steels.md",
-    "Technology of Metallic Materials/Cast Iron.md",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204183644.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204183633.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204183407.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204183045.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204183040.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204182810.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204182743.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204181624.png",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204180240.png",
-    "Technology of Metallic Materials/Steel Production.md",
-    "Technology of Metallic Materials/Corrosion.md",
-    "Technology of Metallic Materials/attachments/Pasted image 20260204174821.png",
-    "Technology of Metallic Materials/Surface Treatment of Steels.md",
-    "Technology of Metallic Materials/Crystal Microstructures.md",
-    "Technology of Metallic Materials/Thermal Expansion.md",
-    "Technology of Metallic Materials/Treatment.md",
-    "Technology of Metallic Materials/Biology.md",
-    "Technology of Metallic Materials/attachments/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf",
-    "Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf",
-    "Technology of Metallic Materials/New Text Document.txt",
-    "Technology of Metallic Materials/index.md",
-    "Technology of Metallic Materials/Fabrication of Metals.md",
-    "Technology of Metallic Materials/Defects.md",
-    "Technology of Metallic Materials.md",
-    "Technology of Metallic Materials/[.md",
-    "Technology of Metallic Materials/Overview of Metals.md",
+    "Technology of Metallic Materials/Aluminium Alloys.md",
     "Technology of Metallic Materials/Alloy Formation.md",
-    "Technology of Metallic Materials/Elasticity.md",
-    "Technology of Metallic Materials/Plastic Deformation.md",
-    "Technology of Metallic Materials/Classification of Metals.md",
+    "Science and Technology of Materials/Quick Graphs.md",
+    "Science and Technology of Materials/attachments/Pasted image 20260215235720.png",
+    "Science and Technology of Materials/Quick Tables.md",
+    "Science and Technology of Materials/Quick Formulae and Rules.md",
+    "Science and Technology of Materials/attachments/Pasted image 20260215232534.png",
+    "Science and Technology of Materials/attachments/Pasted image 20260215232519.png",
+    "Science and Technology of Materials/attachments/Pasted image 20260215230503.png",
+    "Science and Technology of Materials/attachments/Pasted image 20260215230221.png",
+    "Science and Technology of Materials/attachments/Pasted image 20260215225847.png",
+    "Science and Technology of Materials/Untitled 1.base",
+    "Science and Technology of Materials/Untitled.base",
+    "Science and Technology of Materials/attachments/Pasted image 20260215223557.png",
+    "Science and Technology of Materials/attachments/Pasted image 20260215223534.png",
+    "Science and Technology of Materials/index.md",
+    "index.md",
+    "Technology of Metallic Materials/Monolith.md",
+    "Technology of Metallic Materials/attachments/Monolith.pdf",
+    "Technology of Metallic Materials/attachments/Monolith.pdf",
+    "Technology of Metallic Materials/Strengthening of Steels.md",
+    "Technology of Metallic Materials/attachments/Pasted image 20260212211056.png",
+    "Technology of Metallic Materials/Steel Production.md",
+    "Technology of Metallic Materials/attachments/Pasted image 20260212211027.png",
+    "Technology of Metallic Materials/Fabrication of Metals.md",
+    "Technology of Metallic Materials/Surface Treatment of Steels.md",
     "Technology of Metallic Materials/QA.md",
-    "Technology of Metallic Materials/Condon-Morse Model.md",
-    "Technology of Metallic Materials/Alloy.md",
-    "templates/Insert Inline Math.md",
-    "templates/Insert Block Math.md",
-    "Excalidraw",
-    "Templates",
-    "Technology of Metallic Materials/attachments",
-    "Assets",
-    "Technology of Metallic Materials"
+    "Technology of Metallic Materials/Plastic Deformation.md",
+    "Technology of Metallic Materials/Overview of Metals.md",
+    "Technology of Metallic Materials/index.md",
+    "Technology of Metallic Materials/Elasticity.md",
+    "Technology of Metallic Materials/Defects.md",
+    "Technology of Metallic Materials/Crystal Microstructures.md",
+    "Technology of Metallic Materials/Corrosion.md",
+    "Technology of Metallic Materials/Classification of Metals.md",
+    "Technology of Metallic Materials/Cast Iron.md",
+    "Fundamentals of Strength of Materials/2. Constraints.md",
+    "Fundamentals of Strength of Materials/index.md",
+    "Science and Technology of Materials/attachments/Science And Technology of Materials.pdf",
+    "Fundamentals of Strength of Materials/attachments/FSM.pdf",
+    "Fundamentals of Strength of Materials/Untitled.base",
+    "Fundamentals of Strength of Materials/attachments",
+    "Mathematical Analysis II",
+    "Fundamentals of Strength of Materials"
   ]
 }

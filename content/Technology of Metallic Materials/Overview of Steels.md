@@ -42,9 +42,9 @@ The setup allows for carbon atoms to block dislocation movement. This is why in 
 
 # Non-Equilibrium Phase Diagram
 
-![Temp-Time Graph 1](graph1.png)
+![[Technology of Metallic Materials/attachments/graph1.png]]
 
-![Temp-Time Graph 2](graph2.png)
+![[Technology of Metallic Materials/attachments/graph2.png]]
 
 > The above diagrams show a time vs temperature diagram of how different forms of steel are created.
 > The first diagram shows hypoeutectoid steel (low carbon), while the second one shows hypereutectoid steel (high carbon)

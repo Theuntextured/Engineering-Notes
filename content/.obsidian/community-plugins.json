@@ -9,5 +9,7 @@
   "obsidian-excalidraw-plugin",
   "quick-latex",
   "quartz-syncer",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "dataview",
+  "better-export-pdf"
 ]

@@ -38,7 +38,7 @@ In **polycrystalline materials**, because of the large number of randomly orient
 
 Plastic deformation occurs on **Slip Systems**. A single Slip System is defined as the combination of a specific **Slip Plane** and a **Slip Direction**.
 
-Each structure (FCC, BCC, HCP) has characteristic slip systems. The ductility of the material depends on the number of **independent** slip systems available. According to the **Von Mises Criterion**, a polycrystal requires at least **5 independent slip systems** to deform arbitrarily without cracking. FCC metals (12 systems) satisfy this and are ductile; HCP metals (often <5 systems) do not, and are often brittle unless they deform by Twinning.
+Each structure (FCC, BCC, HCP) has characteristic slip systems. The ductility of the material depends on the number of **independent** slip systems available. According to the (Taylor) **[[Plastic Deformation#Taylor-Von Mises Criterion|Von Mises Criterion]]**, a polycrystal requires at least **5 independent slip systems** to deform arbitrarily without cracking. FCC metals (12 systems) satisfy this and are ductile; HCP metals (often <5 systems) do not, and are often brittle unless they deform by twinning.
 
 ![[Technology of Metallic Materials/attachments/Pasted image 20260128193645.png]]
 

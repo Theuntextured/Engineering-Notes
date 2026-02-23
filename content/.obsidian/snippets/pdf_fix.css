@@ -1,0 +1,6 @@
+@media print {
+  .callout {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
