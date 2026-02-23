@@ -1,8 +1,6 @@
 ---
 publish: true
 title: Linear Algebra and Geometry
-created: 2026-02-07T17:33:42.654+01:00
-modified: 2026-02-07T17:34:06.877+01:00
 cssclasses: ""
 ---
 

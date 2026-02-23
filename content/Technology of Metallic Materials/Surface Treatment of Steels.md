@@ -1,7 +1,5 @@
 ---
 publish: true
-created: 2026-02-05T15:26:53.799+01:00
-modified: 2026-02-05T15:43:16.353+01:00
 cssclasses: ""
 ---
 
