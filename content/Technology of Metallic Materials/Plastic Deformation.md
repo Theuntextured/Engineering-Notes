@@ -66,7 +66,9 @@ HOWEVER, this does not always hold. But we can infer that the yield strength for
 > [!info]
 > In FCC metals (e.g. $Al,Cu$), with random texture, $M=3.06$
 
-# Von Mises Criterion
+# Taylor-Von Mises Criterion
+_Not to be confused with the [[Fundamentals of Strength of Materials/6. Failure#Von Mises Criterion\|Von Mises Criterion]] from FSM!_
+
 In a polycrystal, every grain is surrounded by neighbours, therefore if one changes shape, the neighbours must also change shape, otherwise a crack forms and the material fails.
 In order for this to happen, the **Von Mises Criterion** states that there must be at least 5 degrees of freedom in order for the shape of the sample to change shape arbitrarily in 3D space (stretch, compress, shear etc.).
 

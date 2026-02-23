@@ -1,31 +1,6 @@
-```mermaid
-flowchart TD
-
-A[Liquid Metal] --> | Solidification| B[Unit Cell] 
-B --> C[Crystal]
-C --> D1[Single Crystal]
-C --> D2[Polycrystals]
-D1 --> E1[Final Part: Jet Turbine Blade]
-D2 --> E2[Engineering Products]
-```
+![[Technology of Metallic Materials/attachments/Pasted image 20260212210908.png]]
 # Sand Casting
-```mermaid
-graph TD
-    Pattern[Pattern Making] --> Mold[Mold Assembly]
-    Core[Core Making] --> Mold
-    Sand[Sand Prep] --> Mold
-    
-    Furnace[Melting Furnace] -- Molten Metal --> Pouring
-    Mold --> Pouring
-    
-    Pouring -- Solidification --> Shakeout[Shakeout]
-    
-    Shakeout -- Removal of Gates & Risers --> Cleaning
-    Shakeout -- Optional --> HeatTreat
-    
-    HeatTreat[Heat Treatment] --> Cleaning
-    Cleaning[Cleaning & Finishing] --> Inspection[Final Inspection]
-```
+![[Technology of Metallic Materials/attachments/mermaid-diagram-2026-02-12-210825.png]]
 # Relevant Shaping Methods
 ![[Technology of Metallic Materials/attachments/Pasted image 20260127131410.png]]
 # Embodied Energy
@@ -36,7 +11,7 @@ graph TD
 > The above graph shows the cost of acquiring different materials, both in $€/Kg$ and in embodied energy.
 
 # Microstructure Control
-We recall the Hall-Pitch relationship that describes yield strength's relationship with grain size:
+We recall the [[Science and Technology of Materials/index\|Hall-Petch]] relationship that describes yield strength's relationship with grain size:
 
 $$
 \sigma_{y}=\sigma_{0}+\frac{k}{\sqrt{ d }}
