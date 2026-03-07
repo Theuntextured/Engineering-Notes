@@ -68,7 +68,13 @@
     " |",
     ") |",
     "Hall-Petch",
-    "Ramberg-Osgood"
+    "Ramberg-Osgood",
+    "Claperyon",
+    "Frequentist",
+    "Combinatorics",
+    "codomain",
+    "codomains",
+    " "
   ],
   "promptDelete": false,
   "readableLineLength": true,
