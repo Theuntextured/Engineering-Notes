@@ -1,7 +1,7 @@
 {
   "git": {
     "remoteUrl": "https://github.com/Theuntextured/Engineering-Notes",
-    "branch": "v4",
+    "branch": "publish",
     "corsProxyUrl": "",
     "auth": {
       "type": "basic",

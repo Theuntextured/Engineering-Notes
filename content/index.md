@@ -20,7 +20,7 @@ cssclasses: ""
 |      [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]      |  <progress value="100" max="100"></progress> 100%  |
 |                            [[Physics II/index\|Physics II]]                            |  <progress value="100" max="100"></progress> 100%  |
 |   [[Science and Technology of Materials/index\|Science and Technology of Materials]]   | <progress value="100" max="100"></progress> 100%*  |
-| [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]] |   <progress value="70" max="100"></progress> 70%   |
+| [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]] |  <progress value="100" max="100"></progress> 100%  |
 |              [[Mathematical Analysis II/index\|Mathematical Analysis II]]              |    <progress value="0" max="100"></progress> 0%    |
 > _* PDF-Only Version_
 > 
@@ -31,6 +31,7 @@ cssclasses: ""
 > [!info]- Contributing
 > Got your notes you want to share? Sure! You can contribute via [GitHub](https://github.com/Theuntextured/Engineering-Notes).
 > The site is made using the latest version of Obsidian, and Quartz v4 to publish. Plugins are included in the repo.
+> The development branch is the one named "dev", while the "publish" branch is handled by the quartz sync plugin for Obsidian.
 
 > [!abstract]- Academic Free License v. 3.0
 > This Academic Free License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following licensing notice adjacent to the copyright notice for the Original Work:
