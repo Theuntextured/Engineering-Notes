@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "97a5f20fe6f22427",
+        "id": "cebccfb3f8b3c736",
         "type": "tabs",
         "children": [
           {
-            "id": "1509d5e21990215e",
+            "id": "742bfa8e1b5dafb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Applied Mechanics/Rigid Bodies.md",
+                "file": "Experimental Statistics and Mechanical Measurement/3. Statistics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rigid Bodies"
+              "title": "3. Statistics"
+            }
+          },
+          {
+            "id": "c172b95ae88e42f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Discrete Distributions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2fa90854bea65899",
@@ -199,10 +215,12 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "1509d5e21990215e",
+  "active": "c172b95ae88e42f5",
   "lastOpenFiles": [
-    "Applied Mechanics/index.md",
+    "Experimental Statistics and Mechanical Measurement/3. Statistics.md",
+    "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
     "Applied Mechanics/Rigid Bodies.md",
+    "Applied Mechanics/index.md",
     "Applied Mechanics/attachments/Pasted image 20260307185359.png",
     "Applied Mechanics/attachments/Pasted image 20260307185011.png",
     "Applied Mechanics/attachments/Pasted image 20260307185004.png",
