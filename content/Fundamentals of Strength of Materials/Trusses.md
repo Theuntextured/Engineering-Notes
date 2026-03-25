@@ -6,7 +6,7 @@ In each rod, the only internal action is the normal load $N$
 - If $N>0$, then the beam is loaded by traction
 - If $N<0$, then the beam is loaded by compression
 
-> [!check]+ Simplified [[1. Basics#Determinacy of Structures|degree of static determinacy]]
+> [!check]+ Simplified [[Fundamentals of Strength of Materials/1. Basics#Determinacy of Structures|degree of static determinacy]]
 > $$
 > h=\text{Number of Rods}+\text{Number of External Reactions}-2\cdot \text{Number of Internal Hunges}
 > $$

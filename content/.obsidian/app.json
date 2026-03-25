@@ -79,7 +79,9 @@
     "\n",
     "plane",
     "lideways\n",
-    "lane "
+    "lane ",
+    "Clapeyron",
+    "Iff** all"
   ],
   "promptDelete": false,
   "readableLineLength": true,
@@ -88,5 +90,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "alwaysUpdateLinks": true
 }
