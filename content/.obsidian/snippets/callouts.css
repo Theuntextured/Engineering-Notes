@@ -1,0 +1,15 @@
+.callout[data-callout="definition"] {
+    --callout-color: 26, 194, 152;
+    --callout-icon: book-open-check;
+}
+
+.callout[data-callout="graph"]{
+    --callout-color: 182, 216, 131;
+    --callout-icon: chart-line;
+}
+
+.callout[data-callout="diagram"]{
+    --callout-color: 190, 227, 229;
+    --callout-icon: chart-network;
+}
+
