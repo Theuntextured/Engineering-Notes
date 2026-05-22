@@ -4,95 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "85fcfc4d52167dd6",
+        "id": "d3e6788c73326337",
         "type": "tabs",
         "children": [
           {
-            "id": "3e22f8c58c90cc34",
+            "id": "626ca2f80be29e0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity and National Defence/Module A - Fundamentals/1. Introduction.md",
+                "file": "Thermodynamics and Heat Transfer/Thermodynamics/1. Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Introduction"
+              "title": "1. Basics"
             }
           },
           {
-            "id": "1efbe69aa2585e54",
+            "id": "13fb35ce30cba550",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity and National Defence/Module A - Fundamentals/2. Risk.md",
+                "file": "Thermodynamics and Heat Transfer/Thermodynamics/2. Working Fluids.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Risk"
+              "title": "2. Working Fluids"
             }
           },
           {
-            "id": "6a8bc08561c94753",
+            "id": "0cfde100e357bcd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity and National Defence/Module A - Fundamentals/3. Safety & Security.md",
+                "file": "Thermodynamics and Heat Transfer/Thermodynamics/Laws of Thermodynamics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Safety & Security"
-            }
-          },
-          {
-            "id": "8eb7cbfcd63476d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity and National Defence/Module A - Fundamentals/4. Availability.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Availability"
-            }
-          },
-          {
-            "id": "b4ef1c4c813307b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applied Mechanics/1. Rigid Bodies.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Rigid Bodies"
-            }
-          },
-          {
-            "id": "b6c3ca2117b13e48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Applied Mechanics/2. Dynamics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Dynamics"
+              "title": "Laws of Thermodynamics"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2fa90854bea65899",
@@ -246,19 +203,9 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
-          },
-          {
-            "id": "c271f71121484c7b",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -281,33 +228,40 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "b6c3ca2117b13e48",
+  "active": "13fb35ce30cba550",
   "lastOpenFiles": [
-    "Applied Mechanics/1. Rigid Bodies.md",
-    "Applied Mechanics/2. Dynamics.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/5. Protection.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments/Pasted image 20260404224511.png",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments/Pasted image 20260404223813.png",
-    "Cybersecurity and National Defence/Module A - Fundamentals/4. Availability.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/3. Safety & Security.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments/Pasted image 20260403013157.png",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments/Pasted image 20260403013008.png",
-    "Cybersecurity and National Defence/Module A - Fundamentals/Definitions.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/index.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/1. Introduction.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments/Pasted image 20260402005137.png",
-    "Cybersecurity and National Defence/Module A - Fundamentals/2. Risk.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments/Pasted image 20260330201712.png",
-    "Cybersecurity and National Defence/Module A - Fundamentals/attachments",
-    "Cybersecurity and National Defence/Module A - Fundamentals",
-    "Cybersecurity and National Defence/2. Security.md",
-    "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/Laws of Thermodynamics.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/2. Working Fluids.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/1. Basics.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260520195415.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260520194212.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260520193849.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260520193759.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516173007.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516172122.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516164235.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516164152.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516161856.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments",
+    "Thermodynamics and Heat Transfer/index.md",
+    "Applied Mechanics/3. Friction.md",
+    "Applied Mechanics/attachments/Pasted image 20260506224220.png",
     "Experimental Statistics and Mechanical Measurement/3. Statistics.md",
+    "Applied Mechanics/2. Dynamics.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/3. Working Fluids.md",
+    "Applied Mechanics/Rigid Bodies.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/index.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/Definitions.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/attachments",
+    "Cybersecurity and National Defence/Module A - Fundamentals/4. Availability.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/5. Protection.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/3. Safety & Security.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/2. Risk.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/1. Introduction.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals",
+    "Applied Mechanics/1. Rigid Bodies.md",
+    "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
     "Applied Mechanics/index.md",
-    "Applied Mechanics/attachments/Pasted image 20260307185359.png",
-    "Applied Mechanics/attachments/Pasted image 20260307185011.png",
-    "Applied Mechanics/attachments/Pasted image 20260307185004.png",
-    "Applied Mechanics/attachments/Pasted image 20260307184440.png",
     "Applied Mechanics/attachments",
     "Applied Mechanics/excalidraw.md",
     "Excalidraw/rigid-body-diagram.excalidraw.md",

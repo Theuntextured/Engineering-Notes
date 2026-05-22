@@ -84,7 +84,10 @@
     "Iff** all",
     "geenrate",
     "Pseudonymisation",
-    "linkability"
+    "linkability",
+    "Isovolumetric",
+    "Polytropic",
+    "polytropic"
   ],
   "promptDelete": false,
   "readableLineLength": true,
