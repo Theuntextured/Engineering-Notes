@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thermodynamics and Heat Transfer/Thermodynamics/Laws of Thermodynamics.md",
+                "file": "Thermodynamics and Heat Transfer/Thermodynamics/6. Isentropic Efficiency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laws of Thermodynamics"
+              "title": "6. Isentropic Efficiency"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,9 +228,19 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "13fb35ce30cba550",
+  "active": "0cfde100e357bcd3",
   "lastOpenFiles": [
+    "Thermodynamics and Heat Transfer/Thermodynamics/5. Entropy.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/7. Vapor Power and Refrigeration Cycles.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/9. Moist Air and Air Conditioning.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/6. Isentropic Efficiency.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/8. Gas Power Cycles.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/4. Carnot Cycle.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/3. Reversible and Irreversible Processes.md",
     "Thermodynamics and Heat Transfer/Thermodynamics/Laws of Thermodynamics.md",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525203845.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525193536.png",
+    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525193519.png",
     "Thermodynamics and Heat Transfer/Thermodynamics/2. Working Fluids.md",
     "Thermodynamics and Heat Transfer/Thermodynamics/1. Basics.md",
     "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260520195415.png",
@@ -240,12 +250,9 @@
     "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516173007.png",
     "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516172122.png",
     "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516164235.png",
-    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516164152.png",
-    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260516161856.png",
     "Thermodynamics and Heat Transfer/Thermodynamics/attachments",
     "Thermodynamics and Heat Transfer/index.md",
     "Applied Mechanics/3. Friction.md",
-    "Applied Mechanics/attachments/Pasted image 20260506224220.png",
     "Experimental Statistics and Mechanical Measurement/3. Statistics.md",
     "Applied Mechanics/2. Dynamics.md",
     "Thermodynamics and Heat Transfer/Thermodynamics/3. Working Fluids.md",
@@ -263,8 +270,6 @@
     "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
     "Applied Mechanics/index.md",
     "Applied Mechanics/attachments",
-    "Applied Mechanics/excalidraw.md",
-    "Excalidraw/rigid-body-diagram.excalidraw.md",
     "Excalidraw",
     "Untitled.canvas",
     "Applied Mechanics"
