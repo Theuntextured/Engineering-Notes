@@ -1,0 +1,40 @@
+{
+  "defaultSearchOptions": {
+    "caseSensitive": false,
+    "wholeWord": false,
+    "useRegex": false
+  },
+  "searchHistory": [
+    {
+      "query": "\\[cite\\: [0-9][0-9]\\]",
+      "replace": "",
+      "options": {
+        "caseSensitive": false,
+        "wholeWord": false,
+        "useRegex": true
+      },
+      "timestamp": 1781972143773
+    },
+    {
+      "query": "\\[cite\\: 2[0-9]\\]",
+      "replace": "",
+      "options": {
+        "caseSensitive": false,
+        "wholeWord": false,
+        "useRegex": true
+      },
+      "timestamp": 1781972125940
+    },
+    {
+      "query": "\\[cite\\: [0-9]\\]",
+      "replace": "",
+      "options": {
+        "caseSensitive": false,
+        "wholeWord": false,
+        "useRegex": true
+      },
+      "timestamp": 1781966751107
+    }
+  ],
+  "maxHistoryItems": 20
+}

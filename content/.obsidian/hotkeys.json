@@ -15,5 +15,14 @@
       ],
       "key": "0"
     }
+  ],
+  "search-and-replace-regex:open-regex-replace": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
   ]
 }

@@ -1,0 +1,13 @@
+/* Search and Replace Regex Plugin Styles */
+
+/**
+ * Most of the styling is done by native Obsidian styles
+ * This file contains only custom styles for specific elements
+ */
+
+.cm-panels.cm-panels-top {
+  border: none;
+}
+.clickable-icon.extra-setting-button.active {
+  color: var(--text-accent);
+}

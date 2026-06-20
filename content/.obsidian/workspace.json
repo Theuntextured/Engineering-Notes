@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "d3e6788c73326337",
+        "id": "7b1e2a89b00cb5cd",
         "type": "tabs",
         "children": [
           {
-            "id": "626ca2f80be29e0c",
+            "id": "d9d16a71da70b94a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thermodynamics and Heat Transfer/Short Version/Heat Transfer.md",
+                "file": "Cybersecurity and National Defence/Module F - Trusted Computing & Remote Attestation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Heat Transfer"
+              "title": "Module F - Trusted Computing & Remote Attestation"
+            }
+          },
+          {
+            "id": "3275f690778e5a00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity and National Defence/Module G - IoT Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Module G - IoT Security"
+            }
+          },
+          {
+            "id": "247a87f07f6110e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity and National Defence/Cryptographic Sovereignty and National Defence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cryptographic Sovereignty and National Defence"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,12 +228,23 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "626ca2f80be29e0c",
+  "active": "247a87f07f6110e2",
   "lastOpenFiles": [
+    "Cybersecurity and National Defence/Module G - IoT Security.md",
+    "Cybersecurity and National Defence/Cryptographic Sovereignty and National Defence.md",
+    "Cybersecurity and National Defence/Module F - Trusted Computing & Remote Attestation.md",
+    "Cybersecurity and National Defence/Module E - OS Security.md",
+    "Cybersecurity and National Defence/index.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals.md",
+    "Cybersecurity and National Defence/Module B - Human Factor & and Identity Access.md",
+    "Cybersecurity and National Defence/Module C - Cryptography.md",
+    "Cybersecurity and National Defence/Module D - IAM.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals",
+    "Thermodynamics and Heat Transfer/Short Version/Heat Transfer.md",
+    "Cybersecurity and National Defence/Module A - Fundamentals/1. Introduction.md",
     "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260616000811.png",
     "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260612192200.png",
     "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260612192123.png",
-    "Thermodynamics and Heat Transfer/Short Version/Heat Transfer.md",
     "Thermodynamics and Heat Transfer/Short Version/Constants.md",
     "Thermodynamics and Heat Transfer/Short Version/Thermodynamics.md",
     "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260614195757.png",
@@ -233,19 +273,9 @@
     "Thermodynamics and Heat Transfer/Thermodynamics/6. Isentropic Efficiency.md",
     "Thermodynamics and Heat Transfer/Thermodynamics/5. Entropy.md",
     "Thermodynamics and Heat Transfer/Thermodynamics/attachments",
-    "Thermodynamics and Heat Transfer/index.md",
-    "Applied Mechanics/3. Friction.md",
-    "Experimental Statistics and Mechanical Measurement/3. Statistics.md",
-    "Applied Mechanics/2. Dynamics.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/3. Working Fluids.md",
-    "Applied Mechanics/Rigid Bodies.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/index.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/Definitions.md",
     "Cybersecurity and National Defence/Module A - Fundamentals/attachments",
-    "Cybersecurity and National Defence/Module A - Fundamentals/4. Availability.md",
     "Cybersecurity and National Defence/Module A - Fundamentals",
     "Applied Mechanics/attachments",
-    "Excalidraw",
     "Untitled.canvas"
   ]
 }
