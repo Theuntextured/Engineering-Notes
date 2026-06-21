@@ -90,7 +90,7 @@ Nu=\frac{hL}{k_{fluid}}
 $$
 
 $$
-\mathrm{Re}=\frac{vL}{\nu}=\frac{\rho vD}{\mu}
+Re=\frac{vL}{\nu}=\frac{\rho vD}{\mu}=\frac{\dot{m}D_{h}}{A\mu}
 $$
 
 $$
@@ -115,4 +115,76 @@ $$
 \end{align}
 $$
 
+$$
+\begin{align}
+q=UA\Delta T_{lm} &  & \Delta T_{lm}=\frac{\Delta T_{1}-\Delta T_{2}}{\ln \left( \frac{\Delta T_{1}}{\Delta T_{2}} \right)}
+\end{align}
+$$
 
+
+---
+
+# Radiation Heat Transfer
+
+$$
+\sigma = 5.67 \times 10^{-8} \text{ W/(m}^2\text{K}^4\text{)}
+$$
+### Stefan-Boltzmann Law
+
+$$
+E_{b}=\sigma T^4
+$$
+
+### Reciprocity Relation
+
+$$
+A_{i}F_{ij}=A_{j}F_{ji}
+$$
+
+### Summation Rule
+
+$$
+\sum_{j=1}^{N} F_{ij} = 1
+$$
+
+### Net Heat Exchange (Two Black Surfaces)
+
+$$
+q_{12}=A_{1}F_{12}\sigma(T_{1}^4-T_{2}^4)
+$$
+
+### Surface Resistance
+
+$$
+R_{surf}=\frac{1-\epsilon}{\epsilon A}
+$$
+
+### Space Resistance
+
+$$
+R_{space}=\frac{1}{A_{i}F_{ij}}
+$$
+
+### Net Heat Transfer (Two Gray Surfaces)
+
+$$
+q_{12}=\frac{\sigma(T_{1}^4-T_{2}^4)}{\frac{1-\epsilon_{1}}{\epsilon_{1}A_{1}}+\frac{1}{A_{1}F_{12}}+\frac{1-\epsilon_{2}}{\epsilon_{2}A_{2}}}
+$$
+
+### Infinite Parallel Plates
+
+$$
+q=\frac{A\sigma(T_{1}^4-T_{2}^4)}{\frac{1}{\epsilon_{1}}+\frac{1}{\epsilon_{2}}-1}
+$$
+
+### Small Body in Large Enclosure
+
+$$
+q=\epsilon_{1}A_{1}\sigma(T_{1}^4-T_{2}^4)
+$$
+
+### Infinite Parallel Plates with One Shield
+
+$$
+q=\frac{A\sigma(T_{1}^4-T_{2}^4)}{\left(\frac{1}{\epsilon_{1}}+\frac{1}{\epsilon_{3}}-1\right)+\left(\frac{1}{\epsilon_{3}}+\frac{1}{\epsilon_{2}}-1\right)}
+$$
