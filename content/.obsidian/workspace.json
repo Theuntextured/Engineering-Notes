@@ -11,10 +11,14 @@
             "id": "d180871743ff0503",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity and National Defence/Module B - Human Factor & and Identity Access.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Module B - Human Factor & and Identity Access"
             }
           }
         ]
@@ -197,6 +201,7 @@
   },
   "active": "d180871743ff0503",
   "lastOpenFiles": [
+    "Cybersecurity and National Defence/Module A - Fundamentals.md",
     "index.md",
     "Technology of Metallic Materials/Overview of Steels.md",
     "Technology of Metallic Materials/Strengthening of Steels.md",
@@ -235,7 +240,6 @@
     "Technology of Metallic Materials/Condon-Morse Model.md",
     "Technology of Metallic Materials/Alloy.md",
     "templates/Insert Inline Math.md",
-    "templates/Insert Block Math.md",
     "Excalidraw",
     "Templates",
     "Technology of Metallic Materials/attachments",
