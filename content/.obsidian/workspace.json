@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cdf9970e30f8df1b",
+        "id": "8967750d5691ba4e",
         "type": "tabs",
         "children": [
           {
-            "id": "d180871743ff0503",
+            "id": "015e2076fa275401",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity and National Defence/Module B - Human Factor & and Identity Access.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Module B - Human Factor & and Identity Access"
+              "title": "New tab"
             }
           }
         ]
@@ -171,8 +167,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -199,8 +195,27 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "d180871743ff0503",
+  "active": "015e2076fa275401",
   "lastOpenFiles": [
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/3. The Hardness Measurements.md",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/2. Mass Measurements.md",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/1. Length Measurements.md",
+    "Experimental Statistics and Mechanical Measurement/index.md",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement",
+    "Experimental Statistics and Mechanical Measurement/Statistics/10. The Expanded Uncertainty.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/9. The Combined Uncertainty.md",
+    "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/Drawing 2026-02-24 09.30.28.excalidraw.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics",
+    "Experimental Statistics and Mechanical Measurement/Statistics/4. Beyond Determinism - Statistics.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/5. Statistical Management of Experimental Data.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/6. Identification of Systematic Factors & Linear Regression.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/7. Hypothesis Test and Introduction to ANOVA.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/8. Uncertainty of Type B.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/3. Beyond Determinism - Probability.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/2. Characteristics of measuring instruments.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/1. Information Contained in Measurement Results.md",
+    "Cybersecurity and National Defence/Module B - Human Factor & and Identity Access.md",
+    "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
     "Cybersecurity and National Defence/Module A - Fundamentals.md",
     "index.md",
     "Technology of Metallic Materials/Overview of Steels.md",
@@ -220,26 +235,9 @@
     "Technology of Metallic Materials/attachments/Pasted image 20260204174821.png",
     "Technology of Metallic Materials/Surface Treatment of Steels.md",
     "Technology of Metallic Materials/Crystal Microstructures.md",
-    "Technology of Metallic Materials/Thermal Expansion.md",
-    "Technology of Metallic Materials/Treatment.md",
-    "Technology of Metallic Materials/Biology.md",
     "Technology of Metallic Materials/attachments/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf",
     "Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf",
     "Technology of Metallic Materials/New Text Document.txt",
-    "Technology of Metallic Materials/index.md",
-    "Technology of Metallic Materials/Fabrication of Metals.md",
-    "Technology of Metallic Materials/Defects.md",
-    "Technology of Metallic Materials.md",
-    "Technology of Metallic Materials/[.md",
-    "Technology of Metallic Materials/Overview of Metals.md",
-    "Technology of Metallic Materials/Alloy Formation.md",
-    "Technology of Metallic Materials/Elasticity.md",
-    "Technology of Metallic Materials/Plastic Deformation.md",
-    "Technology of Metallic Materials/Classification of Metals.md",
-    "Technology of Metallic Materials/QA.md",
-    "Technology of Metallic Materials/Condon-Morse Model.md",
-    "Technology of Metallic Materials/Alloy.md",
-    "templates/Insert Inline Math.md",
     "Excalidraw",
     "Templates",
     "Technology of Metallic Materials/attachments",
