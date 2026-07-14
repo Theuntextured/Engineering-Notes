@@ -10,22 +10,23 @@ cssclasses: ""
 **Here you can find a bunch of my notes for Mechanical Engineering!**
 ## Progress
 
-|                                                      Subject                                                      |                      Progress                       |
-| :---------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
-|                            [[Mathematical Analysis I/index\|Mathematical Analysis I]]                             |  <progress value="100" max="100"></progress> 100%*  |
-|                                          [[Chemistry/index\|Chemistry]]                                           | <progress value="100" max="100"></progress> 100%**  |
-|                        [[Linear Algebra and Geometry/index\|Linear Algebra and Geometry]]                         | <progress value="100" max="100"></progress> 100%**  |
-|                                          [[Physics I/index\|Physics I]]                                           |  <progress value="100" max="100"></progress> 100%*  |
-|                                [[Engineering Drawing/index\|Engineering Drawing]]                                 |  <progress value="100" max="100"></progress> 100%*  |
-|                   [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]                    |  <progress value="100" max="100"></progress> 100%   |
-|                                         [[Physics II/index\|Physics II]]                                          |  <progress value="100" max="100"></progress> 100%   |
-|                [[Science and Technology of Materials/index\|Science and Technology of Materials]]                 |  <progress value="100" max="100"></progress> 100%*  |
-|              [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]]               |  <progress value="100" max="100"></progress> 100%   |
-|                           [[Mathematical Analysis II/index\|Mathematical Analysis II]]                            |    <progress value="0" max="100"></progress> 0%     |
-|                   [[Thermodynamics and Heat Transfer/index\|Thermodynamics and Heat Transfer]]                    |  <progress value="100" max="100"></progress> 100%   |
-|                 [[Cybersecurity and National Defence/index\|Cybersecurity and National Defence]]                  |  <progress value="100" max="100"></progress> 100%   |
-|                                  [[Applied Mechanics/index\|Applied Mechanics]]                                   | <progress value="100" max="100"></progress> 100%*** |
-| [[Experimental Statistics and Mechanical Measurement/index\|Experimental Statisticcs and Mechanical Measurement]] |  <progress value="100" max="100"></progress> 100%   |
+|                                                          Subject                                                          |                      Progress                       |
+| :-----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
+|                                [[Mathematical Analysis I/index\|Mathematical Analysis I]]                                 |  <progress value="100" max="100"></progress> 100%*  |
+|                                              [[Chemistry/index\|Chemistry]]                                               | <progress value="100" max="100"></progress> 100%**  |
+|                            [[Linear Algebra and Geometry/index\|Linear Algebra and Geometry]]                             | <progress value="100" max="100"></progress> 100%**  |
+|                                              [[Physics I/index\|Physics I]]                                               |  <progress value="100" max="100"></progress> 100%*  |
+|                                    [[Engineering Drawing/index\|Engineering Drawing]]                                     |  <progress value="100" max="100"></progress> 100%*  |
+|                       [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]                        |  <progress value="100" max="100"></progress> 100%   |
+|                                             [[Physics II/index\|Physics II]]                                              |  <progress value="100" max="100"></progress> 100%   |
+|                    [[Science and Technology of Materials/index\|Science and Technology of Materials]]                     |  <progress value="100" max="100"></progress> 100%*  |
+|                  [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]]                   |  <progress value="100" max="100"></progress> 100%   |
+|                               [[Mathematical Analysis II/index\|Mathematical Analysis II]]                                |    <progress value="0" max="100"></progress> 0%     |
+|                       [[Thermodynamics and Heat Transfer/index\|Thermodynamics and Heat Transfer]]                        |  <progress value="100" max="100"></progress> 100%   |
+|                     [[Cybersecurity and National Defence/index\|Cybersecurity and National Defence]]                      |  <progress value="100" max="100"></progress> 100%   |
+|                                      [[Applied Mechanics/index\|Applied Mechanics]]                                       | <progress value="100" max="100"></progress> 100%*** |
+|     [[Experimental Statistics and Mechanical Measurement/index\|Experimental Statisticcs and Mechanical Measurement]]     |  <progress value="100" max="100"></progress> 100%   |
+| [[Intraprendenti - Additive Manufacturing/index\|"I Nuovi Processi Basati Sull'Additive Manufacturing" - Intraprendenti]] |  <progress value="100" max="100"></progress> 100%   |
 > _* PDF-Only Version._
 > 
 > _** Full PDF as well as a compressed PDF with key points._
