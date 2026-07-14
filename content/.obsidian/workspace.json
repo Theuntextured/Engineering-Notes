@@ -1,70 +1,41 @@
 {
   "main": {
-    "id": "3be11050ef5e49b0",
+    "id": "03b8021dde44c622",
     "type": "split",
     "children": [
       {
-        "id": "7b1e2a89b00cb5cd",
+        "id": "8967750d5691ba4e",
         "type": "tabs",
         "children": [
           {
-            "id": "d9d16a71da70b94a",
+            "id": "015e2076fa275401",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity and National Defence/Module F - Trusted Computing & Remote Attestation.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module F - Trusted Computing & Remote Attestation"
-            }
-          },
-          {
-            "id": "3275f690778e5a00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity and National Defence/Module G - IoT Security.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Module G - IoT Security"
-            }
-          },
-          {
-            "id": "247a87f07f6110e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cybersecurity and National Defence/Cryptographic Sovereignty and National Defence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cryptographic Sovereignty and National Defence"
+              "title": "index"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ac2e72908fecbff8",
+    "id": "d42bffdb31104938",
     "type": "split",
     "children": [
       {
-        "id": "e44fdc69e058e3ae",
+        "id": "a60c6388d841e66f",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b306ebda4dd625",
+            "id": "54aff1d31246de4b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,7 +48,7 @@
             }
           },
           {
-            "id": "28bdcd4f56f4405b",
+            "id": "9155cb2233f01231",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -94,7 +65,7 @@
             }
           },
           {
-            "id": "bdc1c318e617ccab",
+            "id": "d5a0f73df9184fda",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "2fa90854bea65899",
+    "id": "ca2ad5bf95487563",
     "type": "split",
     "children": [
       {
-        "id": "ebe2dcc10c9ff772",
+        "id": "da52de4893acebdb",
         "type": "tabs",
         "children": [
           {
-            "id": "11bbe0c13dafeabe",
+            "id": "85a6ce5831e2c6b0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applied Mechanics/Rigid Bodies.md",
+                "file": "Technology of Metallic Materials/Overview of Metals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rigid Bodies"
+              "title": "Backlinks for Overview of Metals"
             }
           },
           {
-            "id": "4944e9c9591137c4",
+            "id": "270f821b5e129c89",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Applied Mechanics/Rigid Bodies.md",
+                "file": "Technology of Metallic Materials/Overview of Metals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rigid Bodies"
+              "title": "Outgoing links from Overview of Metals"
             }
           },
           {
-            "id": "e581f310a556173d",
+            "id": "c073499d1681cc9c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -166,7 +137,7 @@
             }
           },
           {
-            "id": "aecf5e73bf2831f2",
+            "id": "cf15317db93d6cda",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -180,28 +151,28 @@
             }
           },
           {
-            "id": "78a4e9e1f697d06f",
+            "id": "97d23e4a8779a01d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Applied Mechanics/Rigid Bodies.md",
+                "file": "Technology of Metallic Materials/Strengthening of Steels.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rigid Bodies"
+              "title": "Outline of Strengthening of Steels"
             }
           },
           {
-            "id": "fd770e5bf81b5b4a",
+            "id": "db2a99bb9b1b6a9d",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -228,54 +199,53 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "247a87f07f6110e2",
+  "active": "015e2076fa275401",
   "lastOpenFiles": [
-    "Cybersecurity and National Defence/Module G - IoT Security.md",
-    "Cybersecurity and National Defence/Cryptographic Sovereignty and National Defence.md",
-    "Cybersecurity and National Defence/Module F - Trusted Computing & Remote Attestation.md",
-    "Cybersecurity and National Defence/Module E - OS Security.md",
-    "Cybersecurity and National Defence/index.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals.md",
-    "Cybersecurity and National Defence/Module B - Human Factor & and Identity Access.md",
-    "Cybersecurity and National Defence/Module C - Cryptography.md",
-    "Cybersecurity and National Defence/Module D - IAM.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals",
-    "Thermodynamics and Heat Transfer/Short Version/Heat Transfer.md",
-    "Cybersecurity and National Defence/Module A - Fundamentals/1. Introduction.md",
-    "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260616000811.png",
-    "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260612192200.png",
-    "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260612192123.png",
-    "Thermodynamics and Heat Transfer/Short Version/Constants.md",
-    "Thermodynamics and Heat Transfer/Short Version/Thermodynamics.md",
-    "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260614195757.png",
-    "Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260613154637.png",
-    "Thermodynamics and Heat Transfer/Short Version/attachments",
-    "Thermodynamics and Heat Transfer/Thermodynamics/3. Reversible and Irreversible Processes.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/4. Carnot Cycle.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/Laws of Thermodynamics.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/1. Basics.md",
-    "Intraprendenti - Additive Manufacturing/Tipi e Utilizzi.md",
-    "Intraprendenti - Additive Manufacturing/Ciclo di Additive Manufacturing.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/4. Beyond Determinism - Statistics.md",
+    "index.md",
+    "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
+    "Technology of Metallic Materials/attachments/Pasted image 20260212210756.png",
     "Intraprendenti - Additive Manufacturing/attachments/Pasted image 20260604231055.png",
     "Intraprendenti - Additive Manufacturing/attachments/Pasted image 20260604231038.png",
     "Intraprendenti - Additive Manufacturing/attachments/Pasted image 20260604230923.png",
-    "Intraprendenti - Additive Manufacturing/attachments/Pasted image 20260604230911.png",
-    "Intraprendenti - Additive Manufacturing/attachments",
-    "Intraprendenti - Additive Manufacturing/index.md",
-    "Intraprendenti - Additive Manufacturing",
-    "Thermodynamics and Heat Transfer/Thermodynamics/7. Vapor Power and Refrigeration Cycles.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/2. Working Fluids.md",
-    "Thermodynamics and Heat Transfer/Short Version/Thermodynamics",
-    "Thermodynamics and Heat Transfer/Short Version",
-    "Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525203845.png",
-    "Thermodynamics and Heat Transfer/Thermodynamics/9. Moist Air and Air Conditioning.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/8. Gas Power Cycles.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/6. Isentropic Efficiency.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/5. Entropy.md",
-    "Thermodynamics and Heat Transfer/Thermodynamics/attachments",
+    "Fundamentals of Strength of Materials/attachments/Screenshot 2026-02-09 010318.png",
+    "Fundamentals of Strength of Materials/attachments/Pasted image 20260209004743.png",
+    "Fundamentals of Strength of Materials/attachments/Pasted image 20260208172101.png",
+    "Fundamentals of Strength of Materials/attachments/Pasted image 20260207235106.png",
+    "Fundamentals of Strength of Materials/attachments/Pasted image 20260207202742.png",
+    "Fundamentals of Strength of Materials/attachments/Pasted image 20260207202726.png",
+    "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/venn2.excalidraw.md",
+    "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/Venn3.excalidraw.md",
+    "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/Drawing 2026-02-24 09.30.28.excalidraw.md",
+    "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw",
+    "Experimental Statistics and Mechanical Measurement/attachments",
+    "Experimental Statistics and Mechanical Measurement/3. Statistics.md",
+    "Experimental Statistics and Mechanical Measurement/2. Probability.md",
+    "Experimental Statistics and Mechanical Measurement/1. Introduction.md",
+    "Cybersecurity and National Defence/Cryptographic Sovereignty and National Defence.md",
+    "Applied Mechanics/3. Friction.md",
+    "Applied Mechanics/2. Dynamics.md",
+    "Applied Mechanics/1. Rigid Bodies.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/9. The Combined Uncertainty.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/8. Uncertainty of Type B.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/7. Hypothesis Test and Introduction to ANOVA.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/6. Identification of Systematic Factors & Linear Regression.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/5. Statistical Management of Experimental Data.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/3. Beyond Determinism - Probability.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/2. Characteristics of measuring instruments.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/10. The Expanded Uncertainty.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics/1. Information Contained in Measurement Results.md",
+    "Experimental Statistics and Mechanical Measurement/Statistics",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/3. The Hardness Measurements.md",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/2. Mass Measurements.md",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/1. Length Measurements.md",
+    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement",
+    "Cybersecurity and National Defence/Module H - Cryptographic Sovereignty and National Defence.md",
     "Cybersecurity and National Defence/Module A - Fundamentals/attachments",
     "Cybersecurity and National Defence/Module A - Fundamentals",
-    "Applied Mechanics/attachments",
-    "Untitled.canvas"
+    "Technology of Metallic Materials/attachments/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf",
+    "Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf",
+    "Technology of Metallic Materials/New Text Document.txt",
+    "Excalidraw"
   ]
 }

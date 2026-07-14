@@ -9,28 +9,32 @@ cssclasses: ""
 **Here you can find a bunch of my notes for Mechanical Engineering!**
 ## Progress
 
-|                                        Subject                                         |                      Progress                      |
-| :------------------------------------------------------------------------------------: | :------------------------------------------------: |
-|               [[Mathematical Analysis I/index\|Mathematical Analysis I]]               | <progress value="100" max="100"></progress> 100%*  |
-|                             [[Chemistry/index\|Chemistry]]                             | <progress value="100" max="100"></progress> 100%** |
-|           [[Linear Algebra and Geometry/index\|Linear Algebra and Geometry]]           | <progress value="100" max="100"></progress> 100%** |
-|                             [[Physics I/index\|Physics I]]                             | <progress value="100" max="100"></progress> 100%*  |
-|                   [[Engineering Drawing/index\|Engineering Drawing]]                   | <progress value="100" max="100"></progress> 100%*  |
-|      [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]      |  <progress value="100" max="100"></progress> 100%  |
-|                            [[Physics II/index\|Physics II]]                            |  <progress value="100" max="100"></progress> 100%  |
-|   [[Science and Technology of Materials/index\|Science and Technology of Materials]]   | <progress value="100" max="100"></progress> 100%*  |
-| [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]] |  <progress value="100" max="100"></progress> 100%  |
-|              [[Mathematical Analysis II/index\|Mathematical Analysis II]]              |    <progress value="0" max="100"></progress> 0%    |
-> _* PDF-Only Version_
+|                                                      Subject                                                      |                      Progress                       |
+| :---------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
+|                            [[Mathematical Analysis I/index\|Mathematical Analysis I]]                             |  <progress value="100" max="100"></progress> 100%*  |
+|                                          [[Chemistry/index\|Chemistry]]                                           | <progress value="100" max="100"></progress> 100%**  |
+|                        [[Linear Algebra and Geometry/index\|Linear Algebra and Geometry]]                         | <progress value="100" max="100"></progress> 100%**  |
+|                                          [[Physics I/index\|Physics I]]                                           |  <progress value="100" max="100"></progress> 100%*  |
+|                                [[Engineering Drawing/index\|Engineering Drawing]]                                 |  <progress value="100" max="100"></progress> 100%*  |
+|                   [[Technology of Metallic Materials/index\|Technology of Metallic Materials]]                    |  <progress value="100" max="100"></progress> 100%   |
+|                                         [[Physics II/index\|Physics II]]                                          |  <progress value="100" max="100"></progress> 100%   |
+|                [[Science and Technology of Materials/index\|Science and Technology of Materials]]                 |  <progress value="100" max="100"></progress> 100%*  |
+|              [[Fundamentals of Strength of Materials/index\|Fundamentals of Strength of Materials]]               |  <progress value="100" max="100"></progress> 100%   |
+|                           [[Mathematical Analysis II/index\|Mathematical Analysis II]]                            |    <progress value="0" max="100"></progress> 0%     |
+|                   [[Thermodynamics and Heat Transfer/index\|Thermodynamics and Heat Transfer]]                    |  <progress value="100" max="100"></progress> 100%   |
+|                 [[Cybersecurity and National Defence/index\|Cybersecurity and National Defence]]                  |  <progress value="100" max="100"></progress> 100%   |
+|                                  [[Applied Mechanics/index\|Applied Mechanics]]                                   | <progress value="100" max="100"></progress> 100%*** |
+| [[Experimental Statistics and Mechanical Measurement/index\|Experimental Statisticcs and Mechanical Measurement]] |  <progress value="100" max="100"></progress> 100%   |
+> _* PDF-Only Version._
 > 
 > _** Full PDF as well as a compressed PDF with key points._
+> 
+> _*** Key points only._
 
 ---
 
 > [!info]- Contributing
-> Got your notes you want to share? Sure! You can contribute via [GitHub](https://github.com/Theuntextured/Engineering-Notes).
-> The site is made using the latest version of Obsidian, and Quartz v4 to publish. Plugins are included in the repo.
-> The development branch is the one named "dev", while the "publish" branch is handled by the quartz sync plugin for Obsidian.
+> No
 
 > [!abstract]- Academic Free License v. 3.0
 > This Academic Free License (the "License") applies to any original work of authorship (the "Original Work") whose owner (the "Licensor") has placed the following licensing notice adjacent to the copyright notice for the Original Work:
