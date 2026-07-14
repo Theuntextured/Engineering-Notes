@@ -168,7 +168,7 @@ If steel is quenched, it will produce martensite instead, which is harder but mo
 
 Hot rolling is the process of rolling a metal under high temperatures (above re-crystallization temperatures) to allow for internal deformation forces to dissolve and to introduce dynamic recrystallization (constant formation of strain-free grains.).
 
-![[Pasted image 20260202204648.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260202204648.png]]
 
-![[Pasted image 20260202204657.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260202204657.png]]
 

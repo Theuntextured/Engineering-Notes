@@ -3,7 +3,7 @@
 > [!important]+ Definition
 > No intrinsic magnetic dipoles, but will have magnetic dipoles when inside a magnetic field, generating a magnetic field opposing the external one.
 
-Usually, they have [[Magnetostatics#Magnetic Dipole|magnetic susceptability]] $\chi_{m}\approx-10^{-5}$, meaning close but slightly lower than in a vacuum ($\chi_{m}=0$). This means that the diamagnetic property is typically ignored.
+Usually, they have [[Physics II/Magnetostatics#Magnetic Dipole\|magnetic susceptability]] $\chi_{m}\approx-10^{-5}$, meaning close but slightly lower than in a vacuum ($\chi_{m}=0$). This means that the diamagnetic property is typically ignored.
 # Paramagnetic Materials
 
 > [!important]+ Definition
@@ -55,7 +55,7 @@ $$
 
 ## Hysteresis Loop
 
-![[Pasted image 20260206002031.png]]
+![[Physics II/attachments/Pasted image 20260206002031.png]]
 > What happens when a ferromagnetic material is subjected to a varying magnetizing field.
 
 The area within the graph is the energy wasted as heat per cycle.

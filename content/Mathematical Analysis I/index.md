@@ -1,4 +1,7 @@
 ---
+publish: true
 title: Mathematical Analysis I
+cssclasses: ""
 ---
-![[Analysis 1 Notes.pdf]]
+
+![[Mathematical Analysis I/attachments/Analysis 1 Notes.pdf]]

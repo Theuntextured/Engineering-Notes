@@ -1,7 +1,9 @@
 ---
-publish: false
+publish: true
 draft: true
+cssclasses: ""
 ---
+
 # Technology of Metallic Materials
 
 ```dataviewjs

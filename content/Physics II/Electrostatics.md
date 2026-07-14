@@ -19,9 +19,9 @@ $$
 > [!check]+ Electrostatic Field Properties
 > - Central Force
 > - Conservative Force
-> - [[Electrostatics#Gauss' Law|Gauss Law]] holds
+> - [[Physics II/Electrostatics#Gauss' Law\|Gauss Law]] holds
 > - NOT an acceleration field, since charge does not depend on mass
-> - Has a [[#Electrostatic Potential|scalar potential]] associated
+> - Has a [[Physics II/Electrostatics#Electrostatic Potential\|scalar potential]] associated
 > - Force can be attractive or repulsive
 > - Radial
 > - Measured in $NC^{-1}$
@@ -71,7 +71,7 @@ $$
 # Gauss' Law
 
 > [!warning]+ DEFINITION
-> For a charge INSIDE a CLOSED surface generating an electrostatic field, we have [[Fields#Flux|flux]]:
+> For a charge INSIDE a CLOSED surface generating an electrostatic field, we have [[Physics II/Fields#Flux\|flux]]:
 > $$
 > \Phi_{\vec{E}}=\oint_{S}\vec{E}\cdot d\vec{S}=\frac{Q}{\varepsilon_{0}}
 >$$

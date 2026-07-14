@@ -1,14 +1,14 @@
-![[Pasted image 20260212211056.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260212211056.png]]
 
 # Heat Treatment of Steels
 *Conventional heat treatments for Hypo- and Hyper-eutectoid steels. The goal is to modify microstructure (Grain size, phase distribution) to alter mechanical properties.*
 
-> [!important]+ Reminder from [[Overview of Steels#Non-Equilibrium Phase Diagram]]
+> [!important]+ Reminder from [[Technology of Metallic Materials/Overview of Steels#Non-Equilibrium Phase Diagram]]
 > * **$A_1$:** Eutectoid temperature (~727°C). Boundary between Austenite and Pearlite.
 > * **$A_3$:** Upper critical temperature for **Hypo**-eutectoid steels (Austenite limit).
 > * **$A_{cm}$:** Upper critical temperature for **Hyper**-eutectoid steels (Cementite solubility limit).
 
-![[Pasted image 20260203164131.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260203164131.png]]
 
 ---
 
@@ -52,11 +52,11 @@
 * **Annealing:** Diffusion-driven. Max softening. Equilibrium microstructure.
 * **Normalizing:** Air-cooled. Slightly non-equilibrium. Moderate refinement.
 
-![[Pasted image 20260203164317.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260203164317.png]]
 
 ## Isothermal H.T. On a TTT/CCT Diagram
 
-![[Pasted image 20260203164503.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260203164503.png]]
 
 > [!check]+ Bainite
 > A microstructure of Ferrite and Cementite that forms between the temperature ranges of Pearlite and Martensite (roughly 250°C – 550°C). While martensite is BCT, bainite is BCC.
@@ -70,13 +70,13 @@
 **Why it matters:**
 It offers a unique balance. You get hardness similar to tempered martensite but with better ductility and toughness. Plus, since you don't do a violent quench to room temperature, you avoid the internal stresses and cracking risks associated with Martensite.
 >
->![[Pasted image 20260203165503.png]]
+>![[Technology of Metallic Materials/attachments/Pasted image 20260203165503.png]]
 
 > [!note]
 > TTT (Time-temperature-Transformation) diagrams show transformations in isotermal environments. In the real world, this is impossible, since materials cannot change temperature instantly.
 > CCT (Continuous Cooling Transformation) diagrams show the real world since things cool down gradually. Typically, reactions are slower than in an ideal world, so in a CCT diagram reactions are shifter bottom-right with respect to a TTT diagram.(reactions are slower and happen at lower temperatures).
 > 
-> ![[Pasted image 20260203171337.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260203171337.png]]
 
 
 ---
@@ -100,7 +100,7 @@ $$$Q=HA\Delta T$$
 
 ---
 
-![[Pasted image 20260204162043.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204162043.png]]
 >In a thick part, the surface cools much faster than the core. The surface transforms to Martensite (and expands) first, creating a hard shell. When the core later tries to expand, it is trapped, leading to high residual stresses and **quench cracking**.
 >Quenching cracks are very common in larger pieces.
 
@@ -124,19 +124,19 @@ An interrupted quenching method designed to minimize distortion.
 
 **Consequences:**
 1.  **$\downarrow$ Hardness & Fatigue Strength:** Soft spots in the hard martensite matrix.
-2.  **Dimensional Instability:** The residual $\gamma$ will eventually transform later in service. This transformation causes [[#Volumetric Expansion & Distortion]].
+2.  **Dimensional Instability:** The residual $\gamma$ will eventually transform later in service. This transformation causes [[Technology of Metallic Materials/Strengthening of Steels#Volumetric Expansion & Distortion]].
 3.  **Internal Stresses:** The delayed expansion creates new internal stress.
 
 **Solutions:**
 * **Cryogenic Treatment:** Continue quenching into sub-zero temperatures (Liquid Nitrogen at -150°C or Dry Ice at -80°C) to force the cross of the $M_f$ line.
-* **Multiple Tempering:** Execute two or more [[#Tempering]] cycles to decompose the retained austenite into stable phases.
+* **Multiple Tempering:** Execute two or more [[Technology of Metallic Materials/Strengthening of Steels#Tempering]] cycles to decompose the retained austenite into stable phases.
 
-![[Pasted image 20260204161913.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204161913.png]]
 
 ---
 # Volumetric Expansion & Distortion
 
-![[Pasted image 20260204153034.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204153034.png]]
 
 * **Thermal Contraction:** As temperature drops, the metal *wants* to shrink.
 * **Phase Transformation:** As Austenite turns into Martensite (or Ferrite), the crystal lattice wants to expand.
@@ -153,9 +153,9 @@ This phenomenon can cause huge internal stresses, which can lead to quenching cr
 > [!important]+ Definition
 > Tempering is a heat treatment process, mainly for metals like steel, that involves reheating a hardened material to a specific temperature below its critical point and then cooling it slowly to reduce brittleness, increase toughness, and relieve internal stress, creating a better balance of strength and ductility for practical use.
 > > [!note]- Graph
-> > ![[Pasted image 20260204161728.png]]
+> > ![[Technology of Metallic Materials/attachments/Pasted image 20260204161728.png]]
 
-![[Pasted image 20260204155454.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204155454.png]]
 
 > [!important]+ Temper Embrittlement (Krupp's Illness)
 Normally, tempering increases toughness ($K$). However, if you hold the steel in the **400°C – 550°C** range (or cool slowly through it), the toughness drops dramatically.
@@ -187,12 +187,12 @@ You ruin the steel if you do any of these:
 
 Martensite is extremely hard and brittle. After tempering, the cementite phase turns into spheroidal shapes. The tempering is done at 250-650 °C. This reduces internal stresses and increases toughness.
 
-![[Pasted image 20260204153612.png]]
-![[Pasted image 20260204153719.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204153612.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204153719.png]]
 
 ## Tempered Carbon Steels
 
-![[Pasted image 20260204153756.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204153756.png]]
 
 | Element                    | Primary Roles                       | Advantages                                                                                                               | Disadvantages                                                             | Notes                                                  |
 | :------------------------- | :---------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ | :----------------------------------------------------- |
@@ -203,5 +203,5 @@ Martensite is extremely hard and brittle. After tempering, the cementite phase t
 | **$Cu$**                   | Corrosion Shield.                   | $\uparrow$ Corrosion Resistance (Rcorr) (if 0.2% - 0.5%)                                                                 | $\downarrow\downarrow$ Surface finish in hot-worked steels if excessive   | Keep < 0.5%.                                           |
 | **$Ni$**                   | Ferrite Strengthener & Toughener.   | $\uparrow$ Tensile Strength (UTS) *while maintaining* high Toughness and Ductility. Strong Austenitizer                  | *None*                                                                    | Stays in solid solution; best all-rounder.             |
 | **$Mo$**                   | Best for high temperature.          | $\uparrow$ Creep Resistance at high T, $\uparrow\uparrow$ Hardenability (H)                                              | *None*                                                                    | Overcomes temper-embrittlement.                        |
-| **$B$**                    | Increases hardenability.            | $\uparrow\uparrow\uparrow$ [[Overview of Steels#Hardenability\|Hardenability]] (H)                                       | *None*                                                                    | -                                                      |
+| **$B$**                    | Increases hardenability.            | $\uparrow\uparrow\uparrow$ [[Technology of Metallic Materials/Overview of Steels#Hardenability\|Hardenability]] (H)                                       | *None*                                                                    | -                                                      |
 | **$Cr, Ti, Ta, W, Nb, V$** | Grain Refiners & Hardeners.         | $\uparrow\uparrow$ Hardness (HRC) without depressing toughness, $\uparrow$ Wear Resistance, $\uparrow$ High T Resistance | *None*                                                                    | Strong carbide formers and grain refiners.             |

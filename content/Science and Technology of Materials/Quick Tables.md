@@ -30,9 +30,9 @@ $$
 
 # Unit Lattice Cells
 
-![[Pasted image 20260215223534.png]]
+![[Science and Technology of Materials/attachments/Pasted image 20260215223534.png]]
 
-![[Pasted image 20260215223557.png]]
+![[Science and Technology of Materials/attachments/Pasted image 20260215223557.png]]
 > HCP (Hexagonal Compact Cell)
 
 
@@ -43,7 +43,7 @@ $$
 | HCP       | Low       | $Mg,Zn$    |
 
 # Hardness Testing
-![[Pasted image 20260215232519.png]]
+![[Science and Technology of Materials/attachments/Pasted image 20260215232519.png]]
 
-![[Pasted image 20260215232534.png]]
+![[Science and Technology of Materials/attachments/Pasted image 20260215232534.png]]
 

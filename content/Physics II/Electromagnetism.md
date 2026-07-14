@@ -1,4 +1,4 @@
-As discussed in [[DC Generators#EMF]], [[Magnetostatics|magnetic]] and [[Electrostatics|electric]] fields are interchangeable with the right context and one cannot exist without the other.
+As discussed in [[Physics II/DC Generators#EMF]], [[Physics II/Magnetostatics\|magnetic]] and [[Physics II/Electrostatics\|electric]] fields are interchangeable with the right context and one cannot exist without the other.
 
 # Maxwell Equations in a Vacuum
 

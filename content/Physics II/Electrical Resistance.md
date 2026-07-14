@@ -49,7 +49,7 @@ $$
 
 # Resistors
 
-![[Pasted image 20260205225118.png]]
+![[Physics II/attachments/Pasted image 20260205225118.png]]
 
 In **Series:**
 
@@ -60,5 +60,5 @@ In **Parallel:**
 $$
 \frac{1}{R_{tot}}=\Sigma {\frac{1}{R_{i}}}
 $$
-![[Pasted image 20260205225733.png]]
+![[Physics II/attachments/Pasted image 20260205225733.png]]
 

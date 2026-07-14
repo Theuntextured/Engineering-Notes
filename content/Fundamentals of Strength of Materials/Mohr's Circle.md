@@ -1,12 +1,12 @@
-![[Pasted image 20260207233848.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260207233848.png]]
 
 > [!QUOTE] The Purpose
 > We know the stress state ($\sigma_x, \sigma_y, \tau_{xy}$) on the horizontal/vertical faces. Mohr's Circle allows us to find the stress on **any inclined plane** ($\theta$) graphically, without solving complex rotation equations.
 >
 > Most importantly, it reveals the **Principal Stresses** (Max/Min normal stress) and the **Maximum Shear Stress**.
 
-![[Pasted image 20260207235125.png]]
-![[Pasted image 20260207234930.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260207235125.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260207234930.png]]
 
 ---
 
@@ -121,7 +121,7 @@ $$
 
 ### The “Pole” Method (Origin of Planes)
 
-![[Pasted image 20260208000308.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260208000308.png]]
 
 This is a graphical trick to find the stress on **any** plane without calculating angles first. It is often faster for complex problems.
 

@@ -4,16 +4,16 @@
 > 
 > An ideal current generator provides constant current, while an ideal voltage generator provides constant potential difference between its terminals.
 > 
-> ![[Pasted image 20260205225425.png]]
+> ![[Physics II/attachments/Pasted image 20260205225425.png]]
 
 
 **Real Generators** are not 100% efficient. Below are equivalent circuits to a **real voltage generator** and a **real current generator** respectively:
 
-![[Pasted image 20260205225640.png]]
+![[Physics II/attachments/Pasted image 20260205225640.png]]
 
-![[Pasted image 20260205225650.png]]
+![[Physics II/attachments/Pasted image 20260205225650.png]]
 
-![[Pasted image 20260205225744.png]]
+![[Physics II/attachments/Pasted image 20260205225744.png]]
 
 - **Real Voltage Generator:** the lower the internal resistance, the better.
 - **Real Current Generator:** the higher the internal resistance, the better.
@@ -44,7 +44,7 @@ And
 $$
 F=ILB
 $$
-Since we are moving charges through a magnetic field, they are affected by the [[Magnetostatics#Lorentz Force|Lorentz Force]]. HOWEVER, if we take the bar as a point of reference, the charges are stationary, so an electric field MUST be pushing them through the bar. Therefore,
+Since we are moving charges through a magnetic field, they are affected by the [[Physics II/Magnetostatics#Lorentz Force\|Lorentz Force]]. HOWEVER, if we take the bar as a point of reference, the charges are stationary, so an electric field MUST be pushing them through the bar. Therefore,
 
 $$
 \vec{F}=q(\vec{v}\times \vec{B})=q\vec{E}

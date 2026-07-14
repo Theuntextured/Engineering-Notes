@@ -46,12 +46,12 @@ $$
 > [!important]- definition.
 > A solenoid is a sequence of loops with current flowing through them. An inductor is simply a solenoid in a circuit.
 > 
-> ![[Pasted image 20260205233930.png]]
+> ![[Physics II/attachments/Pasted image 20260205233930.png]]
 
-> [!example]- Application of [[Magnetostatics#Ampere Law|Ampere's Law]]
+> [!example]- Application of [[Physics II/Magnetostatics#Ampere Law\|Ampere's Law]]
 > We use the Amperian Loop below:
 > 
-> ![[Pasted image 20260205234047.png]]
+> ![[Physics II/attachments/Pasted image 20260205234047.png]]
 > 
 > To get:
 > 
@@ -76,7 +76,7 @@ $$
 V_{L}=-\text{emf}=L \frac{dI}{dt}
 $$
 
-![[Pasted image 20260206014915.png]]
+![[Physics II/attachments/Pasted image 20260206014915.png]]
 > An RL circuit
 
 Inductors resist a change in current.
@@ -90,7 +90,7 @@ Inductors resist a change in current.
 > V_{L}={\mathcal E}e^{\frac{R}{L} t}
 > $$
 > 
-> ![[Pasted image 20260206015330.png]]
+> ![[Physics II/attachments/Pasted image 20260206015330.png]]
 
 
 $$
@@ -101,7 +101,7 @@ Where $\mathcal V$ is the volume.
 
 # Transformers
 
-![[Pasted image 20260206015503.png]]
+![[Physics II/attachments/Pasted image 20260206015503.png]]
 
 > [!warning]-
 > NO POWER IS CREATED! If voltage increases, current decreases!
@@ -114,7 +114,7 @@ $$
 
 # Common Circuits
 ## RC Circuits
-![[Pasted image 20260206015841.png]]
+![[Physics II/attachments/Pasted image 20260206015841.png]]
 
 When the switch is closed we get the following time-dependant properties:
 $$
@@ -139,7 +139,7 @@ HOWEVER, current has a $\frac{\pi}{2}$ phase delay with respect to voltage.
 > [!important]+ Inductive Reactance
 > $X_{L}$, measured in $\Omega$. Zero when DC current is present.
 
-![[Pasted image 20260206020633.png]]
+![[Physics II/attachments/Pasted image 20260206020633.png]]
 
 We can deduct that inductors block high-frequency signals.
 ## Capacitor and AC Circuit
@@ -151,7 +151,7 @@ This time, current is $\frac{\pi}{2}$ ahead of voltage.
 > X_{C}=\frac{1}{\omega C}
 > $$
 
-![[Pasted image 20260206020639.png]]
+![[Physics II/attachments/Pasted image 20260206020639.png]]
 
 $$
 \begin{align}

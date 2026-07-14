@@ -8,7 +8,7 @@
 $$
 \Delta E=Q-W
 $$
-In a [[Thermodynamics and Heat Transfer/Thermodynamics/1. Basics#Energy|thermodynamic cycle]] which is quasi static (quasi-equilibrium) we have the area inside the diagram being:
+In a [[Thermodynamics and Heat Transfer/Thermodynamics/1. Basics#Energy\|thermodynamic cycle]] which is quasi static (quasi-equilibrium) we have the area inside the diagram being:
 
 $$
 W_{cycle}=Q_{cycle}
@@ -18,13 +18,13 @@ $$
 
 > [!QUOTE]+ Kelvin-Planck Statement
 > It is impossible for any system to operate in a thermodynamic cycle and deliver a net amount of energy by work to its surroundings while receiving energy by heat transfer from a single heat capacity (thermal reservoir).
-> ![[Pasted image 20260525193519.png]]
+> ![[Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525193519.png]]
 
 - Kelvin-Planck applies only to **cycles**. A non-cyclic process can receive heat from one reservoir and do work, but a power cycle must **reject heat** to a colder reservoir: $Q_1>0$, $W>0$, $Q_2<0$, $T_1>T_2$.
 
 > [!QUOTE]+ Clausius Statement
 > It is impossible for any system to operate in a cycle that takes heat from a colder heat capacity (reservoir) and transfer it to a hotter heat capacity (reservoir) without converting some work into heat.
-> ![[Pasted image 20260525193536.png]]
+> ![[Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525193536.png]]
 
 - Heat from cold → hot **is** possible (refrigerator, heat pump), but not as the **sole** result; work input (or other effects in surroundings) is required.
 
@@ -35,10 +35,10 @@ $$
 > \oint \frac{\delta Q_{\text{int,rev}}}{T}=0 &  & \oint \frac{\delta Q}{T_b}\leq0
 > \end{align}
 > $$
-> Entropy: $dS=\delta Q_{\text{int,rev}}/T$; $\Delta S$ is a **state function**. See [[5. Entropy]].
+> Entropy: $dS=\delta Q_{\text{int,rev}}/T$; $\Delta S$ is a **state function**. See [[Thermodynamics and Heat Transfer/Thermodynamics/5. Entropy]].
 
 ## Irreversibility (summary)
-See [[3. Reversible and Irreversible Processes]].
+See [[Thermodynamics and Heat Transfer/Thermodynamics/3. Reversible and Irreversible Processes]].
 
 - **Internal:** friction, unrestrained expansion, chemistry, …
 - **External:** finite $\Delta T$ heat transfer, …
@@ -46,9 +46,9 @@ See [[3. Reversible and Irreversible Processes]].
 
 # Carnot Cycle (summary)
 
-Details: [[4. Carnot Cycle]]
+Details: [[Thermodynamics and Heat Transfer/Thermodynamics/4. Carnot Cycle]]
 
-![[Pasted image 20260525203845.png]]
+![[Thermodynamics and Heat Transfer/Thermodynamics/attachments/Pasted image 20260525203845.png]]
 
 $$
 \eta=1-\frac{T_C}{T_H} \qquad \eta_{\text{irr}}<\eta_{\text{rev}} \text{ (same reservoirs)}
@@ -56,7 +56,7 @@ $$
 
 # Device Performance (summary)
 
-Details: [[6. Isentropic Efficiency]]
+Details: [[Thermodynamics and Heat Transfer/Thermodynamics/6. Isentropic Efficiency]]
 
 - Turbines: actual work output is smaller than isentropic work.
 - Compressors / pumps: actual work input is larger than isentropic work.

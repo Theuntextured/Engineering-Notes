@@ -15,7 +15,7 @@
 
 # Materiali
 
-![[Pasted image 20260604230911.png]]
+![[Intraprendenti - Additive Manufacturing/attachments/Pasted image 20260604230911.png]]
 
 # Tecniche
 

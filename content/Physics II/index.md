@@ -1,4 +1,7 @@
 ---
+publish: true
 title: Physics II
+cssclasses: ""
 ---
-![[Physics II Notes.pdf]]
+
+![[Physics II/attachments/Physics II Notes.pdf]]

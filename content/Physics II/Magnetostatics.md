@@ -15,7 +15,7 @@ $$
 $$
 Notation:
 
-![[Pasted image 20260205225959.png]]
+![[Physics II/attachments/Pasted image 20260205225959.png]]
 
 > [!note]+
 > Lorentz Force is conservative, meaning that no work is performed.
@@ -42,12 +42,12 @@ $$
 ---
 ## Hall Effect
 
-If a wire is in a magnetic field, charges are affected by the [[#Lorentz Force]], therefore creating a higher density of charge on one side than the other, leading to a potential difference.
+If a wire is in a magnetic field, charges are affected by the [[Physics II/Magnetostatics#Lorentz Force]], therefore creating a higher density of charge on one side than the other, leading to a potential difference.
 
 ---
 # Magnetic Dipole
 
-Similar to an [[Electric Dipoles]], two equal charges with opposite sign which are connected to each other have a **magnetic dipole moment** $\vec{\mu}$ or sometimes $\vec{m}$.
+Similar to an [[Physics II/Electric Dipoles]], two equal charges with opposite sign which are connected to each other have a **magnetic dipole moment** $\vec{\mu}$ or sometimes $\vec{m}$.
 
 $$
 \tau=\vec{\mu}\times \vec{B}
@@ -101,7 +101,7 @@ $$
 > \vec{B}=\frac{\mu_{0}}{2\pi} \frac{IS}{(a^2-x^2)^{3/2}}\vec{u}_{x}
 > $$
 > 
-> The loop behaves similarly to a bar magnet, and it therefore has a [[#Magnetic Dipole]] moment:
+> The loop behaves similarly to a bar magnet, and it therefore has a [[Physics II/Magnetostatics#Magnetic Dipole]] moment:
 > 
 > $$
 > \vec{\mu}=IS\vec{u}_{\mu}

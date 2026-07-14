@@ -1,6 +1,6 @@
 # The Specimen
 
-![[Pasted image 20260208145212.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260208145212.png]]
 
 > [!warning]- Standardization
 > Specimens are standardized to allow for consistent results across labs.
@@ -9,7 +9,7 @@ Specimens are said to be **proportional** when gauge length $L_{0}$ is proportio
 
 **Circular Cross-Section**
 
-![[Pasted image 20260208145602.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260208145602.png]]
 
 $$
 \begin{align}
@@ -20,7 +20,7 @@ $$
 
 **Rectangular Cross-Section**
 
-![[Pasted image 20260208150007.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260208150007.png]]
 
 $$
 \begin{align}
@@ -32,7 +32,7 @@ $$
 ---
 # The Setup
 
-![[Pasted image 20260208150144.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260208150144.png]]
 
 The specimen is slowly pulled, measuring the elongation $\Delta L=L-L_{0}$.
 
@@ -46,7 +46,7 @@ The specimen is slowly pulled, measuring the elongation $\Delta L=L-L_{0}$.
 > \end{align}
 > $$
 
-Note that in the test, we have stress in one direction, and ideally, this should be the maximum [[4. Stress#Principal Stresses|principal stress]] $\sigma_{0}$, therefore giving the stress tensor:
+Note that in the test, we have stress in one direction, and ideally, this should be the maximum [[Fundamentals of Strength of Materials/4. Stress#Principal Stresses\|principal stress]] $\sigma_{0}$, therefore giving the stress tensor:
 
 $$
 [\sigma]=
@@ -62,18 +62,18 @@ If we want to test out maximum tangential stress, we apply the tension at a $45^
 $$
 \tau_{\text{max}}=\frac{{\sigma_{1}-\sigma_{3}}}{2}
 $$
-This is the maximum shear stress given by the fractured plane. This formula can be visualized using [[Mohr's Circle]]: the highest point on the graph is the top of the circle spanning from the minimum stress to the maximum stress.
+This is the maximum shear stress given by the fractured plane. This formula can be visualized using [[Fundamentals of Strength of Materials/Mohr's Circle]]: the highest point on the graph is the top of the circle spanning from the minimum stress to the maximum stress.
 
 ---
 # Results
 
-From any point we can get [[5. Strain|strain]] percent:
+From any point we can get [[Fundamentals of Strength of Materials/5. Strain\|strain]] percent:
 
 $$
 \varepsilon=\frac{\Delta L}{L_{0}}=\frac{{L_{i}-L_{0}}}{L_{0}}
 $$
 
-We can also get [[5. Strain#Linear Elasticity (1D)|poisson's ratio]] by using:
+We can also get [[Fundamentals of Strength of Materials/5. Strain#Linear Elasticity (1D)\|poisson's ratio]] by using:
 
 $$
 \varepsilon_{x}=\varepsilon_{y}=-\nu\varepsilon_{z}

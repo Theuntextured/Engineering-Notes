@@ -1,4 +1,4 @@
-![[Pasted image 20260207211335.png]]
+![[Fundamentals of Strength of Materials/attachments/Pasted image 20260207211335.png]]
 
 > [!NOTE] External forces are only applied to the internal hinges (nodes).
 
@@ -6,7 +6,7 @@ In each rod, the only internal action is the normal load $N$
 - If $N>0$, then the beam is loaded by traction
 - If $N<0$, then the beam is loaded by compression
 
-> [!check]+ Simplified [[Fundamentals of Strength of Materials/1. Basics#Determinacy of Structures|degree of static determinacy]]
+> [!check]+ Simplified [[Fundamentals of Strength of Materials/1. Basics#Determinacy of Structures\|degree of static determinacy]]
 > $$
 > h=\text{Number of Rods}+\text{Number of External Reactions}-2\cdot \text{Number of Internal Hunges}
 > $$
@@ -41,7 +41,7 @@ In each rod, the only internal action is the normal load $N$
 > [!EXAMPLE]- Spotting "Zero Force" Members
 > Sometimes you can spot rods with $N=0$ just by looking.
 > * *Example:* Look at Node B. A vertical force $F$ balances the vertical rod ($N_3$). However, **nothing** opposes the horizontal rod ($N_2$). Therefore, to maintain equilibrium, $N_2$ **must be zero**.
-> ![[Pasted image 20260207213039.png]]
+> ![[Fundamentals of Strength of Materials/attachments/Pasted image 20260207213039.png]]
 
 ---
 ### Method 2: Method of Sections (Ritter)

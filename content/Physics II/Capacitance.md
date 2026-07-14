@@ -8,11 +8,11 @@ C=\frac{R}{k}
 $$
 # Capacitors
 
-![[Pasted image 20260205220619.png]]
+![[Physics II/attachments/Pasted image 20260205220619.png]]
 
 Total charge of a capacitor is ALWAYS zero.
 
-![[Pasted image 20260205220702.png]]
+![[Physics II/attachments/Pasted image 20260205220702.png]]
 
 In an ideal capacitor, outside, we have$E=0$, and between the plates:
 

@@ -1,4 +1,7 @@
 ---
+publish: true
 title: Physics I
+cssclasses: ""
 ---
-![[Physics I Notes.pdf]]
+
+![[Physics I/attachments/Physics I Notes.pdf]]

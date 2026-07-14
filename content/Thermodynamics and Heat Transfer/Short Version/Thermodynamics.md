@@ -159,7 +159,7 @@ $$
 3. Isentropic Expansion
 4. Isochoric Heat Release (Exhaust)
 
-![[Pasted image 20260612192200.png]]
+![[Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260612192200.png]]
 
 $$
 \begin{align}
@@ -179,7 +179,7 @@ $$
 3. Isentropic Expansion
 4. Isochoric Heat Release (Exhaust)
 
-![[Pasted image 20260612192123.png]]
+![[Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260612192123.png]]
 
 **Cut off Ratio:**
 
@@ -198,7 +198,7 @@ $$
 
 #### Brayton-Joule Cycle
 
-![[Pasted image 20260613154637.png]]
+![[Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260613154637.png]]
 
 1. Isentropic compression (through compressor)
 2. Isobaric heat addition (usually through combustion)
@@ -217,7 +217,7 @@ $$
 
 #### Inverse Joule Cycle
 
-![[Pasted image 20260614195757.png]]
+![[Thermodynamics and Heat Transfer/Short Version/attachments/Pasted image 20260614195757.png]]
 
 $$
 \begin{align}

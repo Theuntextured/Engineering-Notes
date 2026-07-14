@@ -1,4 +1,7 @@
 ---
+publish: true
 title: Science and Technology of Materials
+cssclasses: ""
 ---
-![[Science And Technology of Materials.pdf]]
+
+![[Science and Technology of Materials/attachments/Science And Technology of Materials.pdf]]

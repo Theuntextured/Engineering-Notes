@@ -156,7 +156,7 @@ The dislocation forests created via this micro-yielding are responsible for stre
 
 When dislocations hit grain boundaries, they tend to get stuck and can't proceed further. This way, the GB acts as a **ledge** or a sink for dislocations.
 
-However, after many dislocations pile up, or if stress is high enough, the energy will be too high and the GB will act as a powerful dislocation source, emitting dislocations. This is somewhat similar to [[Technology of Metallic Materials/Defects#Frank-Read Dislocation Sources|Frank-Read Dislocation Sources]], but in this case, the obstacle is a GB.
+However, after many dislocations pile up, or if stress is high enough, the energy will be too high and the GB will act as a powerful dislocation source, emitting dislocations. This is somewhat similar to [[Technology of Metallic Materials/Defects#Frank-Read Dislocation Sources\|Frank-Read Dislocation Sources]], but in this case, the obstacle is a GB.
 
 ![[Technology of Metallic Materials/attachments/Pasted image 20260130165917.png]]
 

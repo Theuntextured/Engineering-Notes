@@ -2,14 +2,14 @@
 > - Electrons cannot leave from the surface.
 > - Electrons can move freely within the material
 
-When a conductor is in an [[Electrostatics|electric field]], the conductor creates an opposing field to nullify the effect of the field and reach static equilibrium.
+When a conductor is in an [[Physics II/Electrostatics\|electric field]], the conductor creates an opposing field to nullify the effect of the field and reach static equilibrium.
 
 $$
 \vec{E}_{\text{net}}=\vec{E}_{\text{ext}}+\vec{E}_{\text{int}}=0
 $$
 To do this, charged particles move to a surface (electrons move against the field). This is called **induction,** and the charge forced to the surface is called **induced charge**.
 
-![[Pasted image 20260205182407.png]]
+![[Physics II/attachments/Pasted image 20260205182407.png]]
 
 ## Charged Conductors
 

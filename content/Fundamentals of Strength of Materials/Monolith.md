@@ -1,7 +1,9 @@
 ---
-publish: false
+publish: true
 draft: true
+cssclasses: ""
 ---
+
 # Fundamentals of Strength of Materials
 
 ```dataviewjs

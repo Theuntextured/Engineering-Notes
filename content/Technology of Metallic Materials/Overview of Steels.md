@@ -65,7 +65,7 @@ To control at what temperatures steel is stable in a certain form ($\alpha,\gamm
 	- Raise transformation temperatures
 		- Adding enough of these prevents phase transformation as a whole (especially chromium)
 
-![[Pasted image 20260201153032.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260201153032.png]]
 > The effect of austenitizers and ferritizers on eutectoid temperature and composition ($wt\%\ C$)
 
 # Forms of Steel
@@ -81,7 +81,7 @@ To control at what temperatures steel is stable in a certain form ($\alpha,\gamm
 > 	- Or as film around austenite GB (in iper-eutectoidic steels)
 > - It is the reason steels are useful: in the form of impurities in softer forms, it pins the structure in place, allowing it to be harder than it would otherwise be.
 > - Other alloying elements such as $Cr,Mo,Mn$ can be added, resulting in harder and more stable structures. These can form complex carbides or even pure alloy carbides.
-> ![[Pasted image 20260201154224.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260201154224.png]]
 
 > [!important]+ Graphite
 > - Less dense than cementite and is NOT a metallic phase
@@ -96,34 +96,34 @@ To control at what temperatures steel is stable in a certain form ($\alpha,\gamm
 > - BCC structure of almost pure iron
 > - Very low solubility for carbon ($C\leq_{0}.0025\%$)
 > - Iron atoms can be replaced in the crystal lattice by other alloying elements such as $Cr,Mo,Si$.
-> ![[Pasted image 20260201154859.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260201154859.png]]
 
 > [!important]+ Austenite
 > - FCC structure of iron
 > - Increased solubility of any interstitial atoms, such as carbon
 > - $Fe$ can be replaced by $Ni,Mn$, which can integrate into the lattice without causing significant distortion.
-> - ![[Pasted image 20260201155208.png]]
+> - ![[Technology of Metallic Materials/attachments/Pasted image 20260201155208.png]]
 
 > [!important]+ Pearlite
 > - Eutectoidic steel
 > - Layers of ferrite ($\alpha$) and cementite in an alternating form
 > - Formed when carbon-rich austenite is cooled at eutectoid temperature, and the speed of the cooling affects the width of the layers.
 > - Is formed from seeds on grain boundaries.
-> ![[Pasted image 20260201155408.png]]
+> ![[Technology of Metallic Materials/attachments/Pasted image 20260201155408.png]]
 
 **Summary:**
 
-![[Pasted image 20260201214659.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260201214659.png]]
 
 
 
 **Thermal expansion for iron:**
 
-![[Pasted image 20260201214620.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260201214620.png]]
 
 # Classification of Steels
 
-![[Pasted image 20260201232708.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260201232708.png]]
 
 ## UNI EN 10020
 The [UNI EN 10020](https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf) standard is used to categorize steels into:
@@ -147,12 +147,12 @@ The [UNI EN 10020](https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSI
 > Stainless steels have over 10.5% $Cr$ and less than 1.2% $C$
 
 > [!note]- UNI EN 10020 Official Document
-![[CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf]]
+![[Technology of Metallic Materials/attachments/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf]]
 > Source: https://www.infotech-ved.it/wp-content/uploads/2021/01/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf
 ## UNI EN 10027-1
 
 >[!note]- UNI EN 10027-1 Official Document
-![[Classificazione_acciai_10027.pdf]]
+![[Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf]]
 > Source: http://www.emmeengineering.com/didattica/Acciaio/Acciaio_5/Classificazione_acciai_10027.pdf
 
 The standard describes how steels can be named according to their use and properties.
@@ -273,11 +273,11 @@ Usually for group S, the final two characters are one of:
 ### D Group
 Deep drawing sheets
 
-![[Pasted image 20260201225304.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260201225304.png]]
 
 ### H Group
 High strength deep drawing sheets
-![[Pasted image 20260201225417.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260201225417.png]]
 
 ---
 
@@ -360,7 +360,7 @@ Hardenability shifts the TTT curve to the right.
 
 Adding **$Mo, Mn, Cr$** increases hardenability, allowing larger parts to be hardened all the way through.
 
-![[Pasted image 20260204155253.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204155253.png]]
 
 ---
 # Stainless Steels
@@ -368,7 +368,7 @@ Adding **$Mo, Mn, Cr$** increases hardenability, allowing larger parts to be har
 >[!important]+ What Makes Steel "Stainless"?
 For a steel to be considered "stainless," it must contain **at least 11.5% Chromium**.
 >
-Why? Because at this concentration, Chromium reacts with Oxygen to form a continuous, invisible, and self-healing [[Corrosion#Coatings & Active Protection|passive film]] ($Cr_2O_3$) on the surface. If you scratch it, it reforms immediately (provided there is oxygen).
+Why? Because at this concentration, Chromium reacts with Oxygen to form a continuous, invisible, and self-healing [[Technology of Metallic Materials/Corrosion#Coatings & Active Protection\|passive film]] ($Cr_2O_3$) on the surface. If you scratch it, it reforms immediately (provided there is oxygen).
 
 * **The Enemy:** Reducing environments (lack of oxygen) or chlorides ($Cl^-$) which break the film.
 * **The Fix:** Alloying elements like Nickel (Ni) and Molybdenum (Mo).
@@ -383,7 +383,7 @@ This is the map we use to predict the structure of a stainless steel (especially
 
 By calculating these two values, you can see if your steel will be Martensitic, Ferritic, Austenitic, or a mix (Duplex).
 
-![[Pasted image 20260204180240.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204180240.png]]
 
 ---
 
@@ -391,7 +391,7 @@ By calculating these two values, you can see if your steel will be Martensitic, 
 
 ### Ferritic SS
 * **Composition:** High Cr (12-30%), Low C, No Ni.
-* **Properties:** Magnetic. Good corrosion resistance (better than [[#Martensitic SS]]).
+* **Properties:** Magnetic. Good corrosion resistance (better than [[Technology of Metallic Materials/Overview of Steels#Martensitic SS]]).
 * **Weakness:** Brittle at low temps (DBTT). Grain growth during welding reduces toughness.
 * **Use:** Exhaust systems, cheaper chemical equipment.
 * Series 400
@@ -449,4 +449,4 @@ This is the most common failure mode for Austenitic steels (like 304) after weld
 2.  **Stabilization:** Add elements that love Carbon even more than Chromium does, like **Titanium (Ti)** or **Niobium (Nb)**.
     * *Example:* AISI 321 (Ti stabilized) or AISI 347 (Nb stabilized).
 
-![[Pasted image 20260204181624.png]]
+![[Technology of Metallic Materials/attachments/Pasted image 20260204181624.png]]
