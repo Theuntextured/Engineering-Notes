@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Experimental Statistics and Mechanical Measurement/Summary/Statistics/3. Evaluation of Measurement Uncertainty.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "3. Evaluation of Measurement Uncertainty"
             }
           }
         ]
@@ -201,8 +201,13 @@
   },
   "active": "015e2076fa275401",
   "lastOpenFiles": [
-    "Intraprendenti - Additive Manufacturing/index.md",
+    "Experimental Statistics and Mechanical Measurement/Summary/Statistics/2. Analysis of Experimental Data.md",
+    "Experimental Statistics and Mechanical Measurement/Summary/Statistics/1. Basics, Distributions, Measures.md",
+    "Experimental Statistics and Mechanical Measurement/Summary/Statistics/3. Evaluation of Measurement Uncertainty.md",
     "index.md",
+    "Experimental Statistics and Mechanical Measurement/Summary/Statistics",
+    "Experimental Statistics and Mechanical Measurement/Summary",
+    "Intraprendenti - Additive Manufacturing/index.md",
     "Experimental Statistics and Mechanical Measurement/Statistics/4. Beyond Determinism - Statistics.md",
     "Experimental Statistics and Mechanical Measurement/4. Discrete Distributions.md",
     "Technology of Metallic Materials/attachments/Pasted image 20260212210756.png",
@@ -237,15 +242,10 @@
     "Experimental Statistics and Mechanical Measurement/Statistics/10. The Expanded Uncertainty.md",
     "Experimental Statistics and Mechanical Measurement/Statistics/1. Information Contained in Measurement Results.md",
     "Experimental Statistics and Mechanical Measurement/Statistics",
-    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/3. The Hardness Measurements.md",
-    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/2. Mass Measurements.md",
-    "Experimental Statistics and Mechanical Measurement/Mechanical Measurement/1. Length Measurements.md",
     "Experimental Statistics and Mechanical Measurement/Mechanical Measurement",
     "Cybersecurity and National Defence/Module A - Fundamentals/attachments",
     "Cybersecurity and National Defence/Module A - Fundamentals",
     "Technology of Metallic Materials/attachments/CLASSIFICAZIONE-E-DESIGNAZIONE-DEGLI-ACCIAI.pdf",
-    "Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf",
-    "Technology of Metallic Materials/New Text Document.txt",
-    "Excalidraw"
+    "Technology of Metallic Materials/attachments/Classificazione_acciai_10027.pdf"
   ]
 }
