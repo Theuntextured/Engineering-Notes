@@ -13,3 +13,6 @@
     --callout-icon: chart-network;
 }
 
+.callout[data-callout="note"]{
+    --callout-color: #7be5b7;
+}

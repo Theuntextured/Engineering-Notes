@@ -1,4 +1,5 @@
 {
   "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-mint-dt",
-  "obsidian-prism-theme@@pt-titlebar-hide-text": false
+  "obsidian-prism-theme@@pt-titlebar-hide-text": false,
+  "obsidian-prism-theme@@pt-disable-callout-styling": false
 }

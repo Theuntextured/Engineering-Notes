@@ -1,16 +1,16 @@
 [
   "table-editor-obsidian",
-  "obsidian-latex-suite",
   "mermaid-tools",
   "obsidian-languagetool-plugin",
   "obsidian-linter",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
-  "quick-latex",
   "quartz-syncer",
   "obsidian-style-settings",
   "dataview",
   "better-export-pdf",
   "obsidian-icon-folder",
-  "search-and-replace-regex"
+  "search-and-replace-regex",
+  "quick-latex",
+  "obsidian-latex-suite"
 ]

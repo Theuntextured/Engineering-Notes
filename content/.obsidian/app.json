@@ -87,7 +87,9 @@
     "linkability",
     "Isovolumetric",
     "Polytropic",
-    "polytropic"
+    "polytropic",
+    "pecewise",
+    "cartesian"
   ],
   "promptDelete": false,
   "readableLineLength": true,
