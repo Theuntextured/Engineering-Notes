@@ -13,15 +13,100 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Experimental Statistics and Mechanical Measurement/Summary/Statistics/3. Evaluation of Measurement Uncertainty.md",
+                "file": "Mathematical Analysis II/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Evaluation of Measurement Uncertainty"
+              "title": "index"
+            }
+          },
+          {
+            "id": "253250f1c3b885a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematical Analysis II/6. Multiple Integrals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Multiple Integrals"
+            }
+          },
+          {
+            "id": "d8bf4688ea9243e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematical Analysis II/7. Line Integrals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. Line Integrals"
+            }
+          },
+          {
+            "id": "342c4d2ccfc16dd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematical Analysis II/8. Surface Integrals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. Surface Integrals"
+            }
+          },
+          {
+            "id": "5ed228feda6b70ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematical Analysis II/9. Sequences & Series.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9. Sequences & Series"
+            }
+          },
+          {
+            "id": "9ebc3c22b96da034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematical Analysis II/10. Power Series.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10. Power Series"
+            }
+          },
+          {
+            "id": "9629fe45c3a6adff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematical Analysis II/7. Line Integrals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. Line Integrals"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -34,19 +119,6 @@
         "id": "a60c6388d841e66f",
         "type": "tabs",
         "children": [
-          {
-            "id": "54aff1d31246de4b",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "9155cb2233f01231",
             "type": "leaf",
@@ -69,12 +141,31 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "54c4bb367ac698bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -188,8 +279,6 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -199,11 +288,25 @@
       "quartz-syncer:Quartz Syncer publication center": false
     }
   },
-  "active": "015e2076fa275401",
+  "active": "9ebc3c22b96da034",
   "lastOpenFiles": [
+    "Mathematical Analysis II/9. Sequences & Series.md",
+    "Mathematical Analysis II/7. Line Integrals.md",
+    "Mathematical Analysis II/8. Surface Integrals.md",
+    "Mathematical Analysis II/2. Fields.md",
+    "Mathematical Analysis II/11. Fourier Series.md",
+    "Mathematical Analysis II/10. Power Series.md",
+    "Mathematical Analysis II/6. Multiple Integrals.md",
+    "Mathematical Analysis II/5. Surfaces.md",
+    "Mathematical Analysis II/4. Differential Calculus for Vector Fields.md",
+    "Mathematical Analysis II/3. Differential Calculus.md",
+    "Mathematical Analysis II/1. Parametric Curves.md",
+    "Mathematical Analysis II/attachments/Pasted image 20260802212032.png",
+    "Mathematical Analysis II/attachments/Pasted image 20260802211854.png",
+    "Mathematical Analysis II/index.md",
+    "Experimental Statistics and Mechanical Measurement/Summary/Statistics/3. Evaluation of Measurement Uncertainty.md",
     "Experimental Statistics and Mechanical Measurement/Summary/Statistics/2. Analysis of Experimental Data.md",
     "Experimental Statistics and Mechanical Measurement/Summary/Statistics/1. Basics, Distributions, Measures.md",
-    "Experimental Statistics and Mechanical Measurement/Summary/Statistics/3. Evaluation of Measurement Uncertainty.md",
     "index.md",
     "Experimental Statistics and Mechanical Measurement/Summary/Statistics",
     "Experimental Statistics and Mechanical Measurement/Summary",
@@ -218,8 +321,6 @@
     "Fundamentals of Strength of Materials/attachments/Pasted image 20260209004743.png",
     "Fundamentals of Strength of Materials/attachments/Pasted image 20260208172101.png",
     "Fundamentals of Strength of Materials/attachments/Pasted image 20260207235106.png",
-    "Fundamentals of Strength of Materials/attachments/Pasted image 20260207202742.png",
-    "Fundamentals of Strength of Materials/attachments/Pasted image 20260207202726.png",
     "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/venn2.excalidraw.md",
     "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/Venn3.excalidraw.md",
     "Experimental Statistics and Mechanical Measurement/attachments/Excalidraw/Drawing 2026-02-24 09.30.28.excalidraw.md",
@@ -229,18 +330,6 @@
     "Experimental Statistics and Mechanical Measurement/2. Probability.md",
     "Experimental Statistics and Mechanical Measurement/1. Introduction.md",
     "Cybersecurity and National Defence/Cryptographic Sovereignty and National Defence.md",
-    "Applied Mechanics/3. Friction.md",
-    "Applied Mechanics/2. Dynamics.md",
-    "Applied Mechanics/1. Rigid Bodies.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/9. The Combined Uncertainty.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/8. Uncertainty of Type B.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/7. Hypothesis Test and Introduction to ANOVA.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/6. Identification of Systematic Factors & Linear Regression.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/5. Statistical Management of Experimental Data.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/3. Beyond Determinism - Probability.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/2. Characteristics of measuring instruments.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/10. The Expanded Uncertainty.md",
-    "Experimental Statistics and Mechanical Measurement/Statistics/1. Information Contained in Measurement Results.md",
     "Experimental Statistics and Mechanical Measurement/Statistics",
     "Experimental Statistics and Mechanical Measurement/Mechanical Measurement",
     "Cybersecurity and National Defence/Module A - Fundamentals/attachments",

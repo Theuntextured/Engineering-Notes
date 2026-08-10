@@ -89,7 +89,8 @@
     "Polytropic",
     "polytropic",
     "pecewise",
-    "cartesian"
+    "cartesian",
+    ""
   ],
   "promptDelete": false,
   "readableLineLength": true,
