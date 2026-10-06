@@ -1,0 +1,479 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=16mm,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,array,booktabs,enumitem,xcolor,fancyhdr,hyperref}
+\definecolor{ink}{HTML}{15354B}
+\definecolor{accent}{HTML}{087E8B}
+\definecolor{warn}{HTML}{993C25}
+\hypersetup{colorlinks=true,linkcolor=accent,urlcolor=accent,pdftitle={Analysis II: Exam Revision Guide}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\textsf{ANALYSIS II / EXAM REVISION}}
+\fancyhead[R]{\small\textsf{Formulas, conditions, methods}}
+\fancyfoot[C]{\small\thepage\ / 10}
+\setlength{\parindent}{0pt}\setlength{\parskip}{4pt}
+\setlist[itemize]{leftmargin=*,nosep,topsep=3pt}
+\setlist[enumerate]{leftmargin=*,nosep,topsep=3pt}
+\setlength{\abovedisplayskip}{6pt}\setlength{\belowdisplayskip}{6pt}
+\newcommand{\R}{\mathbb R}
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\DeclareMathOperator{\diver}{div}
+\DeclareMathOperator{\curl}{curl}
+\newcommand{\topic}[2]{\phantomsection\addcontentsline{toc}{section}{#1. #2}\vspace*{-3mm}{\color{accent}\sffamily\small #1}\par{\color{ink}\sffamily\LARGE\bfseries #2}\par\vspace{2mm}}
+\newcommand{\sub}[1]{\par\vspace{2mm}{\color{ink}\sffamily\bfseries #1}\par}
+\newcommand{\trap}[1]{\par{\color{warn}\textbf{Watch out.}} #1\par}
+\newcommand{\example}[1]{\par\textbf{Example.} #1\par}
+\begin{document}
+\topic{01}{Start here: your last hour}
+\textbf{Scope.} A corrected revision guide based on all 11 supplied note files: curves, fields, differential calculus, vector calculus, surfaces, multiple/line/surface integrals, numerical series, power series, and Fourier series. Small supporting additions are labelled. This is a revision aid for that scope, not a prediction of exam questions.
+
+\sub{Use the time you have left}
+\begin{tabular}{@{}p{22mm}p{139mm}@{}}
+\toprule
+\textbf{Minutes} & \textbf{What to do}\\\midrule
+0--5 & Read the corrections below; recall each formula before looking.\\
+5--17 & Pages 2--4: differentiability, Hessian, parametrizations, normals.\\
+17--34 & Pages 5--7: Jacobians, conservative fields, Green/Gauss/Stokes.\\
+34--47 & Pages 8--9: choose a series test; solve both power-series endpoints.\\
+47--56 & Page 10: Fourier coefficients, parity, jump values, Parseval.\\
+56--60 & Close the guide. Reproduce the five formulas below and their conditions.\\\bottomrule
+\end{tabular}
+
+\sub{Important corrections to your notes}
+\begin{enumerate}
+\item \textbf{Series:} $\sum a_n$ convergent $\Rightarrow a_n\to0$. The reverse is false: $\sum 1/n$ diverges.
+\item \textbf{Change of variables:} include $|\det D\Phi|$ in every multiple integral.
+\item \textbf{Schwarz's theorem:} continuous \emph{second} partial derivatives near the point suffice for equality of mixed partials. $f\in C^0$ alone does not.
+\item \textbf{Differentiability:} the remainder is $o(\norm{h})$; the second-order Taylor Hessian is evaluated at the \emph{expansion point}.
+\item \textbf{Conservative does not mean radial.} It means $F=\nabla U$. Curl-free implies conservative on an open simply connected domain, with $F\in C^1$.
+\item \textbf{Root test:} use $\sqrt[n]{|a_n|}$, not $\sqrt{|a_n|}$. Ratio/root limit $1$ is inconclusive; the limit of the ratio is not the sum.
+\item \textbf{Monotone sequences:} an increasing sequence has a finite limit or tends to $+\infty$, not $-\infty$.
+\item \textbf{Orientations and hypotheses:} Gauss needs a closed boundary with outward normal; Stokes needs compatible boundary orientation; fields must be regular on a neighborhood of the entire region/surface used.
+\end{enumerate}
+
+\sub{Five formulas to know cold}
+\begin{align*}
+\int_\gamma f\dd s&=\int_a^b f(\gamma(t))\norm{\gamma'(t)}\dd t,\\
+\int_\gamma F\cdot\dd r&=\int_a^b F(\gamma(t))\cdot\gamma'(t)\dd t,\\
+\iint_D f\dd A&=\iint_E f(\Phi(u,v))|\det D\Phi|\dd u\dd v,\\
+\iint_\Sigma f\dd S&=\iint_E f(r(u,v))\norm{r_u\times r_v}\dd u\dd v,\\
+\iint_\Sigma F\cdot n\dd S&=\iint_E F(r(u,v))\cdot(r_u\times r_v)\dd u\dd v.
+\end{align*}
+\textbf{Memory rule:} scalar integrals use a \emph{norm}; work and flux use an \emph{oriented vector}. The last formula assumes the cross product gives the requested orientation.
+
+\newpage
+\topic{02}{Limits and differential calculus}
+\sub{Fields, continuity, and limits}
+A scalar field is $f:D\subseteq\R^n\to\R$; a vector field is $F:D\subseteq\R^n\to\R^m$. A level set is $\{x:f(x)=c\}$. A radial scalar field has form $f(x)=g(\norm{x})$.
+
+$f$ is continuous at $p$ if $\lim_{x\to p}f(x)=f(p)$. A multivariable limit must be the same along \emph{every} approach in its domain.
+\begin{itemize}
+\item To \textbf{disprove} a limit: try axes, lines $y=mx$, then curves such as $y=x^2$.
+\item To \textbf{prove} a limit $L$: bound $|f(p+h)-L|\leq g(\norm h)$ with $g(r)\to0$.
+\item At the origin use $x=r\cos\theta$, $y=r\sin\theta$. A bound independent of $\theta$ proves the limit. Checking each fixed angle alone is insufficient.
+\end{itemize}
+\example{$f(x,y)=xy/(x^2+y^2)$ has no limit at $0$: on $y=0$ it is $0$, on $y=x$ it is $1/2$. Also $x^2y/(x^4+y^2)$ tends to $0$ on every straight line through $0$, but equals $1/2$ on $y=x^2$.}
+
+\sub{Partial derivatives, directional derivatives, differentiability}
+\[
+f_{x_i}(p)=\lim_{t\to0}\frac{f(p+te_i)-f(p)}t,
+\qquad D_v f(p)=\lim_{t\to0}\frac{f(p+tv)-f(p)}t.
+\]
+The definition of differentiability is
+\[
+\boxed{f(p+h)=f(p)+\nabla f(p)\cdot h+o(\norm h)}.
+\]
+\textbf{Test at a suspect point:} compute the partials \emph{from the definition}, then test
+\[
+\frac{f(p+h)-f(p)-\nabla f(p)\cdot h}{\norm h}\longrightarrow0.
+\]
+$C^1$ near $p\Rightarrow$ differentiable at $p\Rightarrow$ continuous at $p$. Existence of all partial derivatives, or even all directional derivatives, does not suffice.
+
+If $f$ is differentiable, $D_vf(p)=\nabla f(p)\cdot v$. For \emph{unit} $v$, its largest value is $\norm{\nabla f(p)}$, in the gradient direction when the gradient is nonzero.
+
+\sub{Tangent planes and the chain rule}
+For a graph $z=f(x,y)$ at $(x_0,y_0,f(x_0,y_0))$,
+\[
+z=f(x_0,y_0)+f_x(x_0,y_0)(x-x_0)+f_y(x_0,y_0)(y-y_0).
+\]
+A normal is $(f_x,f_y,-1)$. On a regular level surface $g(x,y,z)=c$, a normal is $\nabla g(p)\ne0$, and the tangent plane is $\nabla g(p)\cdot(x-p)=0$.
+\[
+\frac{\mathrm d}{\mathrm dt}f(\gamma(t))=\nabla f(\gamma(t))\cdot\gamma'(t),
+\qquad D(G\circ F)(p)=DG(F(p))\,DF(p).
+\]
+Here $DF=(\partial F_i/\partial x_j)$ has $m$ rows and $n$ columns for $F:\R^n\to\R^m$.
+
+\sub{Second-order Taylor expansion and Schwarz}
+For $f\in C^2$ near $p$, mixed partials agree and the Hessian $H_f=(f_{x_ix_j})$ is symmetric:
+\[
+f(p+h)=f(p)+\nabla f(p)\cdot h+\tfrac12h^TH_f(p)h+o(\norm h^2).
+\]
+In two variables the quadratic term is $\tfrac12(f_{xx}h_1^2+2f_{xy}h_1h_2+f_{yy}h_2^2)$, with all derivatives at $p$.
+
+\newpage
+\topic{03}{Extrema and vector differential operators}
+\sub{Stationary points: the complete routine}
+\begin{enumerate}
+\item Determine the domain and where differentiability fails.
+\item At interior differentiable points solve $\nabla f=0$ (Fermat's necessary condition).
+\item At each solution compute the Hessian; classify using the table below.
+\item For \emph{absolute} extrema, also inspect boundaries, corners, singular points, and any relevant behavior at infinity. Compare function values.
+\end{enumerate}
+For $f\in C^2$ at a stationary point $p$, set $\Delta=f_{xx}f_{yy}-f_{xy}^2$, evaluated at $p$.
+\begin{center}
+\begin{tabular}{@{}ll@{}}\toprule
+\textbf{Condition} & \textbf{Conclusion}\\\midrule
+$\Delta>0$, $f_{xx}>0$ & Strict local minimum\\
+$\Delta>0$, $f_{xx}<0$ & Strict local maximum\\
+$\Delta<0$ & Saddle point\\
+$\Delta=0$ & Inconclusive: inspect $f(p+h)-f(p)$ directly\\\bottomrule
+\end{tabular}
+\end{center}
+In $n$ dimensions: positive definite Hessian $\Rightarrow$ strict minimum; negative definite $\Rightarrow$ strict maximum; eigenvalues of both signs $\Rightarrow$ saddle. A semidefinite Hessian is inconclusive. Opposite signs still prove a saddle even if another eigenvalue is zero.
+\example{At $0$, $x^4+y^4$ has a strict minimum, $-x^4-y^4$ a strict maximum, and $x^4-y^4$ a saddle. All have zero Hessian there.}
+\textbf{Why the Hessian test works:} at a stationary point the linear Taylor term vanishes. A definite quadratic term dominates the $o(\norm h^2)$ remainder.
+
+\sub{Useful additions: boundary extrema and constraints}
+\textbf{Weierstrass:} a continuous real function on a nonempty compact set attains its absolute minimum and maximum. Parametrize each boundary piece and solve a one-variable problem, including its endpoints.
+
+\textbf{Lagrange multipliers:} on $g(x)=c$, a constrained extremum with $\nabla g\ne0$ satisfies
+\[
+\nabla f=\lambda\nabla g,\qquad g=c.
+\]
+These are candidates, not automatically extrema. Inspect points with $\nabla g=0$ separately. For several regular constraints use $\nabla f=\sum_j\lambda_j\nabla g_j$, requiring independent constraint gradients.
+\example{For $f(x,y)=xy$ on $x^2+y^2=1$, solve $(y,x)=2\lambda(x,y)$. The candidates have $y=\pm x$, giving maximum $1/2$ and minimum $-1/2$.}
+
+\sub{Divergence, curl, and identities}
+For $F=(P,Q,R)$,
+\[
+\diver F=P_x+Q_y+R_z,\qquad
+\curl F=(R_y-Q_z,\ P_z-R_x,\ Q_x-P_y).
+\]
+In the plane, $\diver(P,Q)=P_x+Q_y$ and scalar $\curl(P,Q)=Q_x-P_y$. Positive planar curl corresponds to local counterclockwise circulation. In 3D curl is a \emph{vector}, not a positive/negative scalar.
+\begin{align*}
+\curl(\nabla f)&=0,&\diver(\curl F)&=0,\\
+\curl(fF)&=\nabla f\times F+f\curl F,&
+\diver(fF)&=\nabla f\cdot F+f\diver F.
+\end{align*}
+For the first two identities assume the relevant functions are $C^2$; the product identities need $C^1$. The Laplacian is $\Delta f=\diver\nabla f=\sum_i f_{x_ix_i}$.
+
+\newpage
+\topic{04}{Curves and surface geometry}
+\sub{Curves: definitions and length}
+A parametrized curve is $\gamma:[a,b]\to\R^n$; its trace is $\gamma([a,b])$. It is closed if $\gamma(a)=\gamma(b)$, simple if there are no repeated points except a possible common endpoint, and regular if $\gamma\in C^1$ with $\gamma'(t)\ne0$. Piecewise regular curves are handled piece by piece.
+\[
+\tau(t)=\frac{\gamma'(t)}{\norm{\gamma'(t)}},\qquad
+\dd s=\norm{\gamma'(t)}\dd t,\qquad
+L(\gamma)=\int_a^b\norm{\gamma'(t)}\dd t.
+\]
+The tangent line at $t_0$ is $\gamma(t_0)+s\gamma'(t_0)$.
+\begin{center}\begin{tabular}{@{}p{32mm}p{128mm}@{}}\toprule
+\textbf{Curve} & \textbf{Parametrization / useful fact}\\\midrule
+Segment $A$ to $B$ & $\gamma(t)=A+t(B-A)$, $0\le t\le1$; length $\norm{B-A}$.\\
+Circle, radius $a$ & $(x_0+a\cos t,y_0+a\sin t)$, $0\le t\le2\pi$: counterclockwise.\\
+Ellipse & $(a\cos t,b\sin t)$; speed $\sqrt{a^2\sin^2t+b^2\cos^2t}$.\\
+Graph $y=f(x)$ & $(t,f(t))$; length $\int_a^b\sqrt{1+f'(t)^2}\dd t$.\\
+Helix & $(a\cos t,a\sin t,bt)$; constant speed $\sqrt{a^2+b^2}$.\\
+Spirals & $(t\cos t,t\sin t)$ has speed $\sqrt{1+t^2}$; $(e^t\cos t,e^t\sin t)$ has speed $\sqrt2e^t$.\\\bottomrule
+\end{tabular}\end{center}
+A regular one-to-one change of parameter preserves length. Reversing the parameter reverses orientation; tracing a curve twice counts it twice in an integral.
+
+\sub{Surface patches and orientation}
+A regular surface patch $r:E\subseteq\R^2\to\R^3$ is $C^1$ and has
+\[
+N=r_u\times r_v\ne0,\qquad n=\frac{N}{\norm N},\qquad \dd S=\norm N\dd u\dd v.
+\]
+Use patches that cover the surface once (apart from harmless seams/boundaries). A surface is orientable if it admits a continuous choice of unit normal. Choosing one of the two directions orients it. A M\"obius strip is not orientable.
+
+At $p=r(u_0,v_0)$ the tangent plane is $N(u_0,v_0)\cdot(x-p)=0$. Reversing the cross-product order changes the normal's sign.
+\begin{center}\begin{tabular}{@{}p{28mm}p{133mm}@{}}\toprule
+\textbf{Surface} & \textbf{Parametrization and vector area element}\\\midrule
+Graph $z=g(x,y)$ & $r(x,y)=(x,y,g)$; upward $N=(-g_x,-g_y,1)$; $\dd S=\sqrt{1+g_x^2+g_y^2}\dd x\dd y$.\\
+Cylinder $x^2+y^2=a^2$ & $r(\theta,z)=(a\cos\theta,a\sin\theta,z)$; $r_\theta\times r_z=(a\cos\theta,a\sin\theta,0)$ is outward; $\dd S=a\dd\theta\dd z$.\\
+Sphere of radius $a$ & $r(\phi,\theta)=(a\sin\phi\cos\theta,a\sin\phi\sin\theta,a\cos\phi)$; $r_\phi\times r_\theta$ is outward; $\dd S=a^2\sin\phi\dd\phi\dd\theta$.\\\bottomrule
+\end{tabular}\end{center}
+For the sphere, $0\le\phi\le\pi$, $0\le\theta<2\pi$; the standard coordinates degenerate at the poles, which are handled by other patches or ignored as area-zero sets when integrating.
+\trap{A sphere's \emph{surface} element is $a^2\sin\phi\dd\phi\dd\theta$; a spherical \emph{volume} element also includes the radial differential.}
+
+\newpage
+\topic{05}{Double and triple integrals}
+\sub{Draw the region before choosing bounds}
+If $D=\{(x,y):a\le x\le b,\ \alpha(x)\le y\le\beta(x)\}$, then
+\[
+\iint_D f\dd A=\int_a^b\int_{\alpha(x)}^{\beta(x)}f(x,y)\dd y\dd x.
+\]
+For the opposite order describe $D$ with $y$ outermost and $x$ between functions of $y$. Split the region where the bounding curves change. The inner bounds may depend on outer variables, never on the variable already being integrated out.
+
+For continuous functions on compact ordinary regions these iterated formulas apply. More generally, Fubini applies to absolutely integrable functions; Tonelli applies to nonnegative functions, allowing infinite values.
+\example{The triangle $0\le y\le x\le1$ gives $\int_0^1\int_0^x f\dd y\dd x=\int_0^1\int_y^1 f\dd x\dd y$.}
+
+\sub{Change of variables: transform both the function and the region}
+For a $C^1$ one-to-one map $\Phi:E\to D$ with nonzero determinant (up to the usual measure-zero seams),
+\[
+\boxed{\int_D f(x)\dd x=\int_E f(\Phi(u))\,|\det D\Phi(u)|\dd u.}
+\]
+This applies in both two and three dimensions. The determinant is always in \emph{absolute value} for volume/area substitutions.
+\begin{center}\begin{tabular}{@{}p{27mm}p{102mm}p{28mm}@{}}\toprule
+\textbf{Coordinates} & \textbf{Substitution} & \textbf{Jacobian}\\\midrule
+Polar & $x=x_0+r\cos\theta$, $y=y_0+r\sin\theta$ & $r$\\
+Elliptic scaling & $x=x_0+ar\cos\theta$, $y=y_0+br\sin\theta$ & $|ab|r$\\
+Cylindrical & $(x,y,z)=(r\cos\theta,r\sin\theta,z)$ & $r$\\
+Spherical & $(x,y,z)=(\rho\sin\phi\cos\theta,\rho\sin\phi\sin\theta,\rho\cos\phi)$ & $\rho^2\sin\phi$\\\bottomrule
+\end{tabular}\end{center}
+Here $r,\rho\ge0$, $\theta$ is azimuth, and $0\le\phi\le\pi$ is the angle from the positive $z$ axis. Full circles use an angular interval of length $2\pi$.
+
+\sub{Triple integrals: columns or slices}
+For columns, $(x,y)\in D$ and $\alpha(x,y)\le z\le\beta(x,y)$; for slices, $c\le z\le d$ and $(x,y)\in D_z$:
+\[
+\iiint_\Omega f\dd V=\iint_D\int_\alpha^\beta f\dd z\dd A,
+\qquad \iiint_\Omega f\dd V=\int_c^d\iint_{D_z}f\dd A\dd z.
+\]
+\example{For $\Omega=\{x^2+y^2\le z\le4\}$, cylindrical bounds are $0\le r\le2$, $0\le\theta\le2\pi$, $r^2\le z\le4$. Thus
+\[
+\operatorname{Vol}(\Omega)=\int_0^{2\pi}\int_0^2\int_{r^2}^4 r\dd z\dd r\dd\theta=8\pi.
+\]}
+\example{On the disk $x^2+y^2\le a^2$, $\iint_D(x^2+y^2)\dd A=\int_0^{2\pi}\int_0^a r^3\dd r\dd\theta=\pi a^4/2$.}
+\sub{Fast checks and useful additions}
+Area is $\iint_D1\dd A$; volume is $\iiint_\Omega1\dd V$. An integrable odd function has integral zero on a region invariant under the corresponding reflection. For density $\delta$, mass $M=\int\delta$, and center coordinate $\bar x=M^{-1}\int x\delta$ (similarly for $y,z$).
+\textbf{Improper radial integrals:} in dimension $d$, $\norm{x}^{-p}$ is integrable near $0$ if $p<d$, and at infinity if $p>d$, by comparing $\int r^{d-1-p}\dd r$.
+
+\newpage
+\topic{06}{Line integrals, potentials, and Green}
+\sub{Type 1 versus type 2}
+\[
+\int_\gamma f\dd s=\int_a^bf(\gamma(t))\norm{\gamma'(t)}\dd t,
+\qquad
+\int_\gamma F\cdot\dd r=\int_a^bF(\gamma(t))\cdot\gamma'(t)\dd t.
+\]
+Type 1 measures quantities such as wire mass and is unchanged by reversing orientation. Type 2 is work/circulation and changes sign. In the plane, $F\cdot\dd r=P\dd x+Q\dd y$; in 3D add $R\dd z$.
+
+\sub{Conservative fields and path independence}
+On an open path-connected domain, $F$ is conservative if $F=\nabla U$ for a potential $U$. Then
+\[
+\boxed{\int_{A}^{B}F\cdot\dd r=U(B)-U(A)},\qquad \oint_\gamma F\cdot\dd r=0.
+\]
+For continuous fields, existence of a potential, path independence, and vanishing integrals on every closed piecewise smooth loop are equivalent. Potentials differ by a constant on a connected domain.
+
+For $F\in C^1$, conservative $\Rightarrow\curl F=0$. Conversely, on an \emph{open simply connected domain}, $\curl F=0\Rightarrow$ conservative (in 2D/3D). Simply connected means every closed loop contracts to a point inside the domain.
+\trap{Check the \emph{domain}, including excluded points/axes, before using the converse. A field need not be radial to be conservative. Radial fields $g(\norm x)x/\norm x$ are a useful special case, with potential $G(\norm x)$ when $G'=g$.}
+
+\sub{How to find a potential}
+In 2D integrate $U_x=P$: $U(x,y)=\int P(x,y)\dd x+h(y)$. Differentiate in $y$, set $U_y=Q$, and determine $h$. In 3D start with an unknown function $h(y,z)$ and match the other two components. Finally check \emph{all} derivatives.
+\example{$F=(2xy,x^2+2y)$ has $Q_x-P_y=2x-2x=0$ on $\R^2$. Integrating gives $U=x^2y+y^2+C$. Work from $(0,0)$ to $(1,2)$ is $6$.}
+
+\sub{Green's theorem: turn a closed planar integral into area}
+Let $D$ be bounded with piecewise smooth boundary and $P,Q\in C^1$ on a neighborhood of $\overline D$. With $D$ on the \emph{left} as the boundary is traversed,
+\[
+\boxed{\oint_{\partial D}P\dd x+Q\dd y=\iint_D(Q_x-P_y)\dd A.}
+\]
+Outer boundary: counterclockwise. Hole boundaries: clockwise. Clockwise traversal of an entire simple outer curve changes the sign.
+\[
+\operatorname{Area}(D)=\frac12\oint_{\partial D}(x\dd y-y\dd x)
+=\oint_{\partial D}x\dd y.
+\]
+The planar flux form is $\oint_{\partial D}P\dd y-Q\dd x=\iint_D(P_x+Q_y)\dd A$, for the same positive traversal and outward normal.
+\example{$F=(-y,x)$ around the circle of radius $a$ counterclockwise gives $\oint F\cdot\dd r=\iint_D2\dd A=2\pi a^2$.}
+
+\sub{The standard hole counterexample}
+\[
+F(x,y)=\left(\frac{-y}{x^2+y^2},\frac{x}{x^2+y^2}\right),\qquad D=\R^2\setminus\{0\}.
+\]
+Curl is zero on $D$, but on $\gamma(t)=(\cos t,\sin t)$, $F(\gamma)\cdot\gamma'=1$, so the circulation is $2\pi$. Hence no global potential. Green cannot be applied across a disk containing the singularity.
+
+\newpage
+\topic{07}{Surface integrals, Gauss, and Stokes}
+\sub{Direct computation on a parametrized surface}
+For $r:E\to\Sigma$, $N=r_u\times r_v$,
+\[
+\iint_\Sigma f\dd S=\iint_E f(r)\norm N\dd u\dd v,
+\qquad
+\iint_\Sigma F\cdot n\dd S=\iint_E F(r)\cdot N\dd u\dd v.
+\]
+Choose the sign of $N$ to match the requested normal. Surface area is the first formula with $f=1$. Scalar surface integrals ignore orientation; flux reverses sign when the normal reverses.
+
+For a graph $z=g(x,y)$ with \emph{upward} normal,
+\[
+\iint_\Sigma F\cdot n\dd S=\iint_DF(x,y,g(x,y))\cdot(-g_x,-g_y,1)\dd x\dd y.
+\]
+\trap{Do not normalize $N$ and then forget $\norm N$ from $\dd S$. The two factors cancel in the vector-area formula.}
+
+\sub{Divergence theorem (Gauss): closed-surface flux}
+For a bounded solid $\Omega$ with piecewise smooth boundary, $F\in C^1$ on a neighborhood of $\overline\Omega$, and \emph{outward} normal,
+\[
+\boxed{\iint_{\partial\Omega}F\cdot n\dd S=\iiint_\Omega\diver F\dd V.}
+\]
+If the surface is open, close it with convenient caps and subtract their \emph{outward} fluxes. If there is a cavity, its outward normal for the solid points \emph{into the cavity}. A singularity inside the volume invalidates direct application.
+\example{For $F=(x,y,z)$ on the sphere of radius $a$, outward flux is $\int_{B_a}3\dd V=4\pi a^3$. Directly, $F\cdot n=a$ and area is $4\pi a^2$.}
+\example{For $F=(0,0,z)$ on the upper unit hemisphere with outward normal, close with the equatorial disk. Its outward normal is downward and its flux is $0$ since $z=0$. Thus hemisphere flux equals the half-ball volume, $2\pi/3$.}
+
+\sub{Stokes' theorem: boundary circulation equals curl flux}
+For an oriented piecewise smooth surface $\Sigma$ and $F\in C^1$ on a neighborhood of it,
+\[
+\boxed{\oint_{\partial\Sigma}F\cdot\dd r=\iint_\Sigma(\curl F)\cdot n\dd S.}
+\]
+The boundary follows the right-hand rule: for an upward normal on a horizontal disk it is counterclockwise when viewed from above. All boundary components count. You may replace the spanning surface by an easier one with the same oriented boundary, provided the field is regular on that surface too.
+\example{For $F=(-y/2,x/2,0)$ and the unit circle counterclockwise viewed from above, use the disk: $\curl F=(0,0,1)$, so circulation is $\pi$.}
+
+\sub{Which method is fastest?}
+\begin{tabular}{@{}p{67mm}p{94mm}@{}}\toprule
+\textbf{Given integral} & \textbf{First method to check}\\\midrule
+Work along an open path & Potential, otherwise direct parametrization\\
+Circulation around a planar loop & Green, or a potential if one exists\\
+Circulation around a space curve & Stokes with an easy spanning surface\\
+Flux through a closed surface & Gauss if divergence is easy\\
+Flux through an open surface & Direct graph/patch formula, or close and subtract caps\\
+Integral of curl through a surface & Stokes if its boundary is simpler\\\bottomrule
+\end{tabular}
+\par\textbf{Before using any theorem:} name the region, check regularity/singularities, specify orientation, then substitute. Do not apply a flux theorem to a scalar surface integral.
+
+\newpage
+\topic{08}{Sequences and numerical series}
+\sub{Sequences and the first series test}
+A nondecreasing sequence has limit $\sup_n a_n$ in $\R\cup\{+\infty\}$; if bounded above it converges in $\R$. A nonincreasing sequence is analogous with infimum and $-\infty$. Every convergent sequence is bounded; bounded does not imply convergent.
+
+A series converges when its partial sums $S_N=\sum_{n=n_0}^N a_n$ have a finite limit.
+\[
+\boxed{\sum a_n\text{ convergent}\ \Rightarrow\ a_n\to0.\quad\text{The converse is false.}}
+\]
+For nonnegative terms, partial sums increase: the series either has a finite sum or tends to $+\infty$. A signed divergent series may instead oscillate.
+
+\sub{Benchmarks and positive-term tests}
+\[
+\sum_{n=0}^\infty q^n=\frac1{1-q}\quad(|q|<1),\qquad
+\sum_{n=1}^\infty\frac1{n^p}\text{ converges iff }p>1.
+\]
+\begin{itemize}
+\item \textbf{Comparison:} eventually $0\le a_n\le b_n$ and $\sum b_n<\infty\Rightarrow\sum a_n<\infty$. If $a_n\ge b_n\ge0$ and $\sum b_n=+\infty$, then $\sum a_n=+\infty$.
+\item \textbf{Limit comparison:} for eventually positive $a_n,b_n$, if $a_n/b_n\to c\in(0,\infty)$, the two series have the same convergence behavior. Asymptotic equivalence is the case $c=1$.
+\item \textbf{Integral test (useful addition):} for positive decreasing continuous $f$, $\sum f(n)$ and $\int^\infty f(x)\dd x$ converge together. In particular $\sum_{n\ge2}1/[n(\log n)^p]$ converges iff $p>1$.
+\end{itemize}
+For arbitrary signs apply ratio/root tests to \emph{absolute values}:
+\[
+L=\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|
+\quad\text{or}\quad
+L=\lim_{n\to\infty}\sqrt[n]{|a_n|}.
+\]
+If $L<1$, absolute convergence; if $L>1$ (including infinity), divergence because terms do not tend to zero; if $L=1$, no conclusion. The ratio requires eventually nonzero denominators. The root test also works with limsup: less than $1$ gives absolute convergence, greater than $1$ gives divergence.
+
+\sub{Alternating series and absolute convergence}
+Absolute convergence, $\sum|a_n|<\infty$, implies convergence. Conditional convergence means convergence with $\sum|a_n|=\infty$.
+
+\textbf{Leibniz:} if $b_n\ge0$ is eventually nonincreasing and $b_n\to0$, then $\sum(-1)^n b_n$ converges. Once in the decreasing range, its truncation error satisfies
+\[
+|S-S_N|\le b_{N+1},
+\]
+and has the sign of the first omitted term. Alternating signs alone are not enough.
+
+\sub{Choose a test from the shape of the term}
+\begin{tabular}{@{}p{55mm}p{105mm}@{}}\toprule
+\textbf{Term structure} & \textbf{Try first}\\\midrule
+Rational expression in $n$ & Dominant powers / comparison with $1/n^p$\\
+Factorials or exponentials & Ratio test\\
+An expression raised to $n$ & Root test\\
+$(-1)^n$ times a positive term & Absolute convergence, then Leibniz\\
+Logarithms with ratio limit $1$ & Comparison or integral test\\\bottomrule
+\end{tabular}
+\example{$n/(n^3+1)\sim1/n^2$: converges. For $n!/n^n$, the ratio is $(n/(n+1))^n\to e^{-1}$: converges. $\sum(-1)^{n-1}/n$ converges conditionally, with error $\le1/(N+1)$.}
+\textbf{Why the term test is necessary:} $a_n=S_n-S_{n-1}\to S-S=0$. This implication cannot be reversed.
+
+\newpage
+\begingroup
+\setlength{\parskip}{3pt}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\topic{09}{Power series and analyticity}
+\sub{Radius and interval of convergence}
+For $\sum_{n=0}^\infty a_n(x-x_0)^n$,
+\[
+\boxed{R=\frac1{\limsup_{n\to\infty}\sqrt[n]{|a_n|}}}.
+\]
+Use $1/0=\infty$ and $1/\infty=0$. If the coefficient ratio exists with eventually nonzero coefficients,
+\[
+L=\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|
+\quad\Rightarrow\quad R=1/L.
+\]
+\begin{itemize}
+\item $|x-x_0|<R$: absolute convergence.
+\item $|x-x_0|>R$: divergence.
+\item $x=x_0\pm R$ for $0<R<\infty$: substitute separately and use numerical-series tests.
+\end{itemize}
+\textbf{Routine:} identify $x_0$ and $a_n$; compute $R$; test the two endpoints; report the interval with the correct open/closed brackets. If $R=0$, only the center converges. If $R=\infty$, every real $x$ converges.
+\example{For $\sum_{n=1}^\infty (x-2)^n/(n3^n)$, $R=3$. At $x=5$ it is $\sum1/n$, divergent; at $x=-1$ it is $\sum(-1)^n/n$, convergent. Interval: $[-1,5)$.}
+
+\sub{Operations inside the radius}
+A power series converges uniformly and absolutely on every closed interval $|x-x_0|\le r<R$. Its sum is continuous and can be differentiated/integrated term by term there:
+\begin{align*}
+f'(x)&=\sum_{n=1}^\infty n a_n(x-x_0)^{n-1},\\
+\int_{x_0}^x f(t)\dd t&=\sum_{n=0}^\infty\frac{a_n}{n+1}(x-x_0)^{n+1}.
+\end{align*}
+The differentiated/integrated series have the same radius, but may behave differently at endpoints. If two series with the same center have \emph{different} radii, their sum has the smaller radius. With equal radii cancellation may increase it.
+\trap{Uniform convergence on every smaller closed interval does not assert uniform convergence on the full open convergence interval.}
+
+\sub{Standard expansions to recognize}
+\begin{align*}
+\frac1{1-t}&=\sum_{n=0}^\infty t^n,&&|t|<1,\\
+e^t&=\sum_{n=0}^\infty\frac{t^n}{n!},&&t\in\R,\\
+\sin t&=\sum_{n=0}^\infty\frac{(-1)^nt^{2n+1}}{(2n+1)!},&&t\in\R,\\
+\cos t&=\sum_{n=0}^\infty\frac{(-1)^nt^{2n}}{(2n)!},&&t\in\R,\\
+\log(1+t)&=\sum_{n=1}^\infty\frac{(-1)^{n+1}t^n}{n},&&-1<t\le1,\\
+\arctan t&=\sum_{n=0}^\infty\frac{(-1)^nt^{2n+1}}{2n+1},&&-1\le t\le1.
+\end{align*}
+Useful derived formula: $\sum_{n=1}^\infty nt^{n-1}=1/(1-t)^2$ for $|t|<1$. Derive it by differentiating the geometric series.
+
+\sub{Analytic functions}
+Analytic at $x_0$ means equal to a convergent power series in a neighborhood of $x_0$; necessarily $a_n=f^{(n)}(x_0)/n!$. Smoothness $C^\infty$ alone does not imply analyticity.
+
+A useful sufficient condition on a neighborhood is $|f^{(n)}(x)|\le M A^n n!$ for every $n\ge0$, with fixed $M,A>0$. Taylor's remainder then tends to zero when $A|x-x_0|<1$. The stronger bound $|f^{(n)}(x)|\le C^n$ stated in your notes is sufficient too, but not necessary.
+\endgroup
+
+\newpage
+\topic{10}{Fourier series: coefficients and convergence}
+\textbf{Keep your notes' convention: the constant term is $a_0$, not $a_0/2$.}
+For a real $T$-periodic function, write $\omega=2\pi/T$ and
+\[
+f(x)\sim a_0+\sum_{n=1}^\infty[a_n\cos(n\omega x)+b_n\sin(n\omega x)].
+\]
+Over any interval $I$ of length $T$,
+\[
+\boxed{a_0=\frac1T\int_I f\dd x,\quad
+a_n=\frac2T\int_I f\cos(n\omega x)\dd x,\quad
+b_n=\frac2T\int_I f\sin(n\omega x)\dd x.}
+\]
+For $T=2\pi$, use $\omega=1$, $I=[-\pi,\pi]$, and factors $1/(2\pi),1/\pi,1/\pi$.
+
+\sub{Parity, orthogonality, and the calculation routine}
+On a symmetric period, even $f$ has $b_n=0$; odd $f$ has $a_0=a_n=0$. An even integrand can be integrated on $[0,T/2]$ and doubled. For $n,m\ge1$,
+\[
+\int_I\cos(n\omega x)\cos(m\omega x)\dd x=\frac T2\delta_{nm},\quad
+\int_I\sin(n\omega x)\sin(m\omega x)\dd x=\frac T2\delta_{nm};
+\]
+all sine--cosine products and integrals of single nonconstant modes vanish. This orthogonality produces the coefficient formulas by multiplication and integration.
+\begin{enumerate}
+\item Identify the period, periodic extension, and parity.
+\item Compute the coefficients, splitting piecewise definitions and using integration by parts.
+\item State the convergence value, including jumps and the periodic seam.
+\item To evaluate a numerical sum, choose a useful $x$, or apply Parseval.
+\end{enumerate}
+
+\sub{What kind of convergence do you have?}
+If the periodic function is piecewise $C^1$ with finite one-sided limits, then
+\[
+\boxed{S_N(x)\longrightarrow\frac{f(x^-)+f(x^+)}2.}
+\]
+At continuity points this is $f(x)$; at jumps it is the midpoint, regardless of the assigned value at the point. At $\pm T/2$ use the \emph{periodic} one-sided limits. The Gibbs overshoot near jumps does not imply failure of pointwise convergence.
+
+For $f\in L^2(I)$, $\norm{f-S_N}_2\to0$, which alone does \emph{not} imply pointwise or uniform convergence. Here $\norm f_2^2=\int_I|f|^2$ and $\norm f_\infty=\sup_I|f|$ for bounded pointwise-defined $f$.
+\[
+\boxed{\int_I|f|^2\dd x=T a_0^2+\frac T2\sum_{n=1}^\infty(a_n^2+b_n^2)}\quad\text{(Parseval).}
+\]
+For finite $N$, $\norm{f-S_N}_2^2=\norm f_2^2-Ta_0^2-\frac T2\sum_{n=1}^N(a_n^2+b_n^2)\ge0$ (orthogonal projection / Bessel inequality). Riemann--Lebesgue says $a_n,b_n\to0$ for $f\in L^1(I)$; coefficient decay alone does not prove pointwise convergence.
+
+\sub{Two model examples}
+\textbf{Sawtooth:} the $2\pi$-periodic extension of $f(x)=x$ on $(-\pi,\pi)$ is odd:
+\[
+b_n=\frac2\pi\int_0^\pi x\sin(nx)\dd x=\frac{2(-1)^{n+1}}n,
+\qquad x=2\sum_{n=1}^\infty\frac{(-1)^{n+1}\sin(nx)}n\quad(-\pi<x<\pi).
+\]
+At $\pm\pi$ the series converges to $0$. Parseval gives $2\pi^3/3=4\pi\sum_{n\ge1}1/n^2$, hence $\sum1/n^2=\pi^2/6$.
+
+\textbf{Square wave:} for $f=-1$ on $(-\pi,0)$ and $f=1$ on $(0,\pi)$, $a_0=a_n=0$ and $b_n=2[1-(-1)^n]/(\pi n)$. Thus only odd sine modes remain, with coefficient $4/(\pi n)$. At every jump the series converges to $0$.
+\end{document}
